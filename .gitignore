@@ -1,3 +1,12 @@
+# App working folders
+
+temp/
+dist/
+node_modules/
+bower_components/
+_SpecRunner.html
+test-results.xml
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -26,7 +35,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
