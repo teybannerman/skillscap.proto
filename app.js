@@ -15,7 +15,7 @@ angular.module('skillscap.proto').config(function($stateProvider, $urlRouterProv
         templateUrl: 'partial/founder/founder.html'
     });
     $stateProvider.state('search-projects', {
-        url: '/search-projects/',
+        url: '/search-projects',
         templateUrl: 'partial/search-projects/search-projects.html'
     });
     /* Add New States Above */
