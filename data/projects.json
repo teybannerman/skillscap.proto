@@ -1,0 +1,100 @@
+{"projects": [
+  {
+    "id": 1,
+    "name": "Wrigglr",
+    "logo": "",
+    "description": "A mobile-app selling last-moment opportunities for food and drink - ready to expand into new markets",
+    "city": "Bristol",
+    "country": "United Kingdom",
+    "url": "http://getawriggleon.com",
+    "partner-name": "WebStart Bristol",
+    "risk-score": 3,
+    "share-value": 2.23,
+    "company-value": 1115000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  },
+  {
+    "id": 2,
+    "name": "HoneyBook",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/137047-fc6597464750fabfb0d9d6f76f202025-medium_jpg.jpg?buster=1353437332",
+    "description": "HoneyBook is on a mission to reorganize huge industries starting with events. We've built a service we're proud of and our customers love. Our entire team cares deeply about design, and we are all passionate about creating the most modern, delightful experience possible. For us there’s only one KPI: do users fall in love with our product?",
+    "city": "Brighton",
+    "country": "United Kingdom",
+    "url": "https://www.honeybook.com",
+    "partner-name": "",
+    "risk-score": 2,
+    "share-value": 4.3,
+    "company-value": 500000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  },
+  {
+    "id": 3,
+    "name": "Underground Cellar",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/184193-beaa8a5db926c5e37937b2d50f123c89-medium_jpg.jpg?buster=1407959161",
+    "description": "Underground Cellar is a new online wine marketplace for discovering and buying premium wines online. Buyers love us because every bottle they buy may be randomly upgraded to rare and private-stash bottles from prestigious wineries. But our real benefit is that we provide wineries a sustainable sales channel that never uses discounts. This allows them to quickly sell wine without bastardizing their pricing structure or harming their brand image.",
+    "city": "San Francisco",
+    "country": "United States",
+    "url": "https://www.undergroundcellar.com/",
+    "partner-name": "",
+    "risk-score": 4,
+    "share-value": 2.1,
+    "company-value": 1000000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  },
+  {
+    "id": 4,
+    "name": "Yumbin",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/447900-209a9de1e43fdb7425a28e94bbcf0762-medium_jpg.jpg?buster=1406599689",
+    "description": "Yumbins are mobile POS-powered self-checkout markets that offer a curated mix of the highest quality and healthiest snacks, beverages and essentials to office employees. Think of us as the Square for self-checkout meets on-site mini-Whole Foods. Vending is a stagnant $43 billion industry that has suffered from expensive proprietary hardware, onerous payment acceptance and limited (often wildly unhealthy) selection. We replace this hardware with lightweight software that enables customized product selection and seamless checkout. Offices no longer need to sully their breakrooms with unsightly machines selling stale snacks; rather, they can enjoy the clean and minimal retail look of our Yumbins chock full of delicious products. Initially, we are targeting workplaces where employees pay for snacks, which are the large majority of corporate offices and manufacturing facilities. 1.2M of these sites fall into our target market, of which roughly 50% have vending machines today.",
+    "city": "London",
+    "country": "United Kingdom",
+    "url": "https://www.yumbin.com/",
+    "partner-name": "",
+    "risk-score": 1,
+    "share-value": 5.4,
+    "company-value": 1500000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  },
+  {
+    "id": 5,
+    "name": "ecovent",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/447900-209a9de1e43fdb7425a28e94bbcf0762-medium_jpg.jpg?buster=1406599689",
+    "description": "Most homes have only one thermostat, so they operate like a house with only one light switch. Everything is either on or off. That leaves some rooms boiling hot while others are freezing cold. It’s uncomfortable, and it’s inefficient.
+ecovent fixes that. We’ve built a system of wireless vents and sensors that makes any forced air heating and cooling system smarter. ecovent enables homeowners to:
+• Get room-by-room temperature data and control through plug-and-play wireless sensors. 
+• Save energy by automatically directing airflow to the rooms that need it most. 
+• Choose custom temperature levels for different floors, rooms, or times of day. 
+• Control home heating and cooling from a mobile phone or tablet. 
+• Install the whole system in a single afternoon, without a contractor.
+",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "url": "http://www.ecoventsystems.com/",
+    "partner-name": "",
+    "risk-score": 3,
+    "share-value": 3.4,
+    "company-value": 250000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  },
+  {
+    "id": 6,
+    "name": "Sprig",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/447900-209a9de1e43fdb7425a28e94bbcf0762-medium_jpg.jpg?buster=1406599689",
+    "description": "Sprig is changing the nature of food delivery. With just three taps on your smartphone, you can get dinner delivered in an average of 20 minutes. We provide meals that are not just fast, convenient and affordable but also delicious and healthy. The entire experience has been crafted to delight our customers -- from the smooth app to the speedy delivery to the surprise dessert bite at the end of the meal.
+Each day Executive Chef Nate Keller sources the best local, seasonal ingredients to prepare creative, high-quality meals like chipotle lime chicken, chimichurri steak or yellow curry tofu. Our customers are loving it! Check out the reviews on Yelp and the buzz on Twitter.",
+    "city": "Melbourne",
+    "country": "Australia",
+    "url": "http://www.sprig.com/",
+    "partner-name": "",
+    "risk-score": 4,
+    "share-value": 1.6,
+    "company-value": 150000,
+    "founders": [1, 3, 7],
+    "contributors": [4, 5, 7, 8, 9]
+  }
+]}

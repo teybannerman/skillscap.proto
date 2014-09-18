@@ -1,0 +1,55 @@
+<h1>Let's create a project</h1>
+
+<div class="" ng-controller="NewProjectCtrl">
+
+  <tabset vertical="true">
+    <tab>
+      <tab-heading><span>1</span>Concept</tab-heading>
+      <div class="row">
+        <div class="col-md-8">
+          <p>Your project's concept is a clearly defined set of tasks necessary to complete, build, validate or advance your technology, service or product, and represents a significant milestone in your company’s commercialization process. </p>
+          <accordion close-others="true">
+            <accordion-group is-open="true" is-disabled="false">
+              <accordion-heading>
+                Your hypothesis <i class="pull-right fa fa-check"></i>
+              </accordion-heading>
+              Helper text
+            </accordion-group>
+            <accordion-group>
+              <accordion-heading>
+                Testing your hypothesis <i class="pull-right fa fa-check"></i>
+              </accordion-heading>
+              Helper text
+            </accordion-group>
+          </accordion>
+          <a class="btn btn-primary continue">Section 2</a>
+        </div>
+        <div class="col-md-4">
+          <h5>1. Concept</h5>
+          <progressbar value="55" type="warning">55% complete</progressbar>
+          <hr/>
+          <h5>Recommended Contributors</h5>
+          <hr/>
+          <h5>Recommended Tasks</h5>
+        </div>
+      </div>
+    </tab>
+    <tab disabled="true">
+      <tab-heading><span>2</span>Prototype</tab-heading>
+      Vertical content 2
+    </tab>
+    <tab disabled="true">
+      <tab-heading><span>3</span>Validate</tab-heading>
+      Vertical content 3
+    </tab>
+    <tab disabled="true">
+      <tab-heading><span>4</span>MVP</tab-heading>
+      Vertical content 4
+    </tab>
+    <tab disabled="true">
+      <tab-heading><span>5</span>Scale</tab-heading>
+      Vertical content 5
+    </tab>
+  </tabset>
+
+</div>

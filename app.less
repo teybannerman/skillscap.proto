@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 @import "bower_components/bootstrap/less/bootstrap.less";
-//@import "bower_components/bootstrap/less/theme.less";
+@import "theme.less";
 @import "bower_components/font-awesome/less/font-awesome.less";
 @fa-font-path: "bower_components/font-awesome/fonts";
 
@@ -11,6 +13,7 @@
 @import "partial/_system/nav-primary/nav-primary.less";
 @import "partial/_system/footer-primary/footer.less";
 @import "partial/_system/homepage-proto/homepage-proto.less";
+@import "partial/new-project/new-project.less";
 /* Add Component LESS Above */
 
 /* Required for Angular UI Bootstrap */
@@ -27,3 +30,39 @@
 //		.translate(0,0);
 //	}
 //}
+
+
+//
+// Fully Custom
+// --------------------------------------------------
+
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 32px 20px;
+  background: @navbar-active-bg;
+  color: #fff;
+  font-size: @font-size-large;
+}
+
+h5 {
+  margin-top: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  
+  img {
+    height: 26px;
+  }
+}
+
+.accordion-toggle {
+  display: block;
+  cursor: pointer;
+}

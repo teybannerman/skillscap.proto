@@ -35,11 +35,13 @@
   <script src="partial/_system/nav-primary/nav-primary.js"></script>
   <script src="partial/_system/footer-primary/footer.js"></script>
   <script src="partial/_system/homepage-proto/homepage-proto.js"></script>
+  <script src="partial/new-project/new-project.js"></script>
   <!-- Add New Component JS Above -->
 
   <div>
     <div id="content" class="container-fluid">
       <div class="row">
+        <ng-include src="'/partial/_system/nav-primary/nav-primary.html'"></ng-include>
         <div ui-view>
         </div>
       </div>
