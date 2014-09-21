@@ -8,8 +8,13 @@ angular.module('skillscap.proto').controller('NewProjectCtrl',function($scope){
   }
 
   $scope.continueClick = function(index) {
-    $scope.tabs[$scope.activePage][index + 1].isOpen = true;
     $scope.tabs[$scope.activePage][index].completed = true;
+    if (index ==  $scope.totalCount($scope.activePage)-1) {
+      $scope.tabPages[$scope.activePage].active = true;
+    }
+    else {
+      $scope.tabs[$scope.activePage][index + 1].isOpen = true;
+    }
   }
 
   $scope.completedCount = function(page) {
@@ -57,7 +62,7 @@ angular.module('skillscap.proto').controller('NewProjectCtrl',function($scope){
       completed: false,
       isOpen: false
     },
-    { heading: 'Testing your hypothesiss',
+    { heading: 'Testing your hypothesis',
       content: 'partial/new-project/questions/project-1-testing.html',
       completed: false,
       isOpen: false

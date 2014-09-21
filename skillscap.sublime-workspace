@@ -1,0 +1,1751 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"hi",
+				"highlight-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"premir",
+				"premiere-list"
+			],
+			[
+				"date",
+				"date-box"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"mart",
+				"margin-bottom"
+			],
+			[
+				"premier",
+				"premiere-photos"
+			],
+			[
+				"text",
+				"text-medium"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"content-",
+				"content-box"
+			],
+			[
+				"current",
+				"currentLon"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"get",
+				"getUrlParameter"
+			],
+			[
+				"cu",
+				"currentLon"
+			],
+			[
+				"currentL",
+				"currentLat"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ter",
+				"tertiary-color"
+			],
+			[
+				"prem",
+				"premiere-photos"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"s",
+				"secondary-color"
+			],
+			[
+				"bg-",
+				"bg-medium"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bg",
+				"bg-white"
+			],
+			[
+				"au",
+				"audioCtx"
+			],
+			[
+				"ne",
+				"newImgNo"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"str",
+				"streamOptions"
+			],
+			[
+				"audio",
+				"audioSource"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"view",
+				"views-exposed-form"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"views-field-",
+				"views-field-title"
+			],
+			[
+				"no",
+				"no-repeat"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage.html",
+			"settings":
+			{
+				"buffer_size": 16297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-subscriber.html",
+			"settings":
+			{
+				"buffer_size": 18725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-enterprise.html",
+			"settings":
+			{
+				"buffer_size": 18957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-digital-transformation.html",
+			"settings":
+			{
+				"buffer_size": 16347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/subscribe.html",
+			"settings":
+			{
+				"buffer_size": 23206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/enterprise.html",
+			"settings":
+			{
+				"buffer_size": 9713,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/small-business.html",
+			"settings":
+			{
+				"buffer_size": 9281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_landing-vars.scss",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_landing.scss",
+			"settings":
+			{
+				"buffer_size": 3246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_subscribe.scss",
+			"settings":
+			{
+				"buffer_size": 6960,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_ux-additions.scss",
+			"settings":
+			{
+				"buffer_size": 7255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/vendor/_flaticons.scss",
+			"settings":
+			{
+				"buffer_size": 60683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/_system/nav-primary/nav-primary.html",
+			"settings":
+			{
+				"buffer_size": 1905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/_system/nav-primary/nav-primary.js",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.less",
+			"settings":
+			{
+				"buffer_size": 3265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/bootstrap/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 25388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "variables-custom.less",
+			"settings":
+			{
+				"buffer_size": 357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme.less",
+			"settings":
+			{
+				"buffer_size": 7441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/new-project/new-project.html",
+			"settings":
+			{
+				"buffer_size": 3177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/new-project/new-project.js",
+			"settings":
+			{
+				"buffer_size": 4974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/new-project/questions/project-1-canvas.html",
+			"settings":
+			{
+				"buffer_size": 2615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/contributor/contributor.html",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/founder/founder.html",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/project/project.html",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/search-projects/search-projects.html",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/projects.json",
+			"settings":
+			{
+				"buffer_size": 6045,
+				"line_ending": "Unix",
+				"name": "{\"projects\": ["
+			}
+		},
+		{
+			"file": "data/users.json",
+			"settings":
+			{
+				"buffer_size": 4805,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 115.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Dropbox/Projects/Soundcloud/memestream-soundcloud/app.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-3-distribution.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-3-costs.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-3-revenue.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-1-market.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-1-hypothesis.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-1-canvas.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/questions/project-1-testing.html",
+		"/C/Dropbox/Projects/Soundcloud/memestream-soundcloud/Procfile",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower_components/bootstrap/less/glyphicons.less",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower_components/bootstrap/less/theme.less",
+		"/C/Dropbox/Projects/TogetherHealth/UninsuredHelpline Landing/customizr/footer.php",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_layouts/default.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_layouts/premiere.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/index.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_includes/footer.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/README.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/Gemfile",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/Gemfile.lock",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/scss/app.scss",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_includes/header.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/.gitignore",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_config.yml",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_plugins/ext.rb",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/js/app.js",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/scss/_settings.scss",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/scss/style.scss",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/GHOST/config.js",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/GHOST/cron.php",
+		"/C/Dropbox/Projects/TogetherHealth/UninsuredHelpline Landing/customizr/inc/parts/class-footer-footer_main.php",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/impressum.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/info.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_layouts/page.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_includes/head.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-05-28-hamlet.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-07-afrikareise.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-06-02-himbeerreich.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-08-afrikareise2.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_data/venues.yml",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/GHOST/.htaccess",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/WP/.htaccess",
+		"/C/New folder/teybannerman.com.txt",
+		"/C/New folder/.htaccess",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/WP/images/.htaccess",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/.htaccess",
+		"/C/Users/Tey1/.ssh/id_rsa.pub",
+		"/C/Dropbox/Projects/Tey Bannerman 2013/private_key.ppk",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/base/_typography.scss",
+		"/C/Users/Tey1/Downloads/users.json",
+		"/C/Users/Tey1/Downloads/projects.json",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.git/refs/heads/master",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/app.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/index.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.gitignore",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/package.json",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower.json",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.bowerrc",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.npmignore",
+		"/C/Dropbox/Projects/TogetherHealth/UninsuredHelpline Landing/customizr/inc/lang/fr_FR.po",
+		"/C/Users/Tey1/Documents/GitHub/yoangtest1/app/index.html",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/landing-pages.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_ux-additions.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/_imports.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.com/css/base/_typography.scss",
+		"/C/Users/Tey1/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Tey1/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/responder.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/tabs.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/sharewidget.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/search-bar.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/pattern-library-icons.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/_setup.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_speech-bubble.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_vertical-nav.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/navbar/_navbar-item.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_page-banner.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_intro.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_callout.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_breadcrumb.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/ui/_pods.scss",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/impressum.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-06-afrikareise2.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_plugins/minimagick.rb",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_plugins/image_tag.rb.url",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/build/index.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_plugins/picture_tag.rb",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/cards.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/parralax-sidebar.js",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_data/premieres/test1.yml",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/feed.xml",
+		"/C/New folder/monoid-fgh-465610eb2dcc/fgh.js",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/subscribe.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/landing-vars.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/landing.scss",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/ux-additions.scss",
+		"/C/Dropbox/Projects/RX Helpline/website/themes/oneengine/footer.php",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/foundation.html",
+		"/C/Users/Tey1/Documents/GitHub/TEST/_assets/scss/style.scss",
+		"/C/Users/Tey1/Documents/GitHub/TEST/_assets/scss/app.scss",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/bower.json",
+		"/C/Dropbox/Projects/RX Helpline/website/tablink/index.html",
+		"/C/Dropbox/Projects/RX Helpline/website/themes/oneengine/plugins/pagebuilder/blocks/et-timeline-block.php",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-07-macbeth.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-07-hamlet.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_data/premieres/test2.yml",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_plugins/jekyll_asset_pipeline.rb",
+		"/C/Dropbox/Projects/RX Helpline/website/.htaccess",
+		"/C/Dropbox/Projects/RX Helpline/website/show/index.html",
+		"/C/Dropbox/Projects/RX Helpline/website/vtpashow/index.html",
+		"/C/Dropbox/Projects/RX Helpline/website/v6show/index.html",
+		"/C/Dropbox/Projects/RX Helpline/website/tab/index.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/build/feed.xml",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_posts/2014-08-06-welcome-to-jekyll.markdown",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/.bowerrc",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/enterprise.html",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/small-business.html",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/subscribe.html",
+		"/C/Dropbox/Projects/RX Helpline/landing/index.html",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/js/subscribe.js",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/index.foundation.html",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/config.rb",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/.project",
+		"/C/Dropbox/Projects/EuroFestivalMap/website/sites/all/themes/eurofest/templates/_addthis.php",
+		"/C/Dropbox/Projects/RX Helpline/website/themes/oneengine/header.php",
+		"/C/Dropbox/Projects/RX Helpline/website/themes/oneengine/functions.php",
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/bower_components/inuit.css/generic/_mixins.scss",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/about.md",
+		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/frontend/.gitignore"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Dropbox\\Projects\\TogetherHealth\\UninsuredHelpline Landing\\customizr",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\css",
+			"C:\\Dropbox\\Projects\\TogetherHealth\\UninsuredHelpline Landing\\customizr",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\css",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\css\\ui",
+			"C:\\Dropbox\\Projects\\RX Helpline\\website\\themes\\oneengine",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\futurice.premiere",
+			"C:\\Dropbox\\Projects\\RX Helpline\\website\\themes\\oneengine",
+			"C:\\Dropbox\\Projects\\Tey Bannerman 2013\\teybannerman.com\\theme",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\css",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\bower_components\\inuit.css",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\ux.econsultancy.com\\css",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\modules",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\modules\\nodequeue",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\modules",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\modules\\nodequeue",
+			"C:\\Dropbox\\Projects\\Invasion\\InvasionTunes\\dancer.js-master\\examples\\single_song_demo",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\themes",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\themes\\fortytwo",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\themes\\eurofest",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\themes\\eurofest\\static",
+			"C:\\Dropbox\\Projects\\EuroFestivalMap\\website\\sites\\all\\themes\\eurofest\\static\\sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tab",
+			"<textarea class=\"form-control\"></textarea>",
+			"textarea",
+			"continue",
+			"completed",
+			"consol",
+			"active",
+			"activeTab",
+			"select",
+			"frame",
+			"tabs",
+			"your hyp",
+			"btn",
+			"weight",
+			"bold",
+			"success",
+			"btn",
+			"tabs",
+			"radius",
+			"h4",
+			"h5",
+			"h4",
+			"shado",
+			"icon",
+			"gly",
+			"@gray-lighter",
+			"radiu",
+			"font-size",
+			"font",
+			"ont",
+			"size",
+			"nav",
+			"sumar",
+			"content-box",
+			"venue-lo",
+			"-2",
+			"tc_colophon_",
+			"__footer",
+			"zeta",
+			"medium",
+			"compa",
+			"panel",
+			"dt",
+			"”",
+			"“",
+			"link-",
+			"link-arr",
+			"link-star",
+			"star",
+			"genin",
+			"landing-",
+			"compac",
+			"btn",
+			"darkened",
+			"nosub",
+			"designed by",
+			"themesand",
+			"colop",
+			"nth",
+			"top-bar",
+			"#002a46",
+			"a46",
+			"a1a3a5",
+			"hr",
+			";\n",
+			"-box",
+			"content-bo",
+			"media",
+			"panel",
+			"$text-medium",
+			"color",
+			"font-",
+			"pre-head",
+			"--medium",
+			"medium",
+			"typ",
+			"z-index",
+			".name",
+			"content-bo",
+			"content-",
+			"side-",
+			"sidebox",
+			"content-bo",
+			"border-bo",
+			"hel",
+			".name",
+			"25%",
+			".name",
+			"date-box",
+			"square",
+			"border-",
+			"wrap",
+			"fff",
+			".wrap",
+			"pod",
+			"flaticon",
+			"%icon",
+			"ico",
+			"\"\\e5ab\"",
+			"size",
+			"intro",
+			"size",
+			"font-s",
+			"em",
+			"size",
+			"text-transform",
+			"h2",
+			"header",
+			"<a",
+			"gewinn",
+			"font--head",
+			"arrow",
+			"#fff",
+			"cover",
+			"imagery",
+			"-bg",
+			"index-bg",
+			"titles",
+			"date-box",
+			"> li",
+			"right",
+			"cover",
+			"arrow-sm",
+			"arrow.",
+			"arrow",
+			"imager",
+			"14px",
+			".photo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<p><textarea class=\"form-control\"></textarea></p>",
+			"activePage",
+			"h5",
+			"\"",
+			"$primary-color",
+			"\", \"",
+			"h4",
+			"landing-panel",
+			" xlarge-",
+			"\"../bower_components/foundation/",
+			"'teybannerman'",
+			" <br/>",
+			"\", \"",
+			"",
+			"url('../fonts/Open",
+			"src: url('../fonts/Open",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 21,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage.html",
+					"settings":
+					{
+						"buffer_size": 16297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16145,
+								16145
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4644.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-subscriber.html",
+					"settings":
+					{
+						"buffer_size": 18725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16707,
+								16707
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-enterprise.html",
+					"settings":
+					{
+						"buffer_size": 18957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16412,
+								16412
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 819.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/homepage-digital-transformation.html",
+					"settings":
+					{
+						"buffer_size": 16347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5571,
+								5571
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/subscribe.html",
+					"settings":
+					{
+						"buffer_size": 23206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14388,
+								14388
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/enterprise.html",
+					"settings":
+					{
+						"buffer_size": 9713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1674,
+								1676
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/html/small-business.html",
+					"settings":
+					{
+						"buffer_size": 9281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5784,
+								5784
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1509.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_landing-vars.scss",
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_landing.scss",
+					"settings":
+					{
+						"buffer_size": 3246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								418
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_subscribe.scss",
+					"settings":
+					{
+						"buffer_size": 6960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								988
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_ux-additions.scss",
+					"settings":
+					{
+						"buffer_size": 7255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 363.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/vendor/_flaticons.scss",
+					"settings":
+					{
+						"buffer_size": 60683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2018,
+								2018
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "partial/_system/nav-primary/nav-primary.html",
+					"settings":
+					{
+						"buffer_size": 1905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1754,
+								1754
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "partial/_system/nav-primary/nav-primary.js",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app.less",
+					"settings":
+					{
+						"buffer_size": 3265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2965,
+								2965
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2329.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "bower_components/bootstrap/less/variables.less",
+					"settings":
+					{
+						"buffer_size": 25388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3293,
+								3195
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "variables-custom.less",
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "theme.less",
+					"settings":
+					{
+						"buffer_size": 7441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7393,
+								7396
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4134.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "partial/new-project/new-project.html",
+					"settings":
+					{
+						"buffer_size": 3177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "partial/new-project/new-project.js",
+					"settings":
+					{
+						"buffer_size": 4974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								411
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "partial/new-project/questions/project-1-canvas.html",
+					"settings":
+					{
+						"buffer_size": 2615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1705,
+								1705
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 143.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "partial/contributor/contributor.html",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "partial/founder/founder.html",
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "partial/project/project.html",
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "partial/search-projects/search-projects.html",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "data/projects.json",
+					"settings":
+					{
+						"buffer_size": 6045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2390,
+								2390
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{\"projects\": [",
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 536.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "data/users.json",
+					"settings":
+					{
+						"buffer_size": 4805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4753,
+								4753
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1742.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
