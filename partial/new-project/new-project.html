@@ -6,150 +6,32 @@
     
     <div class="col-md-9">
       <tabset vertical="true" class="new-project-tabs">
-
-        <tab disabled="false"><!-- 1. Concept -->
-          <tab-heading><span>1</span>Concept</tab-heading>
-          <p class="tab-intro">Your project's concept is a clearly defined set of tasks necessary to complete, build, validate or advance your technology, service or product, and represents a significant milestone in your company’s commercialization process. </p>
-
-          <!-- start auto -->
+        <!-- start tabPages[] -->
+        <tab ng-repeat="page in tabPages track by page.num" active="page.active" select="pageSelected($index)">
+          <tab-heading><span>{{page.num}}</span>{{page.name}}</tab-heading>
+          <p class="tab-intro">{{page.intro}}</p>
+          <!-- start tabs[] -->
           <accordion close-others="true">
-            <accordion-group ng-repeat="tab in tabs1" is-open="tab.isOpen">
+            <accordion-group ng-repeat="tab in tabs[$index+1] track by tab.heading" is-open="tab.isOpen">
               <accordion-heading>{{tab.heading}}<i ng-show="tab.completed" class="pull-right fa fa-check"></i></accordion-heading>
               <ng-include src="tab.content"></ng-include>
               <p><a class="btn btn-warning continue" ng-click="continueClick($index)" href="">Save and continue</a></p>
             </accordion-group>
           </accordion>
-          <!-- end auto -->
+          <!-- END tabs[] -->
           <div class="tab-footer">
-            <a class="btn btn-success btn-lg btn-block continue" ng-click="tabs[1].active = true">Take me to Phase 2!</a>
+            <a class="btn btn-success btn-lg btn-block continue" ng-click="test()">Take me to Phase 2!</a>
             <p><a class="btn-cancel">skip this phase for now</a></p>
           </div>
-        </tab><!-- /tab 1 -->
-
-        <tab><!-- 2. Prototype -->
-          <tab-heading><span>2</span>Prototype</tab-heading>
-          <p class="tab-intro">Your project's low fidelity prototype is... , and can be anything from sketched wireframes to clickable mockups all the way up to a working "skeleton" application.</p>
-          <accordion close-others="true">
-            <accordion-group is-open="true" is-disabled="false">
-              <accordion-heading>
-                Have you built your low fidelity prototype?
-                <!-- <div class="btn-group pull-right">
-                  <label class="btn btn-success" ng-model="radioModel" btn-radio="'Yes'" uncheckable>Yes</label>
-                  <label class="btn btn-danger" ng-model="radioModel" btn-radio="'No'" uncheckable>No</label>
-                </div> -->
-              </accordion-heading>
-              Helper text
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                Has your low fidelity prototype been tested with real users? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-              Helper text
-            </accordion-group>
-          </accordion>
-        </tab><!-- /tab 2 -->
-
-        <tab><!-- 3. Validate -->
-          <tab-heading><span>3</span>Validate</tab-heading>
-          <p class="tab-intro">Your validation phase is where you take steps to find out if you can actually sell or provide to your market and that it is large enough for a viable business.</p>
-          <accordion close-others="true">
-            <accordion-group is-open="true" is-disabled="false">
-              <accordion-heading>
-                What is your revenue model? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-              <p>In a nutshell, how will you make money?</p>
-              <ul class="list-group form-multiple-options">
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Asset sale</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Usage fees</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Subscription fees</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Lending, renting, and/or leasing</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Licensing</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Brokerage fees</label></div></li>
-                <li class="list-group-item"><div class="checkbox"><label><input type="checkbox"/> Advertising</label></div></li>
-              </ul>
-              <p><a class="btn btn-warning continue" href="">Save and continue</a></p>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                What is your distribution model? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-              <p>How will you get your product or service out to your customers?</p>
-              <ul class="list-group form-multiple-options">
-                <li class="list-group-item"><input type="checkbox"/> Sales force</li>
-                <li class="list-group-item"><input type="checkbox"/> Web sales</li>
-                <li class="list-group-item"><input type="checkbox"/> Own stores</li>
-                <li class="list-group-item"><input type="checkbox"/> Partner stores</li>
-                <li class="list-group-item"><input type="checkbox"/> Wholesalers</li>
-                <li class="list-group-item"><input type="checkbox"/> Brokerage fees</li>
-              </ul>
-              <p><a class="btn btn-warning continue" href="">Save and continue</a></p>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                And your cost model? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-              <ul class="list-group form-multiple-options">
-                <li class="list-group-item"><input type="checkbox"/> Cost-driven</li>
-                <li class="list-group-item"><input type="checkbox"/> Value-driven</li>
-                <li class="list-group-item"><input type="checkbox"/> Fixed costs</li>
-                <li class="list-group-item"><input type="checkbox"/> Variable costs</li>
-                <li class="list-group-item"><input type="checkbox"/> Economies of scale</li>
-                <li class="list-group-item"><input type="checkbox"/> Economies of scope</li>
-              </ul>
-              <p><a class="btn btn-warning continue" href="">Save and continue</a></p>
-            </accordion-group>
-          </accordion>
-        </tab><!-- /tab 3 -->
-
-        <tab><!-- 4. MVP -->
-          <tab-heading><span>4</span>MVP</tab-heading>
-          <p class="tab-intro">Your project's Minimum Viable Product (MVP) represents your product or service's minimal set of features needed to solve the core problem. MVPs are used to rapidly test product hypotheses with customers. The goal of your MVP should be to validate your ‘product-market fit’ and to answer the question, "is the developed product something that people want?"</p>
-          <accordion close-others="true">
-            <accordion-group is-open="true" is-disabled="false">
-              <accordion-heading>
-                Has your high-fidelity solution been built? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                Has your solution been tested? <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                Your full feature set... <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-          </accordion>
-        </tab><!-- /tab 4 -->
-
-        <tab><!-- 5. Scale -->
-          <tab-heading><span>5</span>Scale</tab-heading>
-          <accordion close-others="true">
-            <accordion-group is-open="true" is-disabled="false">
-              <accordion-heading>
-                Sales <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                Marketing <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-            <accordion-group>
-              <accordion-heading>
-                Continuous product development <i class="pull-right fa fa-check"></i>
-              </accordion-heading>
-            </accordion-group>
-          </accordion>
-        </tab><!-- /tab 5 -->
+        </tab>
+        <!-- END tabPages[] -->
       </tabset>
     </div>
 
     <div class="col-md-3">
       <div class="new-project-sidebar">
-        <h5>1. Concept</h5>
-        <progressbar value="85" type="warning">85% complete</progressbar>
+        <h5>{{tabPages[activePage-1].num}}. {{tabPages[activePage-1].name}}</h5>
+        <progressbar value="totalPercentage(activePage)" max="100" type="warning">{{completedCount(activePage)}}/{{totalCount(activePage)}}</progressbar>
         <hr/>
         <div class="widget-contributors">
           <h3>Recommended Contributors</h3>
