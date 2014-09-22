@@ -27,7 +27,10 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
 
 });
 
-angular.module('skillscap-proto').run(function($rootScope) {
+angular.module('skillscap-proto').run(function($rootScope, $state, $stateParams) {
+
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
 
     $rootScope.safeApply = function(fn) {
         var phase = $rootScope.$$phase;

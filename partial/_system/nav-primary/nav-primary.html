@@ -21,8 +21,9 @@
           </div>
         </form> -->
         <ul class="nav navbar-nav navbar-right">
-          <li ng-class="{ active: isActive('/search-projects')}"><a href="#/search-projects">Offer Help</a></li>
-          <li ng-class="{ active: isActive('/new-project')}"><a href="#/new-project">New Project</a></li>
+          <li ng-class="{ active: $state.includes('home')}"><a ui-sref="home">Home</a></li>
+          <li ng-class="{ active: $state.includes('search-projects')}"><a ui-sref="search-projects">Offer Help</a></li>
+          <li ng-class="{ active: $state.includes('new-project')}"><a ui-sref="new-project">New Project</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
