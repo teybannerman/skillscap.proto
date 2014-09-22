@@ -5,17 +5,17 @@ angular.module('skillscap.proto').controller('NewProjectCtrl',function($scope){
 
   $scope.pageSelected = function(index) {
     $scope.activePage = index + 1;
-  }
+  };
 
   $scope.continueClick = function(index) {
     $scope.tabs[$scope.activePage][index].completed = true;
-    if (index ==  $scope.totalCount($scope.activePage)-1) {
+    if (index ===  $scope.totalCount($scope.activePage)-1) {
       $scope.tabPages[$scope.activePage].active = true;
     }
     else {
       $scope.tabs[$scope.activePage][index + 1].isOpen = true;
     }
-  }
+  };
 
   $scope.completedCount = function(page) {
     var count = 0;
@@ -23,15 +23,15 @@ angular.module('skillscap.proto').controller('NewProjectCtrl',function($scope){
       count += tab.completed ? 1 : 0;
     });
     return count;
-  }
+  };
 
   $scope.totalCount = function(page) {
     return $scope.tabs[page].length;
-  }
+  };
 
   $scope.totalPercentage = function(page) {
     return ($scope.completedCount(page) / $scope.totalCount(page)) * 100;
-  }
+  };
 
   $scope.$watch('activePage', function() {
     //$scope.tabs[$scope.activePage].active = true
