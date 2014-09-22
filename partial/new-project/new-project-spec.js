@@ -1,6 +1,6 @@
 describe('NewProjectCtrl', function() {
 
-	beforeEach(module('skillscap.proto'));
+	beforeEach(module('skillscap-proto'));
 
 	var scope,ctrl;
 

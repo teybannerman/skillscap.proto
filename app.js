@@ -1,6 +1,6 @@
-angular.module('skillscap.proto', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
 
-angular.module('skillscap.proto').config(function($stateProvider, $urlRouterProvider) {
+angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider.state('project', {
         url: '/project/:id',
@@ -27,7 +27,7 @@ angular.module('skillscap.proto').config(function($stateProvider, $urlRouterProv
 
 });
 
-angular.module('skillscap.proto').run(function($rootScope) {
+angular.module('skillscap-proto').run(function($rootScope) {
 
     $rootScope.safeApply = function(fn) {
         var phase = $rootScope.$$phase;

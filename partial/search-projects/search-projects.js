@@ -1,4 +1,4 @@
-angular.module('skillscap.proto').controller('SearchProjectsCtrl',function($scope){
+angular.module('skillscap-proto').controller('SearchProjectsCtrl',function($scope){
 
 
 });

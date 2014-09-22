@@ -1,4 +1,4 @@
-angular.module('skillscap.proto').controller('NewProjectCtrl',function($scope){
+angular.module('skillscap-proto').controller('NewProjectCtrl',function($scope){
 
   $scope.tabs = [];
   $scope.activePage = 1;

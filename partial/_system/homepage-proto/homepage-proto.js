@@ -1,4 +1,4 @@
-angular.module('skillscap.proto').controller('HomepageProtoCtrl',function($scope){
+angular.module('skillscap-proto').controller('HomepageProtoCtrl',function($scope){
 
 
 });
