@@ -22,6 +22,10 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
         url: '/new-project',
         templateUrl: 'partial/new-project/new-project.html'
     });
+    $stateProvider.state('home', {
+        url: '/home',
+        templateUrl: 'partial/home/home.html'
+    });
     /* Add New States Above */
     $urlRouterProvider.otherwise('/home');
 

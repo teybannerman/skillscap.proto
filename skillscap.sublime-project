@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "partial/new-project/questions"
+		},
+		{
+			"path": "partial"
 		}
 	]
 }
