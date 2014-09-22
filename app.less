@@ -59,6 +59,22 @@ h3 {
 h5, .h5 {
   font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
+  color: #eb9316;
+}
+
+h6, .h6 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.btn-boxed {
+  background: #fff;
+  border: 4px solid #666;
+  padding: 16px;
+  margin-right: 12px;
 }
 
 .navbar-brand {
@@ -78,7 +94,8 @@ accordion {
     
       .panel-heading {
         padding: 0;
-        background: #fff;
+        background: @navbar-active-bg;
+        color: #fff;
 
         .panel-title {
           font-size: 18px;
@@ -175,7 +192,7 @@ accordion {
 }
 
 .tab-animation > .tab-content > .tab-pane{
-  transition: 0.4s linear opacity;
+  transition: 0.3s linear opacity;
 }
 
 .tab-animation > .tab-content > .tab-pane.active-remove {
@@ -193,9 +210,10 @@ accordion {
   opacity: 0;
 }
 
-.btn-boxed {
-  background: #eee;
-  border: 4px solid #999;
-  padding: 16px;
-  margin-right: 12px;
+.cssFade {
+    transition: 0.5s linear all;
+    opacity: 1;
+}
+.cssFade.ng-hide {
+    opacity: 0;
 }

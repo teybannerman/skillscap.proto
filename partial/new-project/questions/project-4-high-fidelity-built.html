@@ -1,0 +1,12 @@
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-boxed" ng-click="showP4h = true">
+    <input type="radio" value="yes"> Yes
+  </label>
+  <label class="btn btn-boxed" ng-click="showP4h = false">
+    <input type="radio" value="no"> No
+  </label>
+</div><br/><br/>
+<div class="cssFade" ng-show="showP4h">
+  <p>What is your feature set</p>
+  <textarea class="form-control" rows="3" placeholder=""></textarea><br/>
+</div>
