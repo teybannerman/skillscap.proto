@@ -1,6 +1,6 @@
 # App working folders
 temp/
-dist/
+#dist/
 node_modules/
 bower_components/
 _SpecRunner.html
