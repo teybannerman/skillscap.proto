@@ -1,4 +1,4 @@
-angular.module('skillscap-proto').controller('BasicPassProtectCtrl',function($scope, $modalInstance, $state){
+angular.module('skillscap-proto').controller('BasicPassProtectCtrl',function($scope, $modalInstance, $state, $cookies){
 
   $scope.data = {};
   $scope.passed = false;
@@ -7,7 +7,8 @@ angular.module('skillscap-proto').controller('BasicPassProtectCtrl',function($sc
     if (pass === 'SkillsCap-0914') {
       $scope.passed = true;
       $modalInstance.dismiss('passed');
-      $state.go('new-project');
+      $cookies.loggedIn = true;
+      //$state.go('new-project');
     }
     else {
       $scope.data.pass = '';

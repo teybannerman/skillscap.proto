@@ -1,4 +1,4 @@
-angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router','ngAnimate','ngCookies']);
 
 angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider) {
 

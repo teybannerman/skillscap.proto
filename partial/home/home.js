@@ -1,12 +1,14 @@
-angular.module('skillscap-proto').controller('HomeCtrl',function($scope, $modal){
+angular.module('skillscap-proto').controller('HomeCtrl',function($scope, $modal, $cookies){
 
-  var modalInstance = $modal.open({
-    templateUrl: 'modals/basic-pass-protect/basic-pass-protect.html',
-    controller: 'BasicPassProtectCtrl',
-    keyboard: false,
-    backdrop: 'static'
-  }).result.then(function(result){
-    //do something with the result
-  });
+  if (!$cookies.loggedIn) {
+    var modalInstance = $modal.open({
+      templateUrl: 'modals/basic-pass-protect/basic-pass-protect.html',
+      controller: 'BasicPassProtectCtrl',
+      keyboard: false,
+      backdrop: 'static'
+    }).result.then(function(result){
+      //do something with the result
+    });
+  }
 
 });

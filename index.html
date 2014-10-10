@@ -20,6 +20,7 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
   <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
@@ -56,11 +57,13 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="/images/logo.png"/></a>
               </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="nav-primary">
                 <ul class="nav navbar-nav navbar-right">
                   <li ng-class="{ active: $state.includes('home')}"><a ui-sref="home">Home</a></li>
-                  <li ng-class="{ active: $state.includes('search-projects')}"><a ui-sref="search-projects">Offer Help</a></li>
-                  <li ng-class="{ active: $state.includes('new-project')}"><a ui-sref="new-project">New Project</a></li>
+                  <li ng-class="{ active: $state.includes('discover')}"><a ui-sref="Discover">Discover</a></li>
+                  <li ng-class="{ active: $state.includes('sign-up')}"><a ui-sref="sign-up">Sign Up</a></li>
+                  <li ng-class="{ active: $state.includes('sign-in')}"><a ui-sref="sign-in">Sign In</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
