@@ -10,8 +10,9 @@ test-results.xml
 Thumbs.db
 ehthumbs.db
 
-# Folder config file
+# Folder config files
 Desktop.ini
+*.sublime-workspace
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
