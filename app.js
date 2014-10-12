@@ -26,6 +26,14 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
         url: '/home',
         templateUrl: 'partial/home/home.html'
     });
+    $stateProvider.state('discover', {
+        url: '/discover',
+        templateUrl: 'partial/discover/discover.html'
+    });
+    $stateProvider.state('sign-in', {
+        url: '/sign-in',
+        templateUrl: 'partial/sign-in/sign-in.html'
+    });
     /* Add New States Above */
     $urlRouterProvider.otherwise('/home');
 
