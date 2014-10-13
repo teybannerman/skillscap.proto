@@ -149,6 +149,12 @@ h6, .h6 {
   color: lighten(@text-color, 10%);
 }
 
+.alpha {
+  &:extend(.font--titles);
+  line-height: 130px;
+  font-size: 160px;;
+}
+
 
 /**********************
         FORMS
@@ -163,6 +169,10 @@ form.centered {
 
   input[type=text], input[type=password] {
     margin-bottom: 16px;
+  }
+
+  textarea {
+    margin-bottom: 32px;
   }
 }
 
@@ -194,6 +204,10 @@ form .multiSelect {
     box-shadow: none;
     border-top: 0;
   }
+}
+
+.form-footer {
+  margin: 20px 0;
 }
 
 
@@ -230,7 +244,12 @@ form .multiSelect {
   }
 }
 
-.btn-linkedin {
+.btn-linkedin, .btn-twitter {
+  &:extend(.font--titles);
+  font-size: 16px;
+}
+
+.btn-linkedin {  
   background: #007BB6;
   border-color: darken(#007BB6, 10%);
 

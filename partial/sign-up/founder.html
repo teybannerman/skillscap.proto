@@ -1,9 +1,54 @@
-<div class="col-md-12" ng-controller="SignUpFounderCtrl">
+<div class="col-md-12" ng-controller="SignUpCtrl">
 
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <h1>Sign Up as a Founder</h1>
       <p class="intro"></p>
+
+      <form class="centered" role="form">
+
+        <tabset justified="true">
+
+          <tab heading="About You">
+            <label for="c-name" class="control-label">Your Full Name</label>
+            <input class="form-control input-lg" id="c-name" type="text">
+
+            <label for="c-skills" class="control-label">Skills</label>
+            <input class="form-control input-lg" id="c-skills" type="text">
+
+            <label for="c-experience" class="control-label">Industry Experience</label>
+            <div   
+              multi-select
+              input-model="industries"
+              button-label="name"
+              item-label="name"
+              directive-id="c-experience"
+              default-label="No industries selected"
+              helper-elements="filter"
+              tick-property="selected"
+              orientation="horizontal"
+            >
+            </div>
+            <p class="form-footer"><button type="button" class="btn btn-warning btn-lg btn-block">continue</button></p>
+          </tab>
+
+          <tab heading="Your Project">
+            <label for="c-dream" class="control-label">The Dream</label>
+            <textarea class="form-control" rows="3" id="c-dream" placeholder="What problem are you trying to solve? What kind of impact are you hoping to have?"></textarea>
+            <label for="c-team" class="control-label">The Team</label>
+            <textarea class="form-control" rows="3" id="c-team" placeholder="Who is currently involved with the project? Why you, whats your story? What are the team's skills and experience?"></textarea>
+            <label for="c-scheme" class="control-label">The Scheme</label>
+            <textarea class="form-control" rows="3" id="c-scheme" placeholder="What's your approach to solving the problem? What exactly does your solution do?"></textarea>
+          </tab>
+
+          <tab heading="Your Tasks">
+            Long Labeled Justified content
+          </tab>
+
+        </tabset>
+
+      </form>
+
     </div>
   </div>
 

@@ -89,12 +89,14 @@
 }
 
 // Apply the mixin to the buttons
-.btn-default { .btn-styles(@btn-default-bg); border-color: #333; color:#fff; font-family: 'Ubuntu', sans-serif; font-weight: 800; text-transform: uppercase; }
+.btn-default { .btn-styles(@btn-default-bg); border-color: #333; color:#fff; &:extend(.font--titles); }
 .btn-primary { .btn-styles(@btn-primary-bg); }
 .btn-success { .btn-styles(@btn-success-bg); }
 .btn-info    { .btn-styles(@btn-info-bg); }
 .btn-warning { .btn-styles(@btn-warning-bg); }
 .btn-danger  { .btn-styles(@btn-danger-bg); }
+.btn-inverse  { .btn-styles(#f2f2f2); }
+.btn-lg      { &:extend(.font--titles); }
 
 
 
@@ -311,7 +313,7 @@
   
   > li {
     a {
-      background: @nav-tabs-base-color;
+      background: none;
       border-radius: @border-radius-base;
       border: none;
       padding: @nav-tabs-padding;
@@ -333,6 +335,13 @@
     }
   }
 }
+
+.tab-content {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
 
 .nav-stacked {
   display: inline-block;
