@@ -158,10 +158,41 @@ form.centered {
 
   .control-label {
     text-transform: uppercase;
+    font-size: 12px;
   }
 
   input[type=text], input[type=password] {
     margin-bottom: 16px;
+  }
+}
+
+form .multiSelect {
+  .button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    background-image: none;
+    margin-bottom: 16px;
+
+    &:hover {
+      background-image: none;
+    }
+  }
+
+  .caret {
+    float: right;
+    position: absolute;
+    top: 16px;
+    right: 9px;
+  }
+
+  .checkboxLayer {
+    margin-top: -16px;
+    margin-right: 15px;
+    border-radius: 0;
+    box-shadow: none;
+    border-top: 0;
   }
 }
 
