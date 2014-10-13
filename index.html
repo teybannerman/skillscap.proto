@@ -41,6 +41,9 @@
   <script src="partial/home/home.js"></script>
   <script src="partial/discover/discover.js"></script>
   <script src="partial/sign-in/sign-in.js"></script>
+  <script src="partial/sign-up/sign-up.js"></script>
+  <script src="partial/sign-up/founder.js"></script>
+  <script src="partial/sign-up/contributor.js"></script>
   <!-- Add New Component JS Above -->
 
   <div>
@@ -64,8 +67,8 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li ng-class="{ active: $state.includes('home') }"><a ui-sref="home"><i class="fa fa-home"></i>Home</a></li>
                   <li ng-class="{ active: $state.includes('discover') }"><a ui-sref="discover"><i class="fa fa-lightbulb-o"></i>Discover</a></li>
-                  <li ng-class="{ active: $state.includes('sign-up') }"><a ui-sref="sign-up"><i class="fa fa-paste"></i>Sign Up</a></li>
-                  <li ng-class="{ active: $state.includes('sign-in') }"><a ui-sref="sign-in"><i class="fa fa-sign-in"></i>Sign In</a></li>
+                  <li ng-class="{ active: $state.includes('sign-up') }"><a ui-sref="sign-up.default"><i class="fa fa-paste"></i>Sign Up</a></li>
+                  <li ng-class="{ active: $state.includes('sign-in') }"><a ui-sref="sign-in.default"><i class="fa fa-sign-in"></i>Sign In</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
