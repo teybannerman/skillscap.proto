@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "partial"
+		},
+		{
+			"path": "directive"
 		}
 	]
 }
