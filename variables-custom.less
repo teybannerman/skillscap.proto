@@ -1,10 +1,39 @@
+/* Custom Non-Bootstrap Variables */
+
+@gutter:                      24px;
+
+@base-color:                  #F2F0EE;
+@lightest-color:              #FFF;
+@light-color:                 #B8B8C7;
+@medium-color:                #757584;
+@dark-color:                  #1F1F2C;
+
+@text-color:                  @medium-color;
+@theme-primary-color:         #13A6BF;
+@theme-light-color:           #B1E2EA;
+@theme-dark-color:            darken(@theme-primary-color, 10%);
+
+@success-color:               #0ACC7C;
+@warning-color:               #F24F30;
+
+
+
+/* Overridden Bootstrap Variables */
+
 @border-radius-base:          0;
 @border-radius-large:         0;
 @border-radius-small:         0;
 
-@navbar-default-bg:           #222;
-@navbar-border-radius:        0;
-@navbar-active-bg:            #333;
+@navbar-default-bg:                   @lightest-color;
+@navbar-border-radius:                0;
+@navbar-active-bg:                    transparent;
+@navbar-default-link-color:           @theme-primary-color;
+@navbar-default-link-hover-color:     @theme-dark-color;
+@navbar-default-link-hover-bg:        transparent;
+@navbar-default-link-active-color:    @dark-color;
+@navbar-default-link-active-bg:       @navbar-default-bg;
+@navbar-default-link-disabled-color:  #ccc;
+@navbar-default-link-disabled-bg:     transparent;
 
 @font-size-large:             ceil((@font-size-base * 1.5)); // ~20px
 
@@ -14,8 +43,16 @@
 @btn-default-bg:              #222;
 
 
+
+/* Mixins */
+
 .font--titles {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.font--body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
