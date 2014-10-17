@@ -213,18 +213,23 @@ form .multiSelect {
   margin-bottom: 20px;
   padding-top: 80px;
   height: 230px;
-  border: 4px solid @text-color;
+  border: 4px solid @dark-color;
   text-align: center;
   text-transform: uppercase;
-  color: @text-color;
+  color: @dark-color;
   font-size: 28px;
   line-height: 18px;
   background: @lightest-color;
 
   &:hover {
     text-decoration: none;
-    background: @text-color;
+    background: @theme-primary-color;
+    border-color: @theme-primary-color;
     color: @lightest-color;
+
+    span {
+      color: @lightest-color;      
+    }
   }
 
   span {
@@ -233,6 +238,19 @@ form .multiSelect {
     color: @medium-color;
     display: block;
     margin-top: 24px;
+  }
+}
+
+.muted-link {
+  border: none;
+  background: transparent;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  height: auto;
+  font-size: 16px;
+
+  span {
+    margin-top: 12px;
   }
 }
 

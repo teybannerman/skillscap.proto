@@ -10,7 +10,19 @@ angular.module('skillscap-proto').directive('actionMega', function() {
 		link: function(scope, element, attrs, fn) {
 
       element.on("click", function(e) {
-        $(element).parent().siblings().addBack().removeClass('col-md-6').addClass('col-md-12');
+        $(element)
+          .removeClass('muted-link')
+          .parent()
+          .siblings()
+          .addBack()
+          .removeClass('col-md-6')
+          .removeClass('muted-link')
+          .addClass('col-md-12');
+        $(element)
+          .parent()
+          .siblings()
+          .find('.block-link')
+          .addClass('muted-link');          
         return false;
       });
 		}
