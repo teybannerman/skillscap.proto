@@ -1,7 +1,8 @@
 {"users": [
   {
     "id": 1,
-    "name": "Guilherme Jesus",
+    "firstname": "Guilherme",
+    "lastname": "Jesus",
     "city": "Lisbon",
     "country": "Portugal",
     "tagline": "Creative Genius / Graphic Designer",
@@ -64,7 +65,8 @@
   },
   {
     "id": 2,
-    "name": "Nico Koch",
+    "firstname": "Nico",
+    "lastname": "Koch",
     "city": "Cologne",
     "country": "Germany",
     "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg",
@@ -100,11 +102,12 @@
   },
   {
     "id": 3,
-    "name": "Terry Malcom",
+    "firstname": "Terry",
+    "lastname": "Malcolm",
     "city": "Colorado Springs",
     "country": "United States",
     "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/c_southam/128.jpg",
-    "tagline": "40 years experience drafting contracts and other legal documents",
+    "tagline": "40 years legal experience",
     "contributor": {
       "active": true,
       "skills": [
@@ -132,7 +135,8 @@
   },
   {
     "id": 4,
-    "name": "Ursula Murphy",
+    "firstname": "Ursula",
+    "lastname": "Murphy",
     "city": "London",
     "country": "United Kingdom",
     "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg",
@@ -164,13 +168,14 @@
   },
   {
     "id": 5,
-    "name": "Jeffrey Shaw",
+    "firstname": "Jeffrey",
+    "lastname": "Shaw",
     "city": "Sydney",
     "country": "Australia",
     "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/markgamzy/128.jpg",
     "tagline": "Marketing expert that's been around the block",
     "contributor": {
-      "active": false,
+      "active": true,
       "skills": [
         {
           "name": "Product Development",
@@ -191,18 +196,19 @@
       ]
     },
     "founder": {
-      "active": true
+      "active": false
     }
   },
   {
     "id": 6,
-    "name": "Shadiah Sigala",
+    "firstname": "Shadiah",
+    "lastname": "Sigala",
     "city": "Brighton",
     "country": "United Kingdom",
     "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/syswarren/128.jpg",
     "tagline": "Entrepreneur",
     "contributor": {
-      "active": false,
+      "active": true,
       "skills": [
         {
           "name": "Entrepreneurship",

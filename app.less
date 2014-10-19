@@ -24,6 +24,10 @@
 @import "partial/sign-up/founder.less";
 @import "partial/sign-up/contributor.less";
 @import "directive/action-mega/action-mega.less";
+@import "directive/company-list/company-list.less";
+@import "directive/company-single-line/company-single-line.less";
+@import "directive/user-list/user-list.less";
+@import "directive/user-single-line/user-single-line.less";
 /* Add Component LESS Above */
 
 /* Required for Angular UI Bootstrap */
@@ -111,7 +115,7 @@ body {
         HEADINGS
 ***********************/
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
+h1, h2, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
   &:extend(.font--titles);
 }
 
@@ -123,9 +127,19 @@ h1 {
 }
 
 h3 {
-  margin-top: 0;
-  text-align: right;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 22px;
+  margin: 42px 0;
+  color: @dark-color;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: @dark-color;
+  padding-top: 6px;
 }
 
 h5, .h5 {
@@ -195,6 +209,19 @@ form .multiSelect {
     border-radius: 0;
     box-shadow: none;
     border-top: 0;
+  }
+
+  .multiSelectItem {
+    min-width: 275px;
+
+    label {
+      font-weight: normal;
+    }
+
+    &:hover {
+      background-image: none !important;
+      background: @medium-color;
+    }
   }
 }
 
@@ -299,6 +326,27 @@ form .multiSelect {
 
 .user-img {
   border-radius: 50%;
+}
+
+.user-single {
+  
+  .media-object {
+    .rounded;
+    .img--medium;
+  }
+
+  .media-body {
+    text-align: left;
+    padding-right: @gutter/3;
+  }
+
+  .user-single__name {
+    margin-bottom: 3px;
+  }
+
+  .user-single__tagline {
+
+  }
 }
 
 
