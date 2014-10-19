@@ -22,7 +22,8 @@ angular.module('skillscap-proto').directive('actionMega', function() {
           .parent()
           .siblings()
           .find('.block-link')
-          .addClass('muted-link');          
+          .addClass('muted-link');
+        $('.sample-people').fadeOut(400);
         return false;
       });
 		}
