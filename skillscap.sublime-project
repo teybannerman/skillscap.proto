@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "directive"
+		},
+		{
+			"path": "service"
 		}
 	]
 }
