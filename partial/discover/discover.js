@@ -1,9 +1,10 @@
-angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers){
+angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects){
 
   $scope.usersOut = [];
+  $scope.projectsOut = [];
 
   sampleUsers().success(function(data) {
-    users = data.users;
+    var users = data.users;
     angular.forEach (users, function(user, key) {
       if (user.contributor.active) {
         $scope.usersOut.push({
@@ -20,6 +21,10 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
         }); // end push
       }
     }); // end forEach
-  }); // end http.get
+  }); // end success
+
+  sampleProjects().success(function(data) {
+    $scope.projectsOut = data.projects;
+  });
 
 });

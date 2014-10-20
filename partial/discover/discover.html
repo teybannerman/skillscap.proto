@@ -23,6 +23,17 @@
             <action-mega buttontitle="I'm a contributor" buttonsubtitle="i'm ready to share my skills and expertise"></action-mega>
             <div class="sample-people">
               <h3>245 revolutionary startups (and counting), searching for skills just like yours...</h3>
+              <ul class="">
+                <li ng-repeat="project in projectsOut | limitTo:3" class="media project-single">
+                  <a class="pull-left" href="#">
+                    <img class="media-object project-single__image" ng-src="/images/{{project.logo}}" alt="Photo: {{project.name}}" title="{{project.name}}"/>
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading user-single__name">{{project.name}} <span class="sub">{{project.company-value | currency:"£":0}}</span></h4>
+                    <p class="user-single__tagline">{{project.tagline}}</p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
