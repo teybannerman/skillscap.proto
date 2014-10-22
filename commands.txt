@@ -1,0 +1,5 @@
+
+git push heroku vestd-proto:master
+
+grunt serve
+grunt build

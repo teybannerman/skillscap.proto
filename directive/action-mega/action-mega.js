@@ -1,7 +1,7 @@
 angular.module('skillscap-proto').directive('actionMega', function() {
 	return {
 		restrict: 'E',
-		replace: true,
+		transclude: true,
 		scope: {
       buttontitle: '@',
       buttonsubtitle: '@'

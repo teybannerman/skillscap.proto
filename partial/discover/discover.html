@@ -13,14 +13,25 @@
       <div class="discover-links">
         <div class="row">
           <div class="col-md-6 has-mega animated col-founder">
-            <action-mega buttontitle="I'm a founder" buttonsubtitle="show me some awesome contributors"></action-mega>
+            <action-mega buttontitle="I'm a founder" buttonsubtitle="show me some awesome contributors">
+              <form class="centered">
+                <label for="c-name" class="control-label">Your Industry Sector</label>
+                <input class="form-control input-md" id="c-name" type="text">
+                <label for="c-name" class="control-label">Contributor Experience</label>
+                <input class="form-control input-md" id="c-name" type="text">
+                <label for="c-name" class="control-label">Your Project Stage</label>
+                <input class="form-control input-md" id="c-name" type="text">
+              </form>
+            </action-mega>
             <div class="sample-people">
               <h3>We've got over 780 highly skilled professionals right here, ready to help you blossom...</h3>
               <user-list users="usersOut" limit="3"></user-list>
             </div>
           </div>
           <div class="col-md-6 has-mega animated col-contributor">
-            <action-mega buttontitle="I'm a contributor" buttonsubtitle="i'm ready to share my skills and expertise"></action-mega>
+            <action-mega buttontitle="I'm a contributor" buttonsubtitle="i'm ready to share my skills and expertise">
+
+            </action-mega>
             <div class="sample-people">
               <h3>245 revolutionary startups (and counting), searching for skills just like yours...</h3>
               <ul class="">
@@ -29,7 +40,7 @@
                     <img class="media-object project-single__image" ng-src="/images/{{project.logo}}" alt="Photo: {{project.name}}" title="{{project.name}}"/>
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading user-single__name">{{project.name}} <span class="sub">{{project.company-value | currency:"£":0}}</span></h4>
+                    <h4 class="media-heading user-single__name">{{project.name}} <span class="sub">{{project['company-value'] | currencyNoDecimal}}</span></h4>
                     <p class="user-single__tagline">{{project.tagline}}</p>
                   </div>
                 </li>

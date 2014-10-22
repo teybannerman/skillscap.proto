@@ -245,10 +245,10 @@ form .multiSelect {
 
 .block-link {
   &:extend(.font--titles);
+  .transition(~".6s ease background-color, .6s ease height");
   display: block;
   margin-bottom: 20px;
-  padding-top: 80px;
-  height: 230px;
+  padding: 80px 0;
   border: 4px solid @dark-color;
   text-align: center;
   text-transform: uppercase;
@@ -268,12 +268,16 @@ form .multiSelect {
     }
   }
 
-  span {
+  > span {
     font-weight: 400;
     font-size: 13px;
     color: @medium-color;
     display: block;
     margin-top: 24px;
+  }
+
+  .inner-content {
+    padding: 32px 42px 0;
   }
 }
 
