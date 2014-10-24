@@ -16,7 +16,19 @@
             <action-mega buttontitle="I'm a founder" buttonsubtitle="show me some awesome contributors">
               <form class="centered">
                 <label for="c-name" class="control-label">Your Industry Sector</label>
-                <input class="form-control input-md" id="c-name" type="text">
+                <div   
+                  multi-select
+                  input-model="industries"
+                  button-label="name"
+                  item-label="name"
+                  directive-id="c-experience"
+                  default-label=""
+                  helper-elements="filter"
+                  tick-property="selected"
+                  orientation="horizontal"
+                  selection-mode="single"
+                >
+                </div>
                 <label for="c-name" class="control-label">Contributor Experience</label>
                 <input class="form-control input-md" id="c-name" type="text">
                 <label for="c-name" class="control-label">Your Project Stage</label>
@@ -24,7 +36,7 @@
               </form>
             </action-mega>
             <div class="sample-people">
-              <h3>We've got over 780 highly skilled professionals right here, ready to help you blossom...</h3>
+              <h3>We've got over <strong>780 highly skilled professionals</strong> right here, ready to help you blossom...</h3>
               <user-list users="usersOut" limit="3"></user-list>
             </div>
           </div>
@@ -33,7 +45,7 @@
 
             </action-mega>
             <div class="sample-people">
-              <h3>245 revolutionary startups (and counting), searching for skills just like yours...</h3>
+              <h3><strong>245 revolutionary startups</strong> (and counting), searching for skills just like yours...</h3>
               <ul class="">
                 <li ng-repeat="project in projectsOut | limitTo:3" class="media project-single">
                   <a class="pull-left" href="#">

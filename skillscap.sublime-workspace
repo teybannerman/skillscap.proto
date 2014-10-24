@@ -4,15 +4,35 @@
 		"selected_items":
 		[
 			[
+				"th",
+				"theme-primary-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pro",
+				"projectsOut"
+			],
+			[
 				"padding",
 				"padding-top"
 			],
 			[
 				"te",
-				"text-align"
-			],
-			[
-				"text",
 				"text-align"
 			],
 			[
@@ -42,10 +62,6 @@
 			[
 				"margin",
 				"margin-top"
-			],
-			[
-				"font-",
-				"font-family"
 			],
 			[
 				"bac",
@@ -142,10 +158,6 @@
 			[
 				"currentL",
 				"currentLat"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"ter",
@@ -247,7 +259,7 @@
 			"file": "data/projects.json",
 			"settings":
 			{
-				"buffer_size": 4850,
+				"buffer_size": 5203,
 				"line_ending": "Unix",
 				"name": "{\"projects\": ["
 			}
@@ -265,6 +277,14 @@
 			"settings":
 			{
 				"buffer_size": 4141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/industries.json",
+			"settings":
+			{
+				"buffer_size": 2622,
 				"line_ending": "Unix"
 			}
 		},
@@ -296,7 +316,7 @@
 			"file": "app.less",
 			"settings":
 			{
-				"buffer_size": 6341,
+				"buffer_size": 6724,
 				"line_ending": "Unix"
 			}
 		},
@@ -328,7 +348,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5068,
+				"buffer_size": 5120,
 				"line_ending": "Unix"
 			}
 		},
@@ -360,7 +380,7 @@
 			"file": "partial/discover/discover.html",
 			"settings":
 			{
-				"buffer_size": 1458,
+				"buffer_size": 2742,
 				"line_ending": "Unix"
 			}
 		},
@@ -368,7 +388,7 @@
 			"file": "partial/discover/discover.js",
 			"settings":
 			{
-				"buffer_size": 729,
+				"buffer_size": 866,
 				"line_ending": "Unix"
 			}
 		},
@@ -389,6 +409,14 @@
 			}
 		},
 		{
+			"file": "partial/sign-up/sign-up.js",
+			"settings":
+			{
+				"buffer_size": 2768,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "partial/sign-up/founder.html",
 			"settings":
 			{
@@ -405,18 +433,10 @@
 			}
 		},
 		{
-			"file": "partial/sign-up/sign-up.js",
-			"settings":
-			{
-				"buffer_size": 2768,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "directive/action-mega/action-mega.js",
 			"settings":
 			{
-				"buffer_size": 763,
+				"buffer_size": 766,
 				"line_ending": "Unix"
 			}
 		},
@@ -424,7 +444,7 @@
 			"file": "directive/action-mega/action-mega.html",
 			"settings":
 			{
-				"buffer_size": 86,
+				"buffer_size": 133,
 				"line_ending": "Unix"
 			}
 		},
@@ -456,7 +476,7 @@
 			"file": "directive/user-single-line/user-single-line.html",
 			"settings":
 			{
-				"buffer_size": 435,
+				"buffer_size": 431,
 				"line_ending": "Unix"
 			}
 		},
@@ -472,7 +492,15 @@
 			"file": "service/sampleProjects.js",
 			"settings":
 			{
-				"buffer_size": 358,
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "filter/currencyNoDecimal.js",
+			"settings":
+			{
+				"buffer_size": 463,
 				"line_ending": "Unix"
 			}
 		}
@@ -505,6 +533,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower_components/jquery.cycle2.min/index.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/Gruntfile.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/modals/basic-pass-protect/basic-pass-protect.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/modals/basic-pass-protect/basic-pass-protect.html",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/contributor/contributor.html",
@@ -514,7 +544,6 @@
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/founder/founder.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/contributor/contributor.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/_system/nav-primary/nav-primary.js",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/Gruntfile.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/project/project.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project.html",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project.js",
@@ -631,8 +660,7 @@
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/responder.js",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/tabs.js",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/sharewidget.js",
-		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/search-bar.js",
-		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/pattern-library-icons.js"
+		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/js/search-bar.js"
 	],
 	"find":
 	{
@@ -640,9 +668,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\bootstrap\\less",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\ux.econsultancy.subscribe\\html",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto",
@@ -677,6 +706,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transition",
 			"user-s",
 			"body",
 			"h4",
@@ -803,8 +833,7 @@
 			"landing-",
 			"compac",
 			"btn",
-			"darkened",
-			"nosub"
+			"darkened"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -848,7 +877,7 @@
 	"groups":
 	[
 		{
-			"selected": 28,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -856,15 +885,15 @@
 					"file": "data/projects.json",
 					"settings":
 					{
-						"buffer_size": 4850,
+						"buffer_size": 5203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								1244,
+								1244
 							]
 						],
 						"settings":
@@ -877,8 +906,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 11.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 983.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -901,6 +930,7 @@
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
@@ -923,8 +953,8 @@
 						"selection":
 						[
 							[
-								1665,
-								1665
+								11,
+								0
 							]
 						],
 						"settings":
@@ -937,13 +967,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 454.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "data/industries.json",
+					"settings":
+					{
+						"buffer_size": 2622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								774
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "data/users.json",
 					"settings":
 					{
@@ -968,13 +1027,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1802.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "partial/_system/nav-primary/nav-primary.html",
 					"settings":
 					{
@@ -1005,7 +1064,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app.js",
 					"settings":
 					{
@@ -1036,19 +1095,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "app.less",
 					"settings":
 					{
-						"buffer_size": 6341,
+						"buffer_size": 6724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6015,
-								6015
+								5352,
+								5354
 							]
 						],
 						"settings":
@@ -1061,13 +1120,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4659.0,
+						"translation.y": 3660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "variables-custom.less",
 					"settings":
 					{
@@ -1087,7 +1146,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 465.0,
@@ -1096,7 +1157,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "bower_components/bootstrap/less/variables.less",
 					"settings":
 					{
@@ -1125,7 +1186,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "theme.less",
 					"settings":
 					{
@@ -1156,19 +1217,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5068,
+						"buffer_size": 5120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2620,
-								2620
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1187,7 +1248,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "partial/founder/founder.html",
 					"settings":
 					{
@@ -1216,7 +1277,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "partial/project/project.html",
 					"settings":
 					{
@@ -1245,7 +1306,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "partial/search-projects/search-projects.html",
 					"settings":
 					{
@@ -1274,19 +1335,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "partial/discover/discover.html",
 					"settings":
 					{
-						"buffer_size": 1458,
+						"buffer_size": 2742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1294,
-								1294
+								1025,
+								1025
 							]
 						],
 						"settings":
@@ -1305,19 +1366,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "partial/discover/discover.js",
 					"settings":
 					{
-						"buffer_size": 729,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								792,
+								792
 							]
 						],
 						"settings":
@@ -1325,7 +1386,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1334,7 +1397,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "partial/sign-in/sign-in.html",
 					"settings":
 					{
@@ -1365,7 +1428,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "partial/sign-up/sign-up.html",
 					"settings":
 					{
@@ -1396,7 +1459,38 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
+					"file": "partial/sign-up/sign-up.js",
+					"settings":
+					{
+						"buffer_size": 2768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2702,
+								105
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
 					"file": "partial/sign-up/founder.html",
 					"settings":
 					{
@@ -1407,8 +1501,8 @@
 						"selection":
 						[
 							[
-								1112,
-								1112
+								370,
+								306
 							]
 						],
 						"settings":
@@ -1416,16 +1510,18 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 208.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"file": "partial/sign-up/contributor.html",
 					"settings":
 					{
@@ -1456,19 +1552,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "partial/sign-up/sign-up.js",
+					"buffer": 22,
+					"file": "directive/action-mega/action-mega.js",
 					"settings":
 					{
-						"buffer_size": 2768,
+						"buffer_size": 766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2730,
-								2730
+								97,
+								97
 							]
 						],
 						"settings":
@@ -1477,37 +1573,8 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 555.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "directive/action-mega/action-mega.js",
-					"settings":
-					{
-						"buffer_size": 763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								712,
-								712
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1516,19 +1583,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "directive/action-mega/action-mega.html",
 					"settings":
 					{
-						"buffer_size": 86,
+						"buffer_size": 133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								107,
+								107
 							]
 						],
 						"settings":
@@ -1545,7 +1612,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "directive/user-list/user-list.js",
 					"settings":
 					{
@@ -1574,7 +1641,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "directive/user-list/user-list.html",
 					"settings":
 					{
@@ -1603,7 +1670,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "directive/user-single-line/user-single-line.js",
 					"settings":
 					{
@@ -1623,7 +1690,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1632,19 +1700,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "directive/user-single-line/user-single-line.html",
 					"settings":
 					{
-						"buffer_size": 435,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								0,
+								431
 							]
 						],
 						"settings":
@@ -1661,7 +1729,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "service/sampleUsers.js",
 					"settings":
 					{
@@ -1681,7 +1749,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1690,19 +1760,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "service/sampleProjects.js",
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								313,
-								313
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "filter/currencyNoDecimal.js",
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								42
 							]
 						],
 						"settings":

@@ -1,4 +1,4 @@
-angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects){
+angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects, industries){
 
   $scope.usersOut = [];
   $scope.projectsOut = [];
@@ -25,6 +25,10 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
 
   sampleProjects().success(function(data) {
     $scope.projectsOut = data.projects;
+  });
+
+  industries().success(function(data) {
+    $scope.industries = data.industries;
   });
 
 });

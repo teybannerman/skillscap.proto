@@ -11,18 +11,26 @@ angular.module('skillscap-proto').directive('actionMega', function() {
 
       element.on("click", function(e) {
         $(element)
+          .find('.block-link')
+          .addClass('active')
           .removeClass('muted-link')
+          .parent()
           .parent()
           .siblings()
           .addBack()
           .removeClass('col-md-6')
-          .removeClass('muted-link')
           .addClass('col-md-12');
+        $(element)
+          .find('.inner-content')
+          .slideDown();
         $(element)
           .parent()
           .siblings()
           .find('.block-link')
-          .addClass('muted-link');
+          .removeClass('active')
+          .addClass('muted-link')
+          .find('.inner-content')
+          .slideUp();
         $('.sample-people').fadeOut(400);
         return false;
       });

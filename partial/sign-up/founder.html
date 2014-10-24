@@ -29,20 +29,37 @@
               orientation="horizontal"
             >
             </div>
-            <p class="form-footer"><button type="button" class="btn btn-warning btn-lg btn-block">continue</button></p>
+            <p class="form-footer"><button type="button" class="btn btn-primary btn-lg btn-block" ng-click="activateFounderTab('project')">continue</button></p>
           </tab>
 
-          <tab heading="Your Project">
+          <tab heading="Your Project" active="foundertabs['project']">
             <label for="c-dream" class="control-label">The Dream</label>
             <textarea class="form-control" rows="3" id="c-dream" placeholder="What problem are you trying to solve? What kind of impact are you hoping to have?"></textarea>
             <label for="c-team" class="control-label">The Team</label>
             <textarea class="form-control" rows="3" id="c-team" placeholder="Who is currently involved with the project? Why you, whats your story? What are the team's skills and experience?"></textarea>
             <label for="c-scheme" class="control-label">The Scheme</label>
             <textarea class="form-control" rows="3" id="c-scheme" placeholder="What's your approach to solving the problem? What exactly does your solution do?"></textarea>
+            <p class="form-footer"><button type="button" class="btn btn-primary btn-lg btn-block" ng-click="activateFounderTab('tasks')">continue</button></p>
           </tab>
 
-          <tab heading="Your Tasks">
-            Long Labeled Justified content
+          <tab heading="Your Tasks" active="foundertabs['tasks']">
+            <div class="row">
+                
+              <div class="col-md-12">
+                <h3>Based on the amazing input you've supplied so far we recommend the following tasks to kickstart your project!</h3>
+                <ul class="tasks-list">
+                  <li><a href="#" class="list-group-item">Terms of Service <span class="remove">remove</span></a></li>
+                  <li><a href="#" class="list-group-item">Content Marketing Strategy <span class="remove">remove</span></a></li>
+                  <li><a href="#" class="list-group-item">Research Project <span class="remove">remove</span></a></li>
+                  <li><a href="#" class="list-group-item">Prototype development <span class="remove">remove</span></a></li>
+                  <li><input type="text" class="form-control" placeholder="Add your own task"></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">sign me up!</button></p>
+
           </tab>
 
         </tabset>
