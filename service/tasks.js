@@ -1,6 +1,16 @@
-angular.module('skillscap-proto').factory('tasks',function() {
+angular.module('skillscap-proto').factory('tasks',function($http) {
 
-	var tasks = {};
+	var promise = null;
 
-	return tasks;
+  return function() {
+    if (promise) {
+      // If we've already asked for this data once,
+      // return the promise that already exists.
+      return promise;
+    } else {
+      promise = $http.get('/data/tasks.json');
+      return promise;
+    }
+  };
+
 });

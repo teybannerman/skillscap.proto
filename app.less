@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 
 @import "bower_components/bootstrap/less/bootstrap.less";
 @import "variables-custom.less";
@@ -117,6 +117,12 @@ body {
 
 h1, h2, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
   &:extend(.font--titles);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
+  strong {
+    font-weight: 500;
+  }
 }
 
 h1 {
@@ -272,22 +278,17 @@ form .multiSelect {
       color: @medium-color;
       display: block;
       margin-top: 24px;
+      letter-spacing: 0.05em;
     }
   }
 
   &:hover, &.active {
-    background: @theme-primary-color;
-    border-color: @theme-primary-color;
-    color: @lightest-color;
     text-decoration: none;
+    border-color: @theme-primary-color;
 
     .button {
-      color: @lightest-color;
       text-decoration: none;
-
-      > span {
-        color: @lightest-color;
-      }
+      color: @theme-primary-color;
     }
   }
 

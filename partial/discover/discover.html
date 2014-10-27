@@ -8,14 +8,15 @@
   </div>
 
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
 
+    <div class="col-md-8 col-md-offset-2">
       <div class="discover-links">
         <div class="row">
+
           <div class="col-md-6 has-mega animated col-founder">
-            <action-mega buttontitle="I'm a founder" buttonsubtitle="show me some awesome contributors">
+            <action-mega buttontitle="I'm a founder" buttonsubtitle="find me some awesome contributors">
               <form class="centered">
-                <label for="c-name" class="control-label">Your Industry Sector</label>
+                <label for="c-name" class="control-label">My Industry Sector</label>
                 <div   
                   multi-select
                   input-model="industries"
@@ -29,10 +30,28 @@
                   selection-mode="single"
                 >
                 </div>
-                <label for="c-name" class="control-label">Contributor Experience</label>
-                <input class="form-control input-md" id="c-name" type="text">
-                <label for="c-name" class="control-label">Your Project Stage</label>
-                <input class="form-control input-md" id="c-name" type="text">
+
+                <label for="c-name" class="control-label">My Project Stage</label>
+                <div class="btn-group btn-group-justified btn-group-lg btn-group-custom">
+                  <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'1'" tooltip="I want to define the set of tasks necessary to complete, build, validate and advance my service or product.">1<span class="subtext">Concept</span></label>
+                  </div>
+                  <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'2'" tooltip="My concept is concrete and I want to get some prototypes out into the wild.">2<span class="subtext">Prototype</span></label>
+                  </div>
+                  <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'3'" tooltip="I'm ready to take steps to find out if I can actually provide to my market and that it can sustain a viable business.">3<span class="subtext">Validation</span></label>
+                  </div>
+                  <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'4'" tooltip="I'm ready to develop my product or service's minimal set of features and test my hypotheses with customers.">4<span class="subtext">MVP</span></label>
+                  </div>
+                  <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'5'" tooltip="I'm ready to scale my business or project up and take on the world!">5<span class="subtext">Scaling</span></label>
+                  </div>
+                </div>
+
+                <label for="c-name" class="control-label">I need help with...</label>
+                <select class="form-control input-md" ng-model="task" ng-options="opt for opt in taskNames"></select>
               </form>
             </action-mega>
             <div class="sample-people">
@@ -40,9 +59,26 @@
               <user-list users="usersOut" limit="3"></user-list>
             </div>
           </div>
+
           <div class="col-md-6 has-mega animated col-contributor">
             <action-mega buttontitle="I'm a contributor" buttonsubtitle="i'm ready to share my skills and expertise">
-
+              <form class="centered">
+                <label for="c-name" class="control-label">Industries I can help in</label>
+                <div   
+                  multi-select
+                  input-model="industries"
+                  button-label="name"
+                  item-label="name"
+                  directive-id="c-experience"
+                  default-label=""
+                  helper-elements="filter"
+                  tick-property="selected"
+                  orientation="horizontal"
+                >
+                </div>
+                <label for="c-name" class="control-label">Skills I can offer</label>
+                <input class="form-control input-md" id="c-name" type="text">
+              </form>
             </action-mega>
             <div class="sample-people">
               <h3><strong>245 revolutionary startups</strong> (and counting), searching for skills just like yours...</h3>
@@ -52,7 +88,7 @@
                     <img class="media-object project-single__image" ng-src="/images/{{project.logo}}" alt="Photo: {{project.name}}" title="{{project.name}}"/>
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading user-single__name">{{project.name}} <span class="sub">{{project['company-value'] | currencyNoDecimal}}</span></h4>
+                    <h4 class="media-heading user-single__name">{{project.name}} <span class="sub">worth {{project['company-value'] | currencyNoDecimal}}</span></h4>
                     <p class="user-single__tagline">{{project.tagline}}</p>
                   </div>
                 </li>

@@ -1,7 +1,9 @@
-angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects, industries){
+angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects, industries, tasks){
 
   $scope.usersOut = [];
   $scope.projectsOut = [];
+  $scope.projectStageModel = '';
+  $scope.taskNames = [];
 
   sampleUsers().success(function(data) {
     var users = data.users;
@@ -29,6 +31,12 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
 
   industries().success(function(data) {
     $scope.industries = data.industries;
+  });
+
+  tasks().success(function(data) {
+    angular.forEach (data.tasks, function(task, key) {
+      $scope.taskNames.push(task['task-name']);
+    });
   });
 
 });
