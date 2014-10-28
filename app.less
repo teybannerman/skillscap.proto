@@ -78,6 +78,10 @@ body {
   margin-top: 32px;
 }
 
+.centered-content {
+  text-align: center;
+}
+
 
 /**********************
    UTILITY CLASSES
@@ -402,15 +406,26 @@ form .multiSelect {
 }
 
 .alpha-icon {
-  line-height: 90px;
+  line-height: 80px;
   font-size: 42px;
   border-radius: 50%;
   border: 3px solid @theme-primary-color;
   color: @theme-primary-color;
   background: transparent;
-  width: 100px;
-  height: 100px;
+  width: 112px;
+  height: 112px;
   text-align: center;
+
+  > span {
+    text-transform: uppercase;
+    color: @theme-primary-color;
+    font-weight: 800;
+    font-size: 10px;
+    display: block;
+    clear: both;
+    line-height: 0px;
+    margin-top: -2px;
+  }
 }
 
 

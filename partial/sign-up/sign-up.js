@@ -14,6 +14,7 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
   $scope.projectName = '';
   $scope.newTabText = '';
   $scope.credibilityIcon = 'fa-thumbs-down';
+  $scope.credibility = 'Unverified';
   $scope.socialconnect = {
     'sc1': false,
     'sc2': false,
@@ -32,17 +33,18 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
       $scope.tasks.push({name:$scope.newTabText, active:true});
       $scope.newTabText = '';
     }
-  }
+  };
 
   $scope.credibilityCalc = function() {
     var count = 0;
     angular.forEach($scope.socialconnect, function(key, val){
       count += key ? 1 : 0;
     });
-    if (count == 0) { $scope.credibilityIcon = 'fa-thumbs-down'; }
-    if (count > 0) { $scope.credibilityIcon = 'fa-check'; }
-    if (count > 1) { $scope.credibilityIcon = 'fa-thumbs-up'; }
-  }
+    if (count === 0) { $scope.credibilityIcon = 'fa-thumbs-down'; $scope.credibility = 'Unverified'; }
+    if (count > 0) { $scope.credibilityIcon = 'fa-check'; $scope.credibility = 'Connected'; }
+    if (count > 1) { $scope.credibilityIcon = 'fa-thumbs-up'; $scope.credibility = 'Verified'; }
+    if (count > 3) { $scope.credibilityIcon = 'fa-star'; $scope.credibility = 'Superstar'; }
+  };
 
   industries().success(function(data) {
     $scope.industries = angular.copy(data.industries);
