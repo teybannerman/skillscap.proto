@@ -68,6 +68,10 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
       }
     }
   });
+  $stateProvider.state('contributors', {
+        url: '/contributors',
+        templateUrl: 'partial/contributors/contributors.html'
+    });
   /* Add New States Above */
   $urlRouterProvider.otherwise('/home');
 

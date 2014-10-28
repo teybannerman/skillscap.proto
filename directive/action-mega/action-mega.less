@@ -1,0 +1,70 @@
+
+
+.block-link {
+  .transition(~".6s ease background-color, .6s ease height");
+  display: block;
+  margin-bottom: 20px;
+  padding: 80px 0 60px;
+  border: 4px solid @dark-color;
+  background: @lightest-color;
+
+  .button {
+    &:extend(.font--titles);
+    text-align: center;
+    text-transform: uppercase;
+    color: @dark-color;
+    font-size: 28px;
+    line-height: 18px;
+
+    > span {
+      font-weight: 400;
+      font-size: 13px;
+      color: @medium-color;
+      display: block;
+      margin-top: 24px;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  &:hover, &.active {
+    text-decoration: none;
+    border-color: @theme-primary-color;
+
+    .button {
+      text-decoration: none;
+      color: @theme-primary-color;
+    }
+  }
+
+  .inner-content {
+    padding: 32px 42px 0;
+    display: none;
+
+    .control-label {
+      display: block;
+      text-align: center;
+    }
+
+    .buttonLabel {
+      color: #333;
+    }
+  }
+
+  .multiSelect .checkboxLayer {
+    margin-top: -32px;
+    margin-right: 61px;
+  }
+}
+
+.muted-link {
+  border: none;
+  background: transparent;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  height: auto;
+  font-size: 16px;
+
+  span {
+    margin-top: 12px;
+  }
+}

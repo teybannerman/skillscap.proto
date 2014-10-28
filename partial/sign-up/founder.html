@@ -60,7 +60,7 @@
                 <div class="col-md-12">
                   <h3>Based on the excellent input you've supplied so far we recommend the following tasks to kickstart your project. Remove any you don't need (or add your own), and then sit back and let us match you with expert constributors in your field.</h3>
                   <ul class="tasks-list">
-                    <li class="animated animate-repeat" ng-repeat="task in tasks | filter:task.active = true">
+                    <li class="animate animate-repeat" ng-repeat="task in tasks | filter:task.active = true">
                       <div class="list-group-item">{{task.name}} <a class="remove" href="" ng-click="task.active=false">remove</a></div>
                     </li>
                     <li><input type="text" class="form-control" placeholder="Add your own task" ng-model="$parent.newTabText"></li>
