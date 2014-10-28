@@ -5,61 +5,71 @@
       <h1>Sign Up as a Founder</h1>
       <p class="intro"></p>
 
-      <form class="centered" role="form">
-
         <tabset justified="true">
 
           <tab heading="About You">
-            <label for="c-name" class="control-label">Your Full Name</label>
-            <input class="form-control input-lg" id="c-name" type="text">
+            <form class="centered" role="form">
+              <label for="c-name" class="control-label">Your Full Name</label>
+              <input class="form-control input-md" id="c-name" type="text">
 
-            <label for="c-skills" class="control-label">Skills</label>
-            <input class="form-control input-lg" id="c-skills" type="text">
+              <label for="c-skills" class="control-label">Skills</label>
+              <input class="form-control input-md" id="c-skills" type="text">
 
-            <label for="c-experience" class="control-label">Industry Experience</label>
-            <div   
-              multi-select
-              input-model="industries"
-              button-label="name"
-              item-label="name"
-              directive-id="c-experience"
-              default-label="No industries selected"
-              helper-elements="filter"
-              tick-property="selected"
-              orientation="horizontal"
-            >
-            </div>
-            <p class="form-footer"><button type="button" class="btn btn-primary btn-lg btn-block" ng-click="activateFounderTab('project')">continue</button></p>
+              <label for="c-experience" class="control-label">Industry Experience</label>
+              <div   
+                multi-select
+                input-model="industries"
+                button-label="name"
+                item-label="name"
+                directive-id="c-experience"
+                default-label="No industries selected"
+                helper-elements="filter"
+                tick-property="selected"
+                orientation="horizontal"
+              >
+              </div>
+              <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('project')">continue</button></p>
+            </form>
           </tab>
 
           <tab heading="Your Project" active="foundertabs['project']">
-            <label for="c-dream" class="control-label">The Dream</label>
-            <textarea class="form-control" rows="3" id="c-dream" placeholder="What problem are you trying to solve? What kind of impact are you hoping to have?"></textarea>
-            <label for="c-team" class="control-label">The Team</label>
-            <textarea class="form-control" rows="3" id="c-team" placeholder="Who is currently involved with the project? Why you, whats your story? What are the team's skills and experience?"></textarea>
-            <label for="c-scheme" class="control-label">The Scheme</label>
-            <textarea class="form-control" rows="3" id="c-scheme" placeholder="What's your approach to solving the problem? What exactly does your solution do?"></textarea>
-            <p class="form-footer"><button type="button" class="btn btn-primary btn-lg btn-block" ng-click="activateFounderTab('tasks')">continue</button></p>
+
+            <form class="centered" role="form">
+              <label for="c-dream" class="control-label">What's your project name?</label>
+              <input class="form-control input-md" id="c-projectname" placeholder="Either your working title or official name" type="text" ng-model="$parent.projectName"/>
+
+              <label for="c-dream" class="control-label">The Dream</label>
+              <textarea class="form-control" rows="3" id="c-dream" placeholder="What problem are you trying to solve? What kind of impact are you hoping to have?"></textarea>
+
+              <label for="c-team" class="control-label">The Team</label>
+              <textarea class="form-control" rows="3" id="c-team" placeholder="Who is currently involved with the project? Why you, whats your story? What are the team's skills and experience?"></textarea>
+
+              <label for="c-scheme" class="control-label">The Scheme</label>
+              <textarea class="form-control" rows="3" id="c-scheme" placeholder="What's your approach to solving the problem? What exactly does your solution do?"></textarea>
+
+              <label for="c-scheme" class="control-label">Which stage is your project currently at?</label>
+              <ng-include src="'/partial/_components/forms-project-stage.html'"></ng-include>
+
+              <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('tasks')">continue</button></p>
+            </form>
           </tab>
 
           <tab heading="Your Tasks" active="foundertabs['tasks']">
-            <div class="row">
-                
-              <div class="col-md-12">
-                <h3>Based on the amazing input you've supplied so far we recommend the following tasks to kickstart your project!</h3>
-                <ul class="tasks-list">
-                  <li><a href="#" class="list-group-item">Terms of Service <span class="remove">remove</span></a></li>
-                  <li><a href="#" class="list-group-item">Content Marketing Strategy <span class="remove">remove</span></a></li>
-                  <li><a href="#" class="list-group-item">Research Project <span class="remove">remove</span></a></li>
-                  <li><a href="#" class="list-group-item">Prototype development <span class="remove">remove</span></a></li>
-                  <li><input type="text" class="form-control" placeholder="Add your own task"></li>
-                </ul>
+            <form class="centered" role="form" ng-submit="addNewTask()">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Based on the excellent input you've supplied so far we recommend the following tasks to kickstart your project. Remove any you don't need (or add your own), and then sit back and let us match you with expert constributors in your field.</h3>
+                  <ul class="tasks-list">
+                    <li class="animated animate-repeat" ng-repeat="task in tasks | filter:task.active = true">
+                      <div class="list-group-item">{{task.name}} <a class="remove" href="" ng-click="task.active=false">remove</a></div>
+                    </li>
+                    <li><input type="text" class="form-control" placeholder="Add your own task" ng-model="$parent.newTabText"></li>
+                    <a class="btn-info btn-circled btn-icono" href="" ng-click="addNewTask()"><span class="fa fa-plus"></span></a>
+                  </ul>
+                </div>
               </div>
-
-            </div>
-
-            <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">sign me up!</button></p>
-
+              <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">Find {{projectName}} some contributors!</button></p>
+            </form>
           </tab>
 
         </tabset>

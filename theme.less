@@ -460,15 +460,28 @@ accordion {
   .btn {
     padding-top: 22px;
     font-size: 26px;
-    color: #555;
-    margin-bottom: 16px;
+    background: #fff;
+    color: @medium-color;
+    border-color: @light-color;
+    margin-bottom: @form-element-gutter;
+    opacity: 1;
 
     &:hover {
-      color: #333;
+      background: #eee;
+      color: @dark-color !important;
+
+      .subtext {
+        color: @dark-color !important;
+      }
     }
 
     &.active {
       background: @theme-primary-color !important;
+      color: @lightest-color !important;
+
+      .subtext {
+        color: @lightest-color !important;
+      }
     }
   }
 
@@ -476,5 +489,33 @@ accordion {
     display: block;
     margin-top: 12px;
     font-size: 11px;
+    text-transform: uppercase;
   }
+}
+
+.btn-group-custom.btn-group-md {
+  padding-top: 6px;
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .subtext {
+    margin-top: 6px;
+    margin-bottom: 18px;
+  }
+}
+
+.btn-circled {
+  border-radius: 50%;
+}
+
+.btn-icono {
+  display: block;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto; 
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
 }

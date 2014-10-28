@@ -31,8 +31,18 @@
         >
         </div>
 
-        <label for="c-availability" class="control-label">Availability</label>
-        <input class="form-control input-lg" id="c-availability" type="text">
+        <label for="c-availability" class="control-label">How much time per week can you devote to vestd tasks?</label>
+        <div class="btn-group btn-group-justified btn-group-md btn-group-custom">
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Casual'">Casual<span class="subtext">A few hours per week</span></label>
+          </div>
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Part-time'">Part-Time<span class="subtext">2-3 days per week</span></label>
+          </div>
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Full-time'">Full Time<span class="subtext">5+ days per week</span></label>
+          </div>
+        </div>
 
         <label for="c-interests" class="control-label">Interests</label>
         <div   
@@ -53,15 +63,21 @@
             <label for="c-credibility" class="control-label">Credibility Rating</label>
           </div>
           <div class="col-md-2">
-            <p class="alpha">C</p>
+            <p class="alpha-icon"><i class="fa" ng-class="credibilityIcon"></i></p>
           </div>
           <div class="col-md-4">
-            <p>Your credibility rating can play a big role in elevating your contributor profile to superstar status. The more profile info you fill in and social networks you connect your vestd account with, the higher your credibility rating.</p>
+            <p>Your credibility rating can play a big role in elevating your contributor profile to superstar status. The more profile info you fill in and social networks you connect your vestd account with, the better your credibility rating.</p>
           </div>
           <div class="col-md-6">
-            <p><button type="button" class="btn btn-inverse btn-md btn-block">Connect with LinkedIn</button></p>
-            <p><button type="button" class="btn btn-inverse btn-md btn-block">Connect with Twitter</button></p>
-            <p><button type="button" class="btn btn-inverse btn-md btn-block">Connect with Facebook</button></p>
+            <p>Connect with your professional and social profiles:</p>
+            <p>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc1 = !socialconnect.sc1; credibilityCalc()" ng-class="socialconnect.sc1 ? 'btn-primary':'btn-inverse'"><i class="fa fa-linkedin"></i></button>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc2 = !socialconnect.sc2; credibilityCalc()" ng-class="socialconnect.sc2 ? 'btn-primary':'btn-inverse'"><i class="fa fa-twitter"></i></button>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc3 = !socialconnect.sc3; credibilityCalc()" ng-class="socialconnect.sc3 ? 'btn-primary':'btn-inverse'"><i class="fa fa-facebook"></i></button>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc4 = !socialconnect.sc4; credibilityCalc()" ng-class="socialconnect.sc4 ? 'btn-primary':'btn-inverse'"><i class="fa fa-github"></i></button>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc5 = !socialconnect.sc5; credibilityCalc()" ng-class="socialconnect.sc5 ? 'btn-primary':'btn-inverse'"><i class="fa fa-google-plus"></i></button>
+              <button type="button" class="btn btn-lg" ng-click="socialconnect.sc6 = !socialconnect.sc6; credibilityCalc()" ng-class="socialconnect.sc6 ? 'btn-primary':'btn-inverse'"><i class="fa fa-stack-overflow"></i></button>
+            </p>
           </div>
         </div>
 

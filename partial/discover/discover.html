@@ -32,26 +32,23 @@
                 </div>
 
                 <label for="c-name" class="control-label">My Project Stage</label>
-                <div class="btn-group btn-group-justified btn-group-lg btn-group-custom">
-                  <div class="btn-group">
-                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'1'" tooltip="I want to define the set of tasks necessary to complete, build, validate and advance my service or product.">1<span class="subtext">Concept</span></label>
-                  </div>
-                  <div class="btn-group">
-                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'2'" tooltip="My concept is concrete and I want to get some prototypes out into the wild.">2<span class="subtext">Prototype</span></label>
-                  </div>
-                  <div class="btn-group">
-                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'3'" tooltip="I'm ready to take steps to find out if I can actually provide to my market and that it can sustain a viable business.">3<span class="subtext">Validation</span></label>
-                  </div>
-                  <div class="btn-group">
-                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'4'" tooltip="I'm ready to develop my product or service's minimal set of features and test my hypotheses with customers.">4<span class="subtext">MVP</span></label>
-                  </div>
-                  <div class="btn-group">
-                    <label class="btn btn-primary" ng-model="projectStageModel" btn-radio="'5'" tooltip="I'm ready to scale my business or project up and take on the world!">5<span class="subtext">Scaling</span></label>
-                  </div>
-                </div>
+                <ng-include src="'/partial/_components/forms-project-stage.html'"></ng-include>
 
                 <label for="c-name" class="control-label">I need help with...</label>
-                <select class="form-control input-md" ng-model="task" ng-options="opt for opt in taskNames"></select>
+                <div   
+                  multi-select
+                  input-model="tasks"
+                  button-label="name"
+                  item-label="name"
+                  directive-id="c-needhelp"
+                  default-label=""
+                  helper-elements="filter"
+                  tick-property="selected"
+                  orientation="horizontal"
+                >
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg btn-block">Find contributors</button>
               </form>
             </action-mega>
             <div class="sample-people">
@@ -77,7 +74,19 @@
                 >
                 </div>
                 <label for="c-name" class="control-label">Skills I can offer</label>
-                <input class="form-control input-md" id="c-name" type="text">
+                <div   
+                  multi-select
+                  input-model="contribTasks"
+                  button-label="name"
+                  item-label="name"
+                  directive-id="c-canhelp"
+                  default-label=""
+                  helper-elements="filter"
+                  tick-property="selected"
+                  orientation="horizontal"
+                >
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Match my skills to a project</button>
               </form>
             </action-mega>
             <div class="sample-people">
