@@ -11,13 +11,32 @@
     <div class="col-md-8 col-md-offset-2">
       <form class="centered" role="form">
 
-        <label for="c-name" class="control-label">Your Full Name</label>
-        <input class="form-control input-lg" id="c-name" type="text">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="c-name" class="control-label">Your Full Name</label>
+            <input class="form-control input-lg" type="text">
+          </div>
+          <div class="col-md-6">
+            <label for="c-email" class="control-label">Email Address</label>
+            <input class="form-control input-lg" type="email">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <label for="c-name" class="control-label">Headline - Describe yourself in a nutshell</label>
+            <input class="form-control input-lg" type="text" placeholder="SEO Expert">
+          </div>
+          <div class="col-md-6">
+            <label for="c-email" class="control-label">Location</label>
+            <input class="form-control input-lg" type="text" placeholder="City, Country">
+          </div>
+        </div>
 
         <label for="c-skills" class="control-label">Skills</label>
-        <input class="form-control input-lg" id="c-skills" type="text">
+        <input class="form-control input-lg" id="c-skills" type="text" placeholder="Separate multiple skills with commas">
 
-        <label for="c-experience" class="control-label">Industry Experience</label>
+        <label for="c-experience" class="control-label">Industries you've worked in</label>
         <div   
           multi-select
           input-model="industries"

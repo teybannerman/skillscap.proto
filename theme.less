@@ -91,12 +91,15 @@
 .btn-default { .btn-styles(@btn-default-bg); border-color: #333; color:#fff; &:extend(.font--titles); }
 .btn-primary { .btn-styles(@btn-primary-bg); }
 .btn-success { .btn-styles(@btn-success-bg); }
-.btn-info    { .btn-styles(@btn-info-bg); }
+.btn-info    { .btn-styles(@btn-info-bg); color:@dark-color; }
 .btn-warning { .btn-styles(@btn-warning-bg); }
 .btn-danger  { .btn-styles(@btn-danger-bg); }
 .btn-inverse  { .btn-styles(#f2f2f2); }
 .btn-lg      { &:extend(.font--titles); }
 
+.btn-info.active {
+  background: @theme-primary-color;
+}
 
 
 //
@@ -317,9 +320,23 @@
   margin-bottom: 42px;
 }
 
+.form-control {
+  .box-shadow(none);
+}
+
 .form-control:focus {
   border-color: @theme-primary-color;
   .box-shadow(none);
+}
+
+.form-control.input-md {
+  padding: 12px;
+  height: 48px; 
+}
+
+.form-control.input-default {
+  padding: 6px 12px;
+  height: 34px; 
 }
 
 .input-lg {

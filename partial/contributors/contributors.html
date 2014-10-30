@@ -1,4 +1,4 @@
-<div ng-controller="SignUpCtrl">
+<div ng-controller="DiscoverCtrl">
 
   <div class="nav-secondary">
     <form class="bar">
@@ -7,33 +7,40 @@
           <h2>Find Contributors</h2>
         </div>
         <div class="col-md-3">
-          <label class="control-label">My Industry Sector</label>
-          <input class="form-control input-md input-block" type="text" ng-model="sector">
+          <label class="control-label">Your Industry Sector</label>
+          <div   
+            multi-select
+            input-model="industries"
+            button-label="name"
+            item-label="name"
+            directive-id="c-experience"
+            default-label=""
+            helper-elements="filter"
+            tick-property="selected"
+            orientation="horizontal"
+            selection-mode="single"
+          >
+          </div>
         </div>
         <div class="col-md-3">
-          <label class="control-label">My Project Stage</label>
+          <label class="control-label">Your Project Stage</label>
           <!-- <input class="form-control input-md input-block" type="text" ng-model="$parent.projectStageModel"> -->
-          <div class="btn-group btn-group-justified" data-toggle="buttons">
-            <label class="btn btn-info active">
-              <input type="radio" name="options" id="option1" checked> 1
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-info active" tooltip-append-to-body="true" tooltip="Problem Validation" ng-model="$parent.projectStage" btn-radio="'1'">1
             </label>
-            <label class="btn btn-info">
-              <input type="radio" name="options" id="option2"> 2
+            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Solution Validation" ng-model="$parent.projectStage" btn-radio="'2'">2
             </label>
-            <label class="btn btn-info">
-              <input type="radio" name="options" id="option3"> 3
+            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Business Validation" ng-model="$parent.projectStage" btn-radio="'3'">3
             </label>
-            <label class="btn btn-info">
-              <input type="radio" name="options" id="option3"> 4
+            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="MVP" ng-model="$parent.projectStage" btn-radio="'4'">4
             </label>
-            <label class="btn btn-info">
-              <input type="radio" name="options" id="option3"> 5
+            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Scaling" ng-model="$parent.projectStage" btn-radio="'5'">5
             </label>
           </div>
         </div>
         <div class="col-md-3">
-          <label class="control-label">Skills My Project Needs</label>
-          <input class="form-control input-md input-block" type="text" ng-model="skills">
+          <label class="control-label">Skills Your Project Needs</label>
+          <input class="form-control input-md input-default input-block" type="text" ng-model="skills" ng-model="$parent.projectStage">
         </div>
       </div>
     </form>

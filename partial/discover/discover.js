@@ -2,7 +2,7 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
 
   $scope.usersOut = [];
   $scope.projectsOut = [];
-  $scope.projectStageModel = '';
+  $scope.projectStage = '';
   $scope.tasks = [];
   $scope.contribTasks = [];
 
@@ -33,6 +33,10 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   industries().success(function(data) {
     $scope.industries = data.industries;
   });
+
+  $scope.$watch('projectStage', function() {
+    console.log('xx' + $scope.projectStage + 'xx');
+  })
 
   tasks().success(function(data) {
     angular.forEach (data.tasks, function(task, key) {

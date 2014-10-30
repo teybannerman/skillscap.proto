@@ -35,19 +35,26 @@
           <tab heading="Your Project" active="foundertabs['project']">
 
             <form class="centered" role="form">
-              <label for="c-dream" class="control-label">What's your project name?</label>
-              <input class="form-control input-md" id="c-projectname" placeholder="Either your working title or official name" type="text" ng-model="$parent.projectName"/>
+              <label for="c-dream" class="control-label">Project name</label>
+              <input class="form-control input-md" id="c-projectname" placeholder="Whats your business/project called?" type="text" ng-model="$parent.projectName"/>
 
-              <label for="c-dream" class="control-label">The Dream</label>
-              <textarea class="form-control" rows="3" id="c-dream" placeholder="What problem are you trying to solve? What kind of impact are you hoping to have?"></textarea>
+              <label for="c-dream" class="control-label">Your title</label>
+              <input class="form-control input-md" id="c-foundertitle" placeholder="What's your role on the project?" type="text" ng-model="$parent.projectName"/>
 
-              <label for="c-team" class="control-label">The Team</label>
-              <textarea class="form-control" rows="3" id="c-team" placeholder="Who is currently involved with the project? Why you, whats your story? What are the team's skills and experience?"></textarea>
+              <label for="c-dream" class="control-label">Your Dream</label>
+              <div class="sublabel">Think in terms of: (1) 'Problem' - whats the problem you are trying to solve? (2) 'Impact' - what impact are you hoping to have have? What change are you hoping to bring about?</div>
+              <textarea class="form-control" rows="3" id="c-dream" placeholder=""></textarea>
 
-              <label for="c-scheme" class="control-label">The Scheme</label>
-              <textarea class="form-control" rows="3" id="c-scheme" placeholder="What's your approach to solving the problem? What exactly does your solution do?"></textarea>
+              <label for="c-team" class="control-label">Your Team</label>
+              <div class="sublabel">Who is involved (names, roles)? Why this team? And what's your story, what do you collectively bring?</div>
+              <textarea class="form-control" rows="3" id="c-team" placeholder=""></textarea>
 
-              <label for="c-scheme" class="control-label">Which stage is your project currently at?</label>
+              <label for="c-scheme" class="control-label">Your Scheme</label>
+              <div class="sublabel">Think in terms of (1) 'The Solution' - Whats your approach to solving this problem? What does your solution do exactly? (2) 'Users' - What are the use cases for your solution? What's the value proposition?</div>
+              <textarea class="form-control" rows="3" id="c-scheme" placeholder=""></textarea>
+
+              <label for="c-scheme" class="control-label">Stage of maturity</label>
+              <div class="sublabel">Which stage of maturity is your business currently in?</div>
               <ng-include src="'/partial/_components/forms-project-stage.html'"></ng-include>
 
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('tasks')">continue</button></p>
