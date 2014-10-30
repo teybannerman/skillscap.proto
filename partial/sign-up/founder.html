@@ -55,7 +55,8 @@
 
               <label for="c-scheme" class="control-label">Stage of maturity</label>
               <div class="sublabel">Which stage of maturity is your business currently in?</div>
-              <ng-include src="'/partial/_components/forms-project-stage.html'"></ng-include>
+              
+              <div ui-view="projectstage"></div>
 
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('tasks')">continue</button></p>
             </form>

@@ -28,7 +28,14 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
   });
   $stateProvider.state('discover', {
     url: '/discover',
-    templateUrl: 'partial/discover/discover.html'
+    views: {
+      "@":{
+        templateUrl: 'partial/discover/discover.html'
+      },
+      "projectstage@discover": {
+        templateUrl: 'partial/_components/forms-project-stage.html'
+      }
+    }
   });
 
   // Sign In
@@ -57,6 +64,9 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
     views:{
       "@":{
         templateUrl: 'partial/sign-up/founder.html'
+      },
+      "projectstage@sign-up.founder": {
+        templateUrl: 'partial/_components/forms-project-stage.html'
       }
     }
   });
