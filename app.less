@@ -186,8 +186,28 @@ form.centered {
     font-size: 12px;
   }
 
-  input[type=text], input[type=email], input[type=password] {
+  input[type=text], input[type=email], input[type=password], .ui-select-multiple {
     margin-bottom: @form-element-gutter;
+  }
+
+  .ui-select-multiple {
+    input {
+      margin-bottom: 0;
+    }
+
+    .ui-select-search {
+      min-width: 200px;
+    }
+
+    .btn {
+      background: #fff;
+      color: #333;
+      text-transform: none;
+      font-weight: normal;
+      font-size: 14px;
+      border-color: #ddd;
+      padding: 5px;
+    }
   }
 
   textarea {

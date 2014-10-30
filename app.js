@@ -1,6 +1,8 @@
-angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router','ngAnimate','ngCookies', 'multi-select']);
+angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router', 'ngSanitize','ngAnimate','ngCookies', 'multi-select', 'ui.select']);
 
-angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider) {
+angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider, uiSelectConfig) {
+
+  uiSelectConfig.theme = 'bootstrap';
 
   $stateProvider.state('project', {
     url: '/project/:id',

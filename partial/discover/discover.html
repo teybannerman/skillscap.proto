@@ -16,6 +16,8 @@
           <div class="col-md-6 has-mega animated col-founder">
             <action-mega buttontitle="I'm a founder" buttonsubtitle="find me some awesome contributors">
               <form class="centered">
+
+                <!-- 1. Industry -->
                 <label for="c-name" class="control-label">My Industry Sector</label>
                 <div   
                   multi-select
@@ -31,22 +33,18 @@
                 >
                 </div>
 
+                <!-- 2. Skills -->
+                <label for="c-name" class="control-label">I need help with...</label>
+                <ui-select multiple ng-model="discover.selectedSkills">
+                  <ui-select-match placeholder="Search for tasks and skills...">{{$item.name}}</ui-select-match>
+                  <ui-select-choices repeat="skill.name as skill in discover.skills | propsFilter: {name: $select.search}">
+                    <div ng-bind-html="skill.name | highlight: $select.search"></div>
+                  </ui-select-choices>
+                </ui-select>
+
+                <!-- 3. Project Stage -->
                 <label for="c-name" class="control-label">My Project Stage</label>
                 <div ui-view="projectstage"></div>
-
-                <label for="c-name" class="control-label">I need help with...</label>
-                <div   
-                  multi-select
-                  input-model="tasks"
-                  button-label="name"
-                  item-label="name"
-                  directive-id="c-needhelp"
-                  default-label=""
-                  helper-elements="filter"
-                  tick-property="selected"
-                  orientation="horizontal"
-                >
-                </div>
 
                 <button type="button" class="btn btn-primary btn-lg btn-block" ui-sref="contributors">Find contributors</button>
               </form>

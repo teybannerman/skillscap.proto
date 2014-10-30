@@ -9,24 +9,31 @@
 
           <tab heading="About You">
             <form class="centered" role="form">
-              <label for="c-name" class="control-label">Your Full Name</label>
-              <input class="form-control input-md" id="c-name" type="text">
+              <div class="row">
+                <div class-"col-md-8">
+                  <label for="c-name" class="control-label">Your Full Name</label>
+                  <input class="form-control input-md" id="c-name" type="text">
 
-              <label for="c-skills" class="control-label">Skills</label>
-              <input class="form-control input-md" id="c-skills" type="text">
+                  <label for="c-skills" class="control-label">Skills</label>
+                  <input class="form-control input-md" id="c-skills" type="text">
 
-              <label for="c-experience" class="control-label">Industry Experience</label>
-              <div   
-                multi-select
-                input-model="industries"
-                button-label="name"
-                item-label="name"
-                directive-id="c-experience"
-                default-label="No industries selected"
-                helper-elements="filter"
-                tick-property="selected"
-                orientation="horizontal"
-              >
+                  <label for="c-experience" class="control-label">Industry Experience</label>
+                  <div   
+                    multi-select
+                    input-model="industries"
+                    button-label="name"
+                    item-label="name"
+                    directive-id="c-experience"
+                    default-label="No industries selected"
+                    helper-elements="filter"
+                    tick-property="selected"
+                    orientation="horizontal"
+                  >
+                  </div>
+                </div>
+                <div class-"col-md-4">
+                  <p><button type="button" class="btn btn-primary btn-linkedin btn-lg btn-block">Connect with LinkedIn</button></p>
+                </div>
               </div>
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('project')">continue</button></p>
             </form>
