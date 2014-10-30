@@ -1,0 +1,231 @@
+{"users": [
+  {
+    "id": 1,
+    "firstname": "Guilherme",
+    "lastname": "Jesus",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "tagline": "Creative Genius / Graphic Designer",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "Web Design",
+          "value": 75
+        },
+        {
+          "name": "Logo Design",
+          "value": 95
+        },
+        {
+          "name": "Mobile App Design",
+          "value": 85
+        }
+      ]
+    },
+    "founder": {
+      "active": true,
+      "experience": [
+        {
+          "name": "Creative Lead",
+          "value": 70
+        },
+        {
+          "name": "CTO",
+          "value": 50
+        }
+      ],
+      "jobs": [
+        {
+          "title": "Founder/CEO",
+          "company": "The Social Investment Consultancy",
+          "from": 2008
+        },
+        {
+          "title": "Founder/CEO",
+          "company": "Future First",
+          "from": 2009,
+          "to": 2014
+        }
+      ],
+      "qualifications": [
+        {
+          "name": "Serial Entrepreneur of the Year - Runner Up",
+          "location": "Great British Entrepreneur",
+          "year": 2013
+        },
+        {
+          "name": "Executive Education Short Course",
+          "location": "Columbia Business School",
+          "year": 2010
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "firstname": "Nico",
+    "lastname": "Koch",
+    "city": "Cologne",
+    "country": "Germany",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg",
+    "tagline": "Full Stack Web Developer",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "AngularJS",
+          "value": 70
+        },
+        {
+          "name": "PHP",
+          "value": 80
+        },
+        {
+          "name": "NodeJS",
+          "value": 80
+        },
+        {
+          "name": "Database Administration",
+          "value": 70
+        },
+        {
+          "name": "Server Management",
+          "value": 60
+        }
+      ]
+    },
+    "founder": {
+      "active": false
+    }
+  },
+  {
+    "id": 3,
+    "firstname": "Terry",
+    "lastname": "Malcolm",
+    "city": "Colorado Springs",
+    "country": "United States",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/c_southam/128.jpg",
+    "tagline": "40 years legal experience",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "Business Writing",
+          "value": 70
+        },
+        {
+          "name": "Corporate Law",
+          "value": 80
+        },
+        {
+          "name": "Legal Writing",
+          "value": 80
+        },
+        {
+          "name": "Disclaimer Writing",
+          "value": 70
+        }
+      ]
+    },
+    "founder": {
+      "active": false
+    }
+  },
+  {
+    "id": 4,
+    "firstname": "Ursula",
+    "lastname": "Murphy",
+    "city": "London",
+    "country": "United Kingdom",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg",
+    "tagline": "Social Media Aficionado",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "Twitter Marketing",
+          "value": 90
+        },
+        {
+          "name": "Facebook Marketing",
+          "value": 95
+        },
+        {
+          "name": "Social Media Marketing",
+          "value": 80
+        },
+        {
+          "name": "Google+",
+          "value": 70
+        }
+      ]
+    },
+    "founder": {
+      "active": false
+    }
+  },
+  {
+    "id": 5,
+    "firstname": "Jeffrey",
+    "lastname": "Shaw",
+    "city": "Sydney",
+    "country": "Australia",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/markgamzy/128.jpg",
+    "tagline": "Marketing expert that's been around the block",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "Product Development",
+          "value": 95
+        },
+        {
+          "name": "SaaS",
+          "value": 80
+        },
+        {
+          "name": "User Experience Design",
+          "value": 70
+        },
+        {
+          "name": "Mobile",
+          "value": 85
+        }
+      ]
+    },
+    "founder": {
+      "active": false
+    }
+  },
+  {
+    "id": 6,
+    "firstname": "Shadiah",
+    "lastname": "Sigala",
+    "city": "Brighton",
+    "country": "United Kingdom",
+    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/syswarren/128.jpg",
+    "tagline": "Entrepreneur",
+    "contributor": {
+      "active": true,
+      "skills": [
+        {
+          "name": "Entrepreneurship",
+          "value": 85
+        },
+        {
+          "name": "Strategic Planning",
+          "value": 80
+        },
+        {
+          "name": "Business Development",
+          "value": 80
+        }
+      ]
+    },
+    "founder": {
+      "active": true
+    }
+  }
+]}

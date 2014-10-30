@@ -35,8 +35,8 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   });
 
   $scope.$watch('projectStage', function() {
-    console.log('xx' + $scope.projectStage + 'xx');
-  })
+    //console.log('xx' + $scope.projectStage + 'xx');
+  });
 
   tasks().success(function(data) {
     angular.forEach (data.tasks, function(task, key) {
