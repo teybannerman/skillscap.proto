@@ -1,231 +1,182 @@
 {"users": [
   {
-    "id": 1,
-    "firstname": "Guilherme",
-    "lastname": "Jesus",
-    "city": "Lisbon",
-    "country": "Portugal",
-    "tagline": "Creative Genius / Graphic Designer",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "Web Design",
-          "value": 75
-        },
-        {
-          "name": "Logo Design",
-          "value": 95
-        },
-        {
-          "name": "Mobile App Design",
-          "value": 85
-        }
-      ]
-    },
-    "founder": {
-      "active": true,
-      "experience": [
-        {
-          "name": "Creative Lead",
-          "value": 70
-        },
-        {
-          "name": "CTO",
-          "value": 50
-        }
-      ],
-      "jobs": [
-        {
-          "title": "Founder/CEO",
-          "company": "The Social Investment Consultancy",
-          "from": 2008
-        },
-        {
-          "title": "Founder/CEO",
-          "company": "Future First",
-          "from": 2009,
-          "to": 2014
-        }
-      ],
-      "qualifications": [
-        {
-          "name": "Serial Entrepreneur of the Year - Runner Up",
-          "location": "Great British Entrepreneur",
-          "year": 2013
-        },
-        {
-          "name": "Executive Education Short Course",
-          "location": "Columbia Business School",
-          "year": 2010
-        }
-      ]
-    }
+    "id":1,
+    "name":"Guilherme Jesus",
+    "headline":"Creative Genius / Graphic Designer",
+    "location":"Lisbon, Portugal",
+    "skills":"web design, logo design, mobile app design",
+    "industries":"Charities, Government & Non Profit",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"2, 4",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
   },
   {
-    "id": 2,
-    "firstname": "Nico",
-    "lastname": "Koch",
-    "city": "Cologne",
-    "country": "Germany",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg",
-    "tagline": "Full Stack Web Developer",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "AngularJS",
-          "value": 70
-        },
-        {
-          "name": "PHP",
-          "value": 80
-        },
-        {
-          "name": "NodeJS",
-          "value": 80
-        },
-        {
-          "name": "Database Administration",
-          "value": 70
-        },
-        {
-          "name": "Server Management",
-          "value": 60
-        }
-      ]
-    },
-    "founder": {
-      "active": false
-    }
+    "id":2,
+    "name":"Nico Koch",
+    "headline":"Full Stack Web Developer",
+    "location":"Cologne, Germany",
+    "skills":"AngularJS, PHP, NodeJS, Database Administration, Server Management",
+    "industries":"Consumer Goods",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Medium",
+    "risk-appetite":"2, 4",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg"
   },
   {
-    "id": 3,
-    "firstname": "Terry",
-    "lastname": "Malcolm",
-    "city": "Colorado Springs",
-    "country": "United States",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/c_southam/128.jpg",
-    "tagline": "40 years legal experience",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "Business Writing",
-          "value": 70
-        },
-        {
-          "name": "Corporate Law",
-          "value": 80
-        },
-        {
-          "name": "Legal Writing",
-          "value": 80
-        },
-        {
-          "name": "Disclaimer Writing",
-          "value": 70
-        }
-      ]
-    },
-    "founder": {
-      "active": false
-    }
+    "id":3,
+    "name":"Terry Malcom",
+    "headline":"40 years experience drafting contracts and other legal documents",
+    "location":"Colorado Springs, USA",
+    "skills":"Business Writing, Corporate Law, Legal Writing, Disclaimer Writing",
+    "industries":"Financial Services ",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"1, 2, 4, 5",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/c_southam/128.jpg"
   },
   {
-    "id": 4,
-    "firstname": "Ursula",
-    "lastname": "Murphy",
-    "city": "London",
-    "country": "United Kingdom",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg",
-    "tagline": "Social Media Aficionado",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "Twitter Marketing",
-          "value": 90
-        },
-        {
-          "name": "Facebook Marketing",
-          "value": 95
-        },
-        {
-          "name": "Social Media Marketing",
-          "value": 80
-        },
-        {
-          "name": "Google+",
-          "value": 70
-        }
-      ]
-    },
-    "founder": {
-      "active": false
-    }
+    "id":4,
+    "name":"Ursula Murphy",
+    "headline":"Social Media Aficionado",
+    "location":"London, UK",
+    "skills":"Twitter Marketing, Facebook Marketing, Social Media Marketing, Google+",
+    "industries":"Financial Services ",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"4, 5",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg"
   },
   {
-    "id": 5,
-    "firstname": "Jeffrey",
-    "lastname": "Shaw",
-    "city": "Sydney",
-    "country": "Australia",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/markgamzy/128.jpg",
-    "tagline": "Marketing expert that's been around the block",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "Product Development",
-          "value": 95
-        },
-        {
-          "name": "SaaS",
-          "value": 80
-        },
-        {
-          "name": "User Experience Design",
-          "value": 70
-        },
-        {
-          "name": "Mobile",
-          "value": 85
-        }
-      ]
-    },
-    "founder": {
-      "active": false
-    }
+    "id":5,
+    "name":"Jeffrey Shaw",
+    "headline":"Marketing expert that's been around the block",
+    "location":"Sydney, Australia",
+    "skills":"Product Development, SaaS, User Experience Design, Mobile",
+    "industries":"Technology, Media & Telecoms",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"2, 4",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/markgamzy/128.jpg"
   },
   {
-    "id": 6,
-    "firstname": "Shadiah",
-    "lastname": "Sigala",
-    "city": "Brighton",
-    "country": "United Kingdom",
-    "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/syswarren/128.jpg",
-    "tagline": "Entrepreneur",
-    "contributor": {
-      "active": true,
-      "skills": [
-        {
-          "name": "Entrepreneurship",
-          "value": 85
-        },
-        {
-          "name": "Strategic Planning",
-          "value": 80
-        },
-        {
-          "name": "Business Development",
-          "value": 80
-        }
-      ]
-    },
-    "founder": {
-      "active": true
-    }
+    "id":6,
+    "name":"Shadiah Sigala",
+    "headline":"Entrepreneur",
+    "location":"Brighton, UK",
+    "skills":"Entrepreneurship, Strategic Planning, Business Development",
+    "industries":"Technology, Media & Telecoms",
+    "credibility":"",
+    "interests":"all",
+    "founder":true,
+    "duration":"",
+    "intensity":"",
+    "risk-appetite":"",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/syswarren/128.jpg"
+  },
+  {
+    "id":7,
+    "name":"Naveed Akram",
+    "headline":"Digital specialist",
+    "location":"London, UK, E2 9QY",
+    "skills":"digital, innovation, strategy, startups",
+    "industries":"Technology, Media & Telecoms",
+    "credibility":"https://uk.linkedin.com/in/nakram/",
+    "interests":"Charities, Government & Non Profit",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"1, 2",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/commadelimited/128.jpg"
+  },
+  {
+    "id":8,
+    "name":"Charles Davison",
+    "headline":"Full stack Javascript developer",
+    "location":"London, UK, E2 9QY",
+    "skills":"javascript,node,backbone,mongodb",
+    "industries":"Technology, Media & Telecoms",
+    "credibility":"https://www.linkedin.com/in/charlesdavison",
+    "interests":"Technology, Media & Telecoms",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Medium",
+    "risk-appetite":"2, 4",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/olivierpineda/128.jpg"
+  },
+  {
+    "id":9,
+    "name":"Andrew Warren-Payne",
+    "headline":"Digital marketer and researcher who loves to roll his sleeves up and get his hands on projects",
+    "location":"London, UK, E2 9QY",
+    "skills":"research, strategy, analysis",
+    "industries":"Technology, Media & Telecoms",
+    "credibility":"",
+    "interests":"all",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low intensity (I'll be doing tasks in my spare time)",
+    "risk-appetite":"1, 2",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/mattchevy/128.jpg"
+  },
+  {
+    "id":10,
+    "name":"Dave Argent ",
+    "headline":"Passionate about product",
+    "location":"Brighton, UK",
+    "skills":"development, design, user experience",
+    "industries":"Travel & Leisure",
+    "credibility":"",
+    "interests":"all",
+    "founder":true,
+    "duration":"",
+    "intensity":"",
+    "risk-appetite":"",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/soffes/128.jpg"
+  },
+  {
+    "id":11,
+    "name":"Ifty Nasir ",
+    "headline":"Enegry innovation",
+    "location":"London, UK",
+    "skills":"energy, innovation",
+    "industries":"Energy & Utilities",
+    "credibility":"",
+    "interests":"all",
+    "founder":true,
+    "duration":"",
+    "intensity":"",
+    "risk-appetite":"",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/dingyi/128.jpg"
+  },
+  {
+    "id":12,
+    "name":"Stephen Fisher",
+    "headline":"Accounting whizz",
+    "location":"Stafford, UK",
+    "skills":"accounting ",
+    "industries":"Financial Services ",
+    "credibility":"",
+    "interests":"Charities, Government & Non Profit",
+    "founder":false,
+    "duration":"Short, Medium",
+    "intensity":"Low, Medium",
+    "risk-appetite":"1, 2, 3, 4, 5",
+    "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/joelcannon/128.jpg"
   }
 ]}
