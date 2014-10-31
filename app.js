@@ -105,4 +105,18 @@ angular.module('skillscap-proto').run(function($rootScope, $state, $stateParams)
     }
   };
 
+  // restore and save state on route change
+  $rootScope.$on("$stateChangeStart", function (event, next, current) {
+    if (sessionStorage.restorestate == "true") {
+      $rootScope.$broadcast('restorestate'); //let everything know we need to restore state
+      sessionStorage.restorestate = false;
+    }
+  });
+
+  //let everthing know that we need to save state now.
+  window.onbeforeunload = function (event) {
+    $rootScope.$broadcast('savestate');
+  };
+
 });
+
