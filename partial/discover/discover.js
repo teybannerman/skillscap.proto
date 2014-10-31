@@ -1,14 +1,11 @@
-angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects, industries, tasks){
+angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sampleUsers, sampleProjects, industries, tasks, discoverService){
 
   $scope.usersOut = [];
   $scope.projectsOut = [];
-  $scope.projectStage = '';
   $scope.tasks = [];
   $scope.contribTasks = [];
 
-  $scope.discover = {};
-  $scope.discover.skills = [];
-  $scope.discover.selectedSkills = []; 
+  $scope.discover = discoverService;
 
   sampleUsers().success(function(data) {
     var users = data.users;
@@ -35,18 +32,14 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   });
 
   industries().success(function(data) {
-    $scope.industries = data.industries;
-  });
-
-  $scope.$watch('projectStage', function() {
-    //console.log('xx' + $scope.projectStage + 'xx');
+    $scope.discover.model.industries = data.industries;
   });
 
   tasks().success(function(data) {
     angular.forEach (data.tasks, function(task, key) {
       $scope.tasks.push({name:task['name']});
       $scope.contribTasks.push({name:task['name']});
-      $scope.discover.skills.push({name:task['name']});
+      $scope.discover.model.skills.push({name:task['name']});
     });
   });
 
