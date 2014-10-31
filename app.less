@@ -81,6 +81,15 @@ body {
   text-align: center;
 }
 
+.row-centered {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-gutter {
+  margin-top: 24px;
+}
 
 /**********************
    UTILITY CLASSES
@@ -174,6 +183,13 @@ h6, .h6 {
   font-size: 160px;;
 }
 
+.beta {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 
 /**********************
         FORMS
@@ -223,8 +239,11 @@ form.centered {
 
 form.bar {
   .control-label {
-    text-transform: uppercase;
-    font-size: 12px;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    text-align: center;
   }
   input[type=text], input[type=email], input[type=password], select, textarea {
     margin-bottom: 0;

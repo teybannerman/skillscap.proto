@@ -1,4 +1,4 @@
-angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router', 'ngSanitize','ngAnimate','ngCookies', 'multi-select', 'ui.select']);
+angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router', 'ngAnimate', 'ngSanitize','ngCookies', 'multi-select', 'ui.select']);
 
 angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider, uiSelectConfig) {
 

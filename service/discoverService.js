@@ -6,6 +6,7 @@ angular.module('skillscap-proto').factory('discoverService', ['$rootScope', func
       projectStage: '',
       skills: [],
       industries: [],
+      locations: ['My city (London)', 'My Country (UK)', 'Anywhere'],
       selected: {}
     },
 

@@ -61,11 +61,13 @@
 .btn-group {
 
   > .btn {
-    opacity: 0.4;
+    opacity: 1.0;
 
     &:active,
     &.active {
-      opacity: 0.9;
+      opacity: 1.0;
+      background: @theme-primary-color;
+      color: @lightest-color;
     }
   }
 }
@@ -99,6 +101,17 @@
 
 .btn-info.active {
   background: @theme-primary-color;
+}
+
+form .btn-default-focus {
+  .box-shadow(none);
+  background: @btn-default-bg;
+  outline: none;
+  border-color: @theme-primary-color;
+}
+
+form .btn-default:hover {
+  background: @lightest-color;
 }
 
 

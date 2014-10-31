@@ -2,15 +2,17 @@
 
   <div class="nav-secondary">
     <form class="bar">
+
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-center">Find Contributors</h2>
-          <div ng-show="discover.model.selected.skills.length > 0">
-            <h3>{{discover.model.selected.skills}} for my {{discover.model.selected.industries}} project. <button class="btn btn-default btn-sm" ng-click="showFirstSteps = !showFirstSteps">Change</button></h3>
+          <!-- <h2 class="text-center">Find Contributors</h2> -->
+          <div>
+            <h3 class="beta">{{discover.model.selected.skills}} for my {{discover.model.selected.industries}} project. <a class="small" ng-click="showFirstSteps = !showFirstSteps">Change</a></h3>
           </div>
         </div>
       </div>
-      <div class="row animate cssFade" ng-show="showFirstSteps">
+
+      <div class="row row-centered top-gutter" ng-show="showFirstSteps">
         <div class="col-md-4">
           <label class="control-label">Your Industry Sector</label>
           <ui-select ng-model="discover.model.selected.industries">
@@ -44,8 +46,43 @@
               <div ng-bind-html="skill.name | highlight: $select.search"></div>
             </ui-select-choices>
           </ui-select>
+        </div><!-- /col-md-4 -->
+      </div><!-- /row -->
+
+      <div class="row row-centered top-gutter">
+        <div class="col-md-4">
+          <label class="control-label">I want contributors in...</label>
+          <ui-select ng-model="discover.model.selected.location">
+            <ui-select-match placeholder="Pick a location">{{$select.selected}}</ui-select-match>
+            <ui-select-choices repeat="location in discover.model.locations">
+              <div ng-bind-html="location"></div>
+            </ui-select-choices>
+          </ui-select>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">How long will this task take to complete?</label>
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Hours'">Hours
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Days'">Days
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Weeks'">Weeks
+            </label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">How intensive do you expect this task to be?</label>
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'Low'" tooltip-append-to-body="true" tooltip="Can be done in someone's spare time">Low
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'Medium'" tooltip-append-to-body="true" tooltip="A significant level but can be managed around other commitments">Medium
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'High'" tooltip-append-to-body="true" tooltip="Requires full commitment to this task, working on it the majority of their time">High
+            </label>
+          </div>
         </div>
       </div>
+
     </form>
   </div>
 
