@@ -17,7 +17,7 @@ angular.module('skillscap-proto').factory('discoverService', ['$rootScope', func
     RestoreState: function () {
       service.model = angular.fromJson(sessionStorage.discoverService);
     }
-  }
+  };
 
   $rootScope.$on("savestate", service.SaveState);
   $rootScope.$on("restorestate", service.RestoreState);

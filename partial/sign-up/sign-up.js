@@ -49,8 +49,8 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
   };
 
   $scope.taskStageFilter = function (task) {
-    return (task.stage == $scope.discover.model.projectStage);
-  }
+    return (task.stage === $scope.discover.model.projectStage);
+  };
 
   industries().success(function(data) {
     $scope.signup.model.industries = angular.copy(data.industries);
