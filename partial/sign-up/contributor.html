@@ -34,21 +34,20 @@
         </div>
 
         <label for="c-skills" class="control-label">Skills</label>
-        <input class="form-control input-lg" id="c-skills" type="text" placeholder="Separate multiple skills with commas">
+        <ui-select multiple ng-model="skills">
+          <ui-select-match placeholder="Search and add up to 20">{{$item.name}}</ui-select-match>
+          <ui-select-choices repeat="skill.name as skill in signup.model.skills | propsFilter: {name: $select.search}">
+            <div ng-bind-html="skill.name | highlight: $select.search"></div>
+          </ui-select-choices>
+        </ui-select>
 
         <label for="c-experience" class="control-label">Industries you've worked in</label>
-        <div   
-          multi-select
-          input-model="industries"
-          button-label="name"
-          item-label="name"
-          directive-id="c-experience"
-          default-label="No industries selected"
-          helper-elements="filter"
-          tick-property="selected"
-          orientation="horizontal"
-        >
-        </div>
+        <ui-select multiple ng-model="industries">
+          <ui-select-match placeholder="Search and add up to 5">{{$item.name}}</ui-select-match>
+          <ui-select-choices repeat="industry.name as industry in signup.model.industries | propsFilter: {name: $select.search}">
+            <div ng-bind-html="industry.name | highlight: $select.search"></div>
+          </ui-select-choices>
+        </ui-select>
 
         <label for="c-availability" class="control-label">How much time per week can you devote to vestd tasks?</label>
         <div class="btn-group btn-group-justified btn-group-md btn-group-custom">
@@ -64,18 +63,12 @@
         </div>
 
         <label for="c-interests" class="control-label">Interests</label>
-        <div   
-          multi-select
-          input-model="interests"
-          button-label="name"
-          item-label="name"
-          directive-id="c-interests"
-          default-label="No interests selected"
-          helper-elements="filter"
-          tick-property="selected"
-          orientation="horizontal"
-        >
-        </div>
+        <ui-select multiple ng-model="interests">
+          <ui-select-match placeholder="Search and add up to 5">{{$item.name}}</ui-select-match>
+          <ui-select-choices repeat="industry.name as industry in signup.model.industries | propsFilter: {name: $select.search}">
+            <div ng-bind-html="industry.name | highlight: $select.search"></div>
+          </ui-select-choices>
+        </ui-select>
 
         <div class="row">
           <div class="col-md-12">

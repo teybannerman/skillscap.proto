@@ -10,20 +10,15 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   sampleUsers().success(function(data) {
     var users = data.users;
     angular.forEach (users, function(user, key) {
-      if (user.contributor.active) {
+      //if (user.contributor.active) {
         $scope.usersOut.push({
-          "firstName": user.firstname,
-          "firstInitial": user.firstname.substring(0,1),
-          "lastName": user.lastname,
-          "tagline": user.tagline,
+          "name": user.name,
+          "tagline": user.headline,
           "photo": user.photo,
-          "skills": [ 
-            user.contributor.skills[0].name,
-            user.contributor.skills[1].name
-          ],
+          "skills": user.skills,
           "rating": 'A'
         }); // end push
-      }
+      //}
     }); // end forEach
   }); // end success
 

@@ -1,4 +1,4 @@
-angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router', 'ngAnimate', 'ngSanitize','ngCookies', 'multi-select', 'ui.select']);
+angular.module('skillscap-proto', ['ui.bootstrap','ui.utils','ui.router', 'ngAnimate', 'ngSanitize','ngCookies', 'ui.select', 'xeditable']);
 
 angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProvider, uiSelectConfig) {
 
@@ -89,10 +89,12 @@ angular.module('skillscap-proto').config(function($stateProvider, $urlRouterProv
 
 });
 
-angular.module('skillscap-proto').run(function($rootScope, $state, $stateParams) {
+angular.module('skillscap-proto').run(function($rootScope, $state, $stateParams, editableOptions) {
 
   $rootScope.$state = $state;
   $rootScope.$stateParams = $stateParams;
+
+  editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
 
   $rootScope.safeApply = function(fn) {
     var phase = $rootScope.$$phase;

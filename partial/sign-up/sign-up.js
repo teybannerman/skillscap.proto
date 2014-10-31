@@ -1,16 +1,13 @@
-angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope, industries, tasks){
+angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope, industries, tasks, skills, discoverService){
+
+  $scope.discover = discoverService;
 
   $scope.foundertabs = {};
   $scope.foundertabs['about'] = true;
   $scope.foundertabs['project'] = false;
   $scope.foundertabs['tasks'] = false;
   $scope.projectStageModel = '';
-  $scope.tasks = [
-    {name:'Terms of Service', active:true},
-    {name:'Content Marketing Strategy', active:true},
-    {name:'Research Project', active:true},
-    {name:'Prototype Development', active:true}
-  ];
+  $scope.tasks = [];
   $scope.projectName = '';
   $scope.newTabText = '';
   $scope.credibilityIcon = 'fa-thumbs-down';
@@ -24,15 +21,20 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
     'sc6': false
   };
 
+  $scope.signup = {};
+  $scope.signup.model = {
+    industries: [],
+    interests: [],
+    skills: []
+  };
+
+
   $scope.activateFounderTab = function(tab) {
     $scope.foundertabs[tab] = true;
   };
 
   $scope.addNewTask = function() {
-    if ($scope.newTabText !== '') {
-      $scope.tasks.push({name:$scope.newTabText, active:true});
-      $scope.newTabText = '';
-    }
+    $scope.tasks.push({name:'', active:true});
   };
 
   $scope.credibilityCalc = function() {
@@ -46,9 +48,24 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
     if (count > 3) { $scope.credibilityIcon = 'fa-star'; $scope.credibility = 'Superstar'; }
   };
 
+  $scope.taskStageFilter = function (task) {
+    return (task.stage == $scope.discover.model.projectStage);
+  }
+
   industries().success(function(data) {
-    $scope.industries = angular.copy(data.industries);
-    $scope.interests = angular.copy(data.industries);
+    $scope.signup.model.industries = angular.copy(data.industries);
+    $scope.signup.model.interests = angular.copy(data.industries);
+  });
+
+  skills().success(function(data) {
+    $scope.signup.model.skills = angular.copy(data.skills);
+  });
+
+  tasks().success(function(data) {
+    $scope.tasks = angular.copy(data.tasks);
+    $scope.tasks.forEach(function(task) {
+      task.active = true;
+    });
   });
 
 

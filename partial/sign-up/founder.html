@@ -15,23 +15,23 @@
                   <input class="form-control input-md" id="c-name" type="text">
 
                   <label for="c-skills" class="control-label">Skills</label>
-                  <input class="form-control input-md" id="c-skills" type="text">
+                  <ui-select multiple ng-model="skills">
+                    <ui-select-match placeholder="Search and add up to 20">{{$item.name}}</ui-select-match>
+                    <ui-select-choices repeat="skill.name as skill in signup.model.skills | propsFilter: {name: $select.search}">
+                      <div ng-bind-html="skill.name | highlight: $select.search"></div>
+                    </ui-select-choices>
+                  </ui-select>
 
                   <label for="c-experience" class="control-label">Industry Experience</label>
-                  <div   
-                    multi-select
-                    input-model="industries"
-                    button-label="name"
-                    item-label="name"
-                    directive-id="c-experience"
-                    default-label="No industries selected"
-                    helper-elements="filter"
-                    tick-property="selected"
-                    orientation="horizontal"
-                  >
-                  </div>
+                  <ui-select multiple ng-model="industries">
+                    <ui-select-match placeholder="Search and add up to 5">{{$item.name}}</ui-select-match>
+                    <ui-select-choices repeat="industry.name as industry in signup.model.industries | propsFilter: {name: $select.search}">
+                      <div ng-bind-html="industry.name | highlight: $select.search"></div>
+                    </ui-select-choices>
+                  </ui-select>
                 </div>
                 <div class="col-md-4">
+                  <label class="control-label">.</label>
                   <p><button type="button" class="btn btn-primary btn-linkedin btn-lg btn-block">Connect with LinkedIn</button></p>
                 </div>
               </div>
@@ -56,7 +56,7 @@
               <div class="sublabel">Who is involved (names, roles)? Why this team? And what's your story, what do you collectively bring?</div>
               <textarea class="form-control" rows="3" id="c-team" placeholder=""></textarea>
 
-              <label for="c-scheme" class="control-label">Your Scheme</label>
+              taskStageFilter
               <div class="sublabel">Think in terms of (1) 'The Solution' - Whats your approach to solving this problem? What does your solution do exactly? (2) 'Users' - What are the use cases for your solution? What's the value proposition?</div>
               <textarea class="form-control" rows="3" id="c-scheme" placeholder=""></textarea>
 
@@ -70,21 +70,42 @@
           </tab>
 
           <tab heading="Your Tasks" active="foundertabs['tasks']">
-            <form class="centered" role="form" ng-submit="addNewTask()">
+            <div class="form centered">
               <div class="row">
                 <div class="col-md-12">
                   <h3>Based on the excellent input you've supplied so far we recommend the following tasks to kickstart your project. Remove any you don't need (or add your own), and then sit back and let us match you with expert constributors in your field.</h3>
-                  <ul class="tasks-list">
-                    <li class="animate animate-repeat" ng-repeat="task in tasks | filter:task.active = true">
-                      <div class="list-group-item">{{task.name}} <a class="remove" href="" ng-click="task.active=false">remove</a></div>
-                    </li>
-                    <li><input type="text" class="form-control" placeholder="Add your own task" ng-model="$parent.newTabText"></li>
-                    <a class="btn-info btn-circled btn-icono" href="" ng-click="addNewTask()"><span class="fa fa-plus"></span></a>
-                  </ul>
+                  <div class="tasks-list row">
+                    <div class="col-md-4 col-sm-6 animate animate-repeat" ng-repeat="task in tasks | filter:task.active = true | filter:taskStageFilter">
+                      <div class="panel panel-default panel-task">
+                        <h4 editable-text="task.name" e-name="name" e-form="rowform">{{task.name || 'empty' }}</h4>
+                        <label class="control-label">Skills required</label>
+                        <p editable-text="task.skill" e-name="skill" e-form="rowform">{{task.skill || 'empty' }}</h4>
+                        <!-- <a class="remove" href="" ng-click="task.active=false">remove</a> -->
+                        <!-- form -->
+                        <form editable-form name="rowform" ng-show="rowform.$visible" class="form-buttons">
+                          <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
+                            save
+                          </button>
+                          <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
+                            cancel
+                          </button>
+                          <button type="button" ng-disabled="rowform.$waiting" ng-click="task.active=false" class="btn btn-danger">
+                            delete
+                          </button>
+                        </form>
+                        <div class="buttons" ng-show="!rowform.$visible">
+                          <button class="task-action edit" ng-click="rowform.$show()" title="Edit"><i class="fa fa-pencil"></i></button>
+                          <!-- <button class="task-action delete" ng-click="task.active=false" title="delete"><i class="fa fa-trash-o"></i></button> -->
+                        </div>
+                        <!-- end form -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-footer"><a class="btn-info btn-circled btn-icono" href="" ng-click="addNewTask()"><span class="fa fa-plus"></span></a></div>
                 </div>
               </div>
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">Find {{projectName}} some contributors!</button></p>
-            </form>
+            </div>
           </tab>
 
         </tabset>

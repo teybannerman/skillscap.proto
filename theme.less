@@ -311,7 +311,42 @@ form .btn-default:hover {
 //.panel-warning > .panel-heading   { .panel-heading-styles(@panel-warning-heading-bg); }
 //.panel-danger > .panel-heading    { .panel-heading-styles(@panel-danger-heading-bg); }
 
+.panel-task {
+  padding: 12px;
+  background: #f9f9f9;
+  .box-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+  position: relative;
 
+  h4 {
+    margin-top: 0;
+  }
+
+  .task-action {
+    position: absolute;
+    top: 16px;
+    background: none;
+    border: none;
+
+    &.edit {
+      right:8px;
+      color: @theme-primary-color;
+    }
+
+    &.delete {
+      right: 32px;
+      color: #d22;
+      opacity: 0.5;
+    }
+  }
+
+  .editable-wrap {
+    display: block;
+  }
+
+  .editable-input {
+    margin-bottom: 12px !important;
+  }
+}
 
 //
 // Wells
