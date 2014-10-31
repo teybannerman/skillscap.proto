@@ -3,44 +3,47 @@
   <div class="nav-secondary">
     <form class="bar">
       <div class="row">
-        <div class="col-md-3">
-          <h2>Find Contributors</h2>
-        </div>
-        <div class="col-md-3">
-          <label class="control-label">Your Industry Sector</label>
-          <div   
-            multi-select
-            input-model="industries"
-            button-label="name"
-            item-label="name"
-            directive-id="c-experience"
-            default-label=""
-            helper-elements="filter"
-            tick-property="selected"
-            orientation="horizontal"
-            selection-mode="single"
-          >
+        <div class="col-md-12">
+          <h2 class="text-center">Find Contributors</h2>
+          <div ng-show="discover.model.selected.skills.length > 0">
+            <h3>{{discover.model.selected.skills}} for my {{discover.model.selected.industries}} project. <button class="btn btn-default btn-sm" ng-click="showFirstSteps = !showFirstSteps">Change</button></h3>
           </div>
         </div>
-        <div class="col-md-3">
+      </div>
+      <div class="row animate cssFade" ng-show="showFirstSteps">
+        <div class="col-md-4">
+          <label class="control-label">Your Industry Sector</label>
+          <ui-select ng-model="discover.model.selected.industries">
+            <ui-select-match placeholder="Select your industry or sector...">{{$select.selected.name}}</ui-select-match>
+            <ui-select-choices repeat="industry.name as industry in discover.model.industries | propsFilter: {name: $select.search}">
+              <div ng-bind-html="industry.name | highlight: $select.search"></div>
+            </ui-select-choices>
+          </ui-select>
+        </div>
+        <div class="col-md-4">
           <label class="control-label">Your Project Stage</label>
           <!-- <input class="form-control input-md input-block" type="text" ng-model="$parent.projectStageModel"> -->
           <div class="btn-group btn-group-justified">
-            <label class="btn btn-info active" tooltip-append-to-body="true" tooltip="Problem Validation" ng-model="$parent.projectStage" btn-radio="'1'">1
+            <label class="btn btn-default active" tooltip-append-to-body="true" tooltip="Problem Validation" ng-model="discover.model.projectStage" btn-radio="'1'">1
             </label>
-            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Solution Validation" ng-model="$parent.projectStage" btn-radio="'2'">2
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Solution Validation" ng-model="discover.model.projectStage" btn-radio="'2'">2
             </label>
-            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Business Validation" ng-model="$parent.projectStage" btn-radio="'3'">3
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Business Validation" ng-model="discover.model.projectStage" btn-radio="'3'">3
             </label>
-            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="MVP" ng-model="$parent.projectStage" btn-radio="'4'">4
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="MVP" ng-model="discover.model.projectStage" btn-radio="'4'">4
             </label>
-            <label class="btn btn-info" tooltip-append-to-body="true" tooltip="Scaling" ng-model="$parent.projectStage" btn-radio="'5'">5
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Scaling" ng-model="discover.model.projectStage" btn-radio="'5'">5
             </label>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <label class="control-label">Skills Your Project Needs</label>
-          <input class="form-control input-md input-default input-block" type="text" ng-model="skills" ng-model="$parent.projectStage">
+          <ui-select ng-model="discover.model.selected.skills">
+            <ui-select-match placeholder="Search for tasks and skills...">{{$select.selected.name}}</ui-select-match>
+            <ui-select-choices repeat="skill.name as skill in discover.model.skills | propsFilter: {name: $select.search}">
+              <div ng-bind-html="skill.name | highlight: $select.search"></div>
+            </ui-select-choices>
+          </ui-select>
         </div>
       </div>
     </form>
