@@ -5,6 +5,7 @@ node_modules/
 bower_components/
 _SpecRunner.html
 test-results.xml
+!dist/bower_components
 
 # Windows image file caches
 Thumbs.db
