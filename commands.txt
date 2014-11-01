@@ -1,6 +1,8 @@
 
 git push heroku vestd-proto:master
 
+heroku run bash
+
 grunt serve
 grunt build
 
