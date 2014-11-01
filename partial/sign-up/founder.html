@@ -10,7 +10,13 @@
           <tab heading="About You">
             <form class="centered" role="form">
               <div class="row">
-                <div class="col-md-8">
+
+                <div class="col-md-4 col-md-push-8">
+                  <label class="control-label">.</label>
+                  <p><button type="button" class="btn btn-primary btn-linkedin btn-lg btn-block">Connect with LinkedIn</button></p>
+                </div>
+
+                <div class="col-md-8 col-md-pull-4">
                   <label for="c-name" class="control-label">Your Full Name</label>
                   <input class="form-control input-md" id="c-name" type="text">
 
@@ -30,10 +36,7 @@
                     </ui-select-choices>
                   </ui-select>
                 </div>
-                <div class="col-md-4">
-                  <label class="control-label">.</label>
-                  <p><button type="button" class="btn btn-primary btn-linkedin btn-lg btn-block">Connect with LinkedIn</button></p>
-                </div>
+
               </div>
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block" ng-click="activateFounderTab('project')">continue</button></p>
             </form>
@@ -79,19 +82,45 @@
                       <div class="panel panel-default panel-task">
                         <h4 editable-text="task.name" e-name="name" e-form="rowform">{{task.name || 'empty' }}</h4>
                         <label class="control-label">Skills required</label>
-                        <p editable-text="task.skill" e-name="skill" e-form="rowform">{{task.skill || 'empty' }}</h4>
+                        <p editable-text="task.skill" e-name="skill" e-form="rowform">{{task.skill || 'empty' }}</p>
+                        <label class="control-label">Objective</label>
+                        <p editable-textarea="task.objective" e-name="objective" e-form="rowform">{{task.objective || 'empty' }}</p>
+                        <div class="row">
+                          <div class="col-xs-4 light-border-right">
+                            <label class="control-label">Intensity</label>
+                            <p ng-show="!rowform.$visible">{{task.intensity}}</p>
+                            <p editable-select="task.intensity" e-name="intensity" e-form="rowform" buttons="no" e-ng-options="s.value as s.text for s in taskmodel.intensity">
+                          </div>
+                          <div class="col-xs-4 light-border-right">
+                            <label class="control-label">Duration</label>
+                            <p ng-show="!rowform.$visible">{{task.duration}}</p>
+                            <p editable-select="task.duration" e-name="duration" e-form="rowform" buttons="no" e-ng-options="s.value as s.text for s in taskmodel.duration"></p>
+                          </div>
+                          <div class="col-xs-4">
+                            <label class="control-label">Value</label>
+                            <p editable-text="task.value" e-name="value" e-form="rowform">{{task.value}}</p>
+                          </div>
+                        </div>
                         <!-- <a class="remove" href="" ng-click="task.active=false">remove</a> -->
                         <!-- form -->
                         <form editable-form name="rowform" ng-show="rowform.$visible" class="form-buttons">
-                          <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
-                            save
-                          </button>
-                          <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
-                            cancel
-                          </button>
-                          <button type="button" ng-disabled="rowform.$waiting" ng-click="task.active=false" class="btn btn-danger">
-                            delete
-                          </button>
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary btn-block">
+                                save
+                              </button>
+                            </div>
+                            <div class="col-xs-4">
+                              <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default btn-block">
+                                cancel
+                              </button>
+                            </div>
+                            <div class="col-xs-4">
+                              <button type="button" ng-disabled="rowform.$waiting" ng-click="task.active=false" class="btn btn-danger btn-block">
+                                delete
+                              </button>
+                            </div>
+                          </div>
                         </form>
                         <div class="buttons" ng-show="!rowform.$visible">
                           <button class="task-action edit" ng-click="rowform.$show()" title="Edit"><i class="fa fa-pencil"></i></button>
@@ -99,9 +128,10 @@
                         </div>
                         <!-- end form -->
                       </div>
-                    </div>
+                    </div><!-- /col-md-4 for card -->
+
                   </div>
-                  <div class="form-footer"><a class="btn-info btn-circled btn-icono" href="" ng-click="addNewTask()"><span class="fa fa-plus"></span></a></div>
+                  <div class="form-footer"><a class="btn-primary btn-circled btn-icono" href="" ng-click="addNewTask()"><span class="fa fa-plus"></span></a></div>
                 </div>
               </div>
               <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">Find {{projectName}} some contributors!</button></p>

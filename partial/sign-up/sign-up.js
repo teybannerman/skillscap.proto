@@ -12,6 +12,20 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
   $scope.newTabText = '';
   $scope.credibilityIcon = 'fa-thumbs-down';
   $scope.credibility = 'Unverified';
+
+  $scope.taskmodel = {
+    intensity: [
+      { value:'low', text:'Low'},
+      { value:'medium', text:'Medium'},
+      { value:'high', text:'High'}
+    ],
+    duration: [
+      { value:'short', text:'Short'},
+      { value:'medium', text:'Medium'},
+      { value:'long', text:'Long'}
+    ]
+  }
+
   $scope.socialconnect = {
     'sc1': false,
     'sc2': false,
@@ -34,7 +48,11 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
   };
 
   $scope.addNewTask = function() {
-    $scope.tasks.push({name:'', active:true});
+    $scope.tasks.push({
+      name:'', 
+      stage: $scope.discover.model.projectStage, 
+      active:true
+    });
   };
 
   $scope.credibilityCalc = function() {

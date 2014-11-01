@@ -91,6 +91,11 @@ body {
   margin-top: 24px;
 }
 
+.light-border-right {
+  border-right: 1px solid #ddd;
+}
+
+
 /**********************
    UTILITY CLASSES
 ***********************/
@@ -341,7 +346,75 @@ form .multiSelect {
     WIDGETS: TASKS
 ***********************/
 
+.panel-task {
+  padding: 12px;
+  background: #f9f9f9;
+  .box-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+  position: relative;
 
+  h4 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .task-action {
+    position: absolute;
+    top: 16px;
+    background: none;
+    border: none;
+
+    &.edit {
+      right:8px;
+      color: @theme-primary-color;
+    }
+
+    &.delete {
+      right: 32px;
+      color: #d22;
+      opacity: 0.5;
+    }
+  }
+
+  .form-buttons {
+    background: @lightest-color;
+    margin-top: 6px;
+  }
+
+  .control-label {
+    opacity: 0.75;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+
+  .editable-wrap {
+    display: block;
+  }
+
+  .editable-input {
+    margin-bottom: 12px !important;
+  }
+
+  .editable-empty {
+    color: @warning-color;
+  }
+
+  p.editable {
+    font-size: 12px;
+  }
+
+  select.editable-input {
+    padding-left: 2px;
+    padding-right: 0;
+    font-size: 12px;
+  }
+}
+
+.tasks-list {
+
+  .col-md-4:nth-child(3n + 1) {
+    clear: left;
+  }
+}
 
 
 /**********************
