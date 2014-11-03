@@ -1,7 +1,7 @@
 <div class="col-md-12" ng-controller="SignUpCtrl">
 
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-10 col-md-offset-1">
       <h1>Sign Up as a Founder</h1>
       <p class="intro"></p>
 
@@ -14,6 +14,7 @@
                 <div class="col-md-4 col-md-push-8">
                   <label class="control-label">.</label>
                   <p><button type="button" class="btn btn-primary btn-linkedin btn-lg btn-block">Connect with LinkedIn</button></p>
+                  <p class="small">Connecting with your LinkedIn account is the easiest and quickest way to set yourself up on vestd. We'll automatically pull in your profile details, skills and credibility for you - you'll be up and running in no time.</p>
                 </div>
 
                 <div class="col-md-8 col-md-pull-4">
@@ -76,7 +77,8 @@
             <div class="form centered">
               <div class="row">
                 <div class="col-md-12">
-                  <h3>Based on the excellent input you've supplied so far we recommend the following tasks to kickstart your project. Remove any you don't need (or add your own), and then sit back and let us match you with expert constributors in your field.</h3>
+                  <h3 ng-hide="(tasks | filter:task.active = true | filter:taskStageFilter).length == 0">Based on the excellent input you've supplied so far we recommend the following tasks to kickstart your project. Remove any you don't need (or add your own), and then sit back and let us match you with expert constributors in your field.</h3>
+                  <h3 class="alert alert-danger" ng-show="(tasks | filter:task.active = true | filter:taskStageFilter).length == 0">Please select your project stage on the 'Project' tab to see suggested tasks.</h3>
                   <div class="tasks-list row">
                     <div class="col-md-4 col-sm-6 animate animate-repeat" ng-repeat="task in tasks | filter:task.active = true | filter:taskStageFilter">
                       <div class="panel panel-default panel-task">

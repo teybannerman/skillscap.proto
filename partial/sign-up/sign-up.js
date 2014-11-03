@@ -24,7 +24,7 @@ angular.module('skillscap-proto').controller('SignUpCtrl',function($http, $scope
       { value:'medium', text:'Medium'},
       { value:'long', text:'Long'}
     ]
-  }
+  };
 
   $scope.socialconnect = {
     'sc1': false,
