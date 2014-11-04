@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="row row-centered top-gutter" ng-show="showFirstSteps">
+      <div class="row row-centered top-gutter animate" ng-show="showFirstSteps">
         <div class="col-md-4">
           <label class="control-label">Your Industry Sector</label>
           <ui-select ng-model="discover.model.selected.industries">
@@ -89,7 +89,7 @@
   <div class="col-md-12">
     <div class="contributors-list">
       <div class="row">
-        <div class="col-md-4 col-sm-6" ng-repeat="user in usersOut | filter:contributorFilter">
+        <div class="col-md-4 col-sm-6 animate" ng-repeat="user in usersOut | filter:contributorFilter">
           <div class="media user-single user-result panel">
             <a class="pull-left" href="#">
               <img class="media-object user-single__image" ng-src="{{user.photo}}" alt="Photo: {{user.name}}" title="{{user.ame}}"/>

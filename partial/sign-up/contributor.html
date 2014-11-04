@@ -49,16 +49,29 @@
           </ui-select-choices>
         </ui-select>
 
-        <label for="c-availability" class="control-label">How much time per week can you devote to vestd tasks?</label>
+        <label for="c-availability" class="control-label">AVAILABILITY: What 'task duration' would best suit your availability?</label>
         <div class="btn-group btn-group-justified btn-group-md btn-group-custom">
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Casual'">Casual<span class="subtext">A few hours per week</span></label>
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Casual'">Short<span class="subtext">(hours)</span></label>
           </div>
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Part-time'">Part-Time<span class="subtext">2-3 days per week</span></label>
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Part-time'">Medium<span class="subtext">(days)</span></label>
           </div>
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Full-time'">Full Time<span class="subtext">5+ days per week</span></label>
+            <label class="btn btn-primary" ng-model="cTime" btn-radio="'Full-time'">Long<span class="subtext">(weeks)</span></label>
+          </div>
+        </div>
+
+        <label for="c-availability" class="control-label">AVAILABILITY: What intensity of work suits you best</label>
+        <div class="btn-group btn-group-justified btn-group-md btn-group-custom">
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Low'">Low<span class="subtext">(casual)</span></label>
+          </div>
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Medium'">Medium<span class="subtext">(part time)</span></label>
+          </div>
+          <div class="btn-group">
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'High'">High<span class="subtext">(full time)</span></label>
           </div>
         </div>
 
@@ -93,7 +106,7 @@
           </div>
         </div>
 
-        <p class="form-footer"><button type="button" class="btn btn-default btn-lg btn-block">sign me up!</button></p>
+        <p class="form-footer"><button type="button" class="btn btn-primary btn-lg btn-block">sign me up!</button></p>
       </form>
     </div>
   </div>
