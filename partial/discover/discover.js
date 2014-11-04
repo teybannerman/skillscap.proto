@@ -14,8 +14,12 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
         $scope.usersOut.push({
           "name": user.name,
           "tagline": user.headline,
+          "location": user.location,
           "photo": user.photo,
           "skills": user.skills,
+          "risk": user.risk,
+          "intensity": user.intensity,
+          "duration": user.duration,
           "rating": 'A'
         }); // end push
       //}
@@ -37,5 +41,23 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
       $scope.discover.model.skills.push({name:task['name']});
     });
   });
+  
+  $scope.contributorFilter = function (user) {
+    if ($scope.discover.model.selected.intensity) {
+      if (user.intensity.indexOf($scope.discover.model.selected.intensity) < 0) return false;
+    }
+    if ($scope.discover.model.selected.time) {
+      if (user.duration.indexOf($scope.discover.model.selected.time) < 0) return false;
+    }
+    if ($scope.discover.model.selected.location) {
+      if ($scope.discover.model.selected.location === 'My city (London)') {
+        if (user.location.indexOf('London') < 0) return false;
+      }
+      if ($scope.discover.model.selected.location === 'My Country (UK)') {
+        if (user.location.indexOf('UK') < 0) return false;
+      }
+    }
+    return true;
+  };
 
 });
