@@ -2,6 +2,7 @@
 git push heroku vestd-proto:master
 
 heroku run bash
+heroku git:remote -a skillscap
 
 grunt serve
 grunt build
