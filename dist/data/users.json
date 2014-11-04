@@ -9,9 +9,9 @@
     "credibility":"",
     "interests":"all",
     "founder":false,
-    "duration":"Short, Medium",
+    "duration":"Short, Medium, Long",
     "intensity":"Low, Medium",
-    "risk-appetite":"2, 4",
+    "risk":"2, 4",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
   },
   {
@@ -26,14 +26,14 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Medium",
-    "risk-appetite":"2, 4",
+    "risk":"2, 4",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg"
   },
   {
     "id":3,
     "name":"Terry Malcom",
     "headline":"40 years experience drafting contracts and other legal documents",
-    "location":"Colorado Springs, USA",
+    "location":"Colorado, USA",
     "skills":"Business Writing, Corporate Law, Legal Writing, Disclaimer Writing",
     "industries":"Financial Services ",
     "credibility":"",
@@ -41,7 +41,7 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Low, Medium",
-    "risk-appetite":"1, 2, 4, 5",
+    "risk":"1, 2, 4, 5",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/c_southam/128.jpg"
   },
   {
@@ -54,9 +54,9 @@
     "credibility":"",
     "interests":"all",
     "founder":false,
-    "duration":"Short, Medium",
+    "duration":"Short, Medium, Long",
     "intensity":"Low, Medium",
-    "risk-appetite":"4, 5",
+    "risk":"4, 5",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg"
   },
   {
@@ -71,7 +71,7 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Low, Medium",
-    "risk-appetite":"2, 4",
+    "risk":"2, 4",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/markgamzy/128.jpg"
   },
   {
@@ -86,14 +86,14 @@
     "founder":true,
     "duration":"",
     "intensity":"",
-    "risk-appetite":"",
+    "risk":"",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/syswarren/128.jpg"
   },
   {
     "id":7,
     "name":"Naveed Akram",
     "headline":"Digital specialist",
-    "location":"London, UK, E2 9QY",
+    "location":"London, UK",
     "skills":"digital, innovation, strategy, startups",
     "industries":"Technology, Media & Telecoms",
     "credibility":"https://uk.linkedin.com/in/nakram/",
@@ -101,14 +101,14 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Low, Medium",
-    "risk-appetite":"1, 2",
+    "risk":"1, 2",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/commadelimited/128.jpg"
   },
   {
     "id":8,
     "name":"Charles Davison",
     "headline":"Full stack Javascript developer",
-    "location":"London, UK, E2 9QY",
+    "location":"London, UK",
     "skills":"javascript,node,backbone,mongodb",
     "industries":"Technology, Media & Telecoms",
     "credibility":"https://www.linkedin.com/in/charlesdavison",
@@ -116,14 +116,14 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Medium",
-    "risk-appetite":"2, 4",
+    "risk":"2, 4",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/olivierpineda/128.jpg"
   },
   {
     "id":9,
     "name":"Andrew Warren-Payne",
     "headline":"Digital marketer and researcher who loves to roll his sleeves up and get his hands on projects",
-    "location":"London, UK, E2 9QY",
+    "location":"London, UK",
     "skills":"research, strategy, analysis",
     "industries":"Technology, Media & Telecoms",
     "credibility":"",
@@ -131,7 +131,7 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Low intensity (I'll be doing tasks in my spare time)",
-    "risk-appetite":"1, 2",
+    "risk":"1, 2",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/mattchevy/128.jpg"
   },
   {
@@ -146,7 +146,7 @@
     "founder":true,
     "duration":"",
     "intensity":"",
-    "risk-appetite":"",
+    "risk":"",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/soffes/128.jpg"
   },
   {
@@ -161,7 +161,7 @@
     "founder":true,
     "duration":"",
     "intensity":"",
-    "risk-appetite":"",
+    "risk":"",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/dingyi/128.jpg"
   },
   {
@@ -176,7 +176,7 @@
     "founder":false,
     "duration":"Short, Medium",
     "intensity":"Low, Medium",
-    "risk-appetite":"1, 2, 3, 4, 5",
+    "risk":"1, 2, 3, 4, 5",
     "photo":"https://s3.amazonaws.com/uifaces/faces/twitter/joelcannon/128.jpg"
   }
 ]}

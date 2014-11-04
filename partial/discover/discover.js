@@ -44,17 +44,17 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   
   $scope.contributorFilter = function (user) {
     if ($scope.discover.model.selected.intensity) {
-      if (user.intensity.indexOf($scope.discover.model.selected.intensity) < 0) return false;
+      if (user.intensity.indexOf($scope.discover.model.selected.intensity) < 0) { return false; }
     }
     if ($scope.discover.model.selected.time) {
-      if (user.duration.indexOf($scope.discover.model.selected.time) < 0) return false;
+      if (user.duration.indexOf($scope.discover.model.selected.time) < 0) { return false; }
     }
     if ($scope.discover.model.selected.location) {
       if ($scope.discover.model.selected.location === 'My city (London)') {
-        if (user.location.indexOf('London') < 0) return false;
+        if (user.location.indexOf('London') < 0) { return false; }
       }
       if ($scope.discover.model.selected.location === 'My Country (UK)') {
-        if (user.location.indexOf('UK') < 0) return false;
+        if (user.location.indexOf('UK') < 0) { return false; }
       }
     }
     return true;
