@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"lightest-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"sel",
+				"selectedindustries"
+			],
+			[
+				"selected",
+				"selectedSkills"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"project",
+				"projectStage"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"med",
+				"medium-color"
+			],
+			[
 				"text-",
 				"text-transform"
 			],
@@ -18,10 +62,6 @@
 			[
 				"padd",
 				"padding-top"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"the",
@@ -44,10 +84,6 @@
 				"font-size"
 			],
 			[
-				"marg",
-				"margin"
-			],
-			[
 				"pro",
 				"projectsOut"
 			],
@@ -56,20 +92,12 @@
 				"padding-top"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
 				"user",
 				"userSingleLine"
 			],
 			[
 				"dark",
 				"dark-color"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"btn-",
@@ -281,18 +309,10 @@
 			}
 		},
 		{
-			"file": "data/startups.json",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "data/tasks.json",
 			"settings":
 			{
-				"buffer_size": 4345,
+				"buffer_size": 5613,
 				"line_ending": "Unix"
 			}
 		},
@@ -308,7 +328,7 @@
 			"file": "data/users.json",
 			"settings":
 			{
-				"buffer_size": 4910,
+				"buffer_size": 5867,
 				"line_ending": "Unix"
 			}
 		},
@@ -324,7 +344,25 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 2296,
+				"buffer_size": 3550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 1 file for \"multi-select\"\n\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/*.html\n0 matches across 0 files\n\n\nSearching 13092 files for \"multi-select\"\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\font-awesome\\src\\assets\\js\\jquery-1.10.2.js:\n 4317  						}\n 4318  \n 4319: 						// Multi-Selects return an array\n 4320  						values.push( value );\n 4321  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\isteven-angular-multiselect\\.bower.json:\n    3    \"version\": \"2.0.2\",\n    4    \"main\": [\n    5:     \"angular-multi-select.js\",\n    6:     \"angular-multi-select.css\"\n    7    ],\n    8    \"ignore\": [\n    .\n   15      \"screenshot.png\"\n   16    ],\n   17:   \"homepage\": \"https://github.com/isteven/angular-multi-select\",\n   18    \"_release\": \"2.0.2\",\n   19    \"_resolution\": {\n   ..\n   22      \"commit\": \"c414ef60abea16df002d8b8951b986f60ed133e3\"\n   23    },\n   24:   \"_source\": \"git://github.com/isteven/angular-multi-select.git\",\n   25    \"_target\": \"~2.0.2\",\n   26    \"_originalSource\": \"isteven-angular-multiselect\",\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\isteven-angular-multiselect\\angular-multi-select.js:\n   32   */\n   33  \n   34: angular.module( 'multi-select', ['ng'] ).directive( 'multiSelect' , [ '$sce', '$timeout', function ( $sce, $timeout ) {\n   35      return {\n   36          restrict: \n   ..\n  459                  // refresh button label...\n  460                  if ( $scope.selectedItems.length === 0 ) {\n  461:                     // https://github.com/isteven/angular-multi-select/pull/19                    \n  462                      $scope.varButtonLabel = ( typeof $scope.defaultLabel !== 'undefined' ) ? $scope.defaultLabel : 'None selected';\n  463                  }\n  ...\n  486  \n  487                      if ( $scope.more === true ) {\n  488:                         // https://github.com/isteven/angular-multi-select/pull/16\n  489                          if (tempMaxLabels > 0) {\n  490                              $scope.varButtonLabel += ', ... ';\n  ...\n  565                  }                                \n  566  \n  567:                 // The idea below was taken from another multi-select directive - https://github.com/amitava82/angular-multiselect \n  568:                 // His version is awesome if you need a more simple multi-select approach.\n  569  \n  570                  // close\n  ...\n  834              \n  835              // watch1, for changes in input model property\n  836:             // updates multi-select when user select/deselect a single checkbox programatically\n  837:             // https://github.com/isteven/angular-multi-select/issues/8\n  838              $scope.$watch( 'inputModel' , function( newVal ) {                                 \n  839                  if ( newVal ) {\n  ...\n  851  \n  852              // watch2 for changes in input model as a whole\n  853:             // this on updates the multi-select when a user load a whole new input-model. We also update the $scope.backUp variable\n  854              $scope.$watch( 'inputModel' , function( newVal ) {  \n  855                  if ( newVal ) {\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\jquery\\jquery.js:\n 4058  						}\n 4059  \n 4060: 						// Multi-Selects return an array\n 4061  						values.push( value );\n 4062  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\jquery\\speed\\jquery-basis.js:\n 1371  							}\n 1372  \n 1373: 							// Multi-Selects return an array\n 1374  							values.push( value );\n 1375  						}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\jquery\\src\\attributes.js:\n  261  						}\n  262  \n  263: 						// Multi-Selects return an array\n  264  						values.push( value );\n  265  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\jquery\\test\\unit\\attributes.js:\n 1024  	equal( jQuery(\"#kkk\").val(), \"cf\", \"Check value of select after form reset.\" );\n 1025  \n 1026: 	// re-verify the multi-select is not broken (after form.reset) by our fix for single-select\n 1027  	deepEqual( jQuery(\"#select3\").val(), [\"1\", \"2\"], \"Call val() on a multiple='multiple' select\" );\n 1028  \n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\bower_components\\underscore\\test\\vendor\\jquery.js:\n 2470  						}\n 2471  \n 2472: 						// Multi-Selects return an array\n 2473  						values.push( value );\n 2474  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\index.html:\n    6  	<meta charset=\"utf-8\">\n    7    <link href=\"app.less\" type=\"text/css\" rel=\"stylesheet/less\">\n    8:   <link href=\"bower_components/isteven-angular-multiselect/angular-multi-select.css\" type=\"text/css\" rel=\"stylesheet\">\n    9    <link href=\"bower_components/angular-ui-select/dist/select.min.css\" rel=\"stylesheet\">\n   10    <link href=\"bower_components/angular-xeditable/dist/css/xeditable.css\" rel=\"stylesheet\">\n   ..\n   28    <script src=\"bower_components/angular-bootstrap/ui-bootstrap-tpls.js\"></script>\n   29    <script src=\"bower_components/angular-ui-utils/ui-utils.js\"></script>\n   30:   <script src=\"bower_components/isteven-angular-multiselect/angular-multi-select.js\"></script>\n   31    <script src=\"bower_components/angular-ui-select/dist/select.min.js\"></script>\n   32    <script src=\"bower_components/angular-sanitize/angular-sanitize.min.js\"></script>\n\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/vendor/jquery.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/vendor/qunit.css\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/vendor/qunit.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/.travis.yml\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/index.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/LICENSE\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/readme.markdown\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.gitignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/.travis.yml\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/index.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/LICENSE\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/mkdirp/node_modules/minimist/readme.markdown\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.gitignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/dist/underscore.string.min.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/arrays.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/speed.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.gitignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/dist/underscore.string.min.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/arrays.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/speed.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/.npmignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/arrays.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.gitignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/dist/underscore.string.min.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/arrays.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/speed.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.gitignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/dist/underscore.string.min.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/arrays.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/chaining.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/collections.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/functions.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/index.html\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/objects.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/speed.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/ext-name/node_modules/underscore.string/test/test_underscore/utility.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/package.json\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/.npmignore\nUnable to open /C/Users/Tey1/Documents/GitHub/skillscap.proto/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\node_modules\\grunt-contrib-watch\\node_modules\\tiny-lr-fork\\node_modules\\qs\\test\\browser\\jquery.js:\n 2157  						}\n 2158  \n 2159: 						// Multi-Selects return an array\n 2160  						values.push( value );\n 2161  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\node_modules\\grunt\\node_modules\\grunt-legacy-log\\node_modules\\underscore.string\\test\\test_underscore\\vendor\\jquery.js:\n 2470  						}\n 2471  \n 2472: 						// Multi-Selects return an array\n 2473  						values.push( value );\n 2474  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\node_modules\\grunt\\node_modules\\js-yaml\\node_modules\\argparse\\node_modules\\underscore.string\\test\\test_underscore\\vendor\\jquery.js:\n 2470  						}\n 2471  \n 2472: 						// Multi-Selects return an array\n 2473  						values.push( value );\n 2474  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\node_modules\\karma\\node_modules\\socket.io\\node_modules\\socket.io-client\\node_modules\\uglify-js\\tmp\\app.js:\n 2211  						}\n 2212  \n 2213: 						// Multi-Selects return an array\n 2214  						values.push( value );\n 2215  					}\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\partial\\sign-up\\contributor.html:\n   39          <label for=\"c-experience\" class=\"control-label\">Industries you've worked in</label>\n   40          <div   \n   41:           multi-select\n   42            input-model=\"industries\"\n   43            button-label=\"name\"\n   ..\n   66          <label for=\"c-interests\" class=\"control-label\">Interests</label>\n   67          <div   \n   68:           multi-select\n   69            input-model=\"interests\"\n   70            button-label=\"name\"\n\nC:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\partial\\sign-up\\founder.html:\n   20                    <label for=\"c-experience\" class=\"control-label\">Industry Experience</label>\n   21                    <div   \n   22:                     multi-select\n   23                      input-model=\"industries\"\n   24                      button-label=\"name\"\n\n27 matches across 15 files\n",
+			"settings":
+			{
+				"buffer_size": 37805,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "web.js",
+			"settings":
+			{
+				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
@@ -332,16 +370,17 @@
 			"file": "app.less",
 			"settings":
 			{
-				"buffer_size": 6291,
+				"buffer_size": 8709,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Tey1/Documents/Arduino/ArduGate/htdocs/blink.html",
+			"file": "data/skills.json",
 			"settings":
 			{
-				"buffer_size": 1686,
-				"line_ending": "Windows"
+				"buffer_size": 1530,
+				"line_ending": "Unix",
+				"name": "{\"skills\": ["
 			}
 		},
 		{
@@ -356,7 +395,7 @@
 			"file": "variables-custom.less",
 			"settings":
 			{
-				"buffer_size": 1795,
+				"buffer_size": 1805,
 				"line_ending": "Unix"
 			}
 		},
@@ -364,7 +403,7 @@
 			"file": "theme.less",
 			"settings":
 			{
-				"buffer_size": 10524,
+				"buffer_size": 11052,
 				"line_ending": "Unix"
 			}
 		},
@@ -372,7 +411,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5281,
+				"buffer_size": 5682,
 				"line_ending": "Unix"
 			}
 		},
@@ -404,7 +443,7 @@
 			"file": "partial/discover/discover.html",
 			"settings":
 			{
-				"buffer_size": 4826,
+				"buffer_size": 5237,
 				"line_ending": "Unix"
 			}
 		},
@@ -412,7 +451,23 @@
 			"file": "partial/discover/discover.js",
 			"settings":
 			{
-				"buffer_size": 1269,
+				"buffer_size": 1167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "service/discoverService.js",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 7098,
 				"line_ending": "Unix"
 			}
 		},
@@ -420,7 +475,22 @@
 			"file": "partial/_components/forms-project-stage.html",
 			"settings":
 			{
-				"buffer_size": 1749,
+				"buffer_size": 1668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partial/contributors/contributors.html",
+			"settings":
+			{
+				"buffer_size": 6291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -444,7 +514,31 @@
 			"file": "partial/sign-up/sign-up.js",
 			"settings":
 			{
-				"buffer_size": 1745,
+				"buffer_size": 2409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/New folder/vp-config/pass.txt",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/New folder/vp-config/UK Southampton.ovpn",
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Tey1/.ssh/id_rsa.pub",
+			"settings":
+			{
+				"buffer_size": 404,
 				"line_ending": "Unix"
 			}
 		},
@@ -452,7 +546,7 @@
 			"file": "partial/sign-up/founder.html",
 			"settings":
 			{
-				"buffer_size": 4264,
+				"buffer_size": 9022,
 				"line_ending": "Unix"
 			}
 		},
@@ -460,7 +554,7 @@
 			"file": "partial/sign-up/contributor.html",
 			"settings":
 			{
-				"buffer_size": 4560,
+				"buffer_size": 5790,
 				"line_ending": "Unix"
 			}
 		},
@@ -537,34 +631,18 @@
 			}
 		},
 		{
-			"file": "service/tasks.js",
+			"file": "directive/user-single-line/user-single-line.html",
 			"settings":
 			{
-				"buffer_size": 352,
+				"buffer_size": 361,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "partial/new-project/new-project.js",
+			"file": "service/skills.js",
 			"settings":
 			{
-				"buffer_size": 4979,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "directive/user-single-line/user-single-line.less",
-			"settings":
-			{
-				"buffer_size": 268,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "partial/contributors/contributors.html",
-			"settings":
-			{
-				"buffer_size": 828,
+				"buffer_size": 354,
 				"line_ending": "Unix"
 			}
 		}
@@ -597,12 +675,24 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Tey1/.ssh/known_hosts",
+		"/C/Users/Tey1/.ssh/id_rsa",
+		"/C/Users/Tey1/Documents/Arduino/ArduGate/htdocs/blink.html",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.gitignore",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/service/tasks.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/directive/user-single-line/user-single-line.less",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/data/startups.json",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/filter/propsFilter.js",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower.json",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.bowerrc",
+		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/gulpfile.js",
+		"/C/Dropbox/Projects/Futurice/Wall AG/CMS Stats/test-env/Gruntfile.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/directive/user-single-line/user-single-line.html",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/_system/nav-primary/nav-primary.less",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/sign-up/sign-up.less",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project.less",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/directive/action-mega/action-mega.less",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower_components/jquery.cycle2.min/index.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/Gruntfile.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/modals/basic-pass-protect/basic-pass-protect.js",
@@ -628,13 +718,11 @@
 		"/C/Users/Tey1/Downloads/20141016-1064020611-umsatz (1).csv",
 		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/scss/style.scss",
 		"/C/Users/Tey1/Documents/GitHub/futurice.premiere/_assets/scss/app.scss",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/bower.json",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/_system/homepage-proto/homepage-proto-spec.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/founder/founder-spec.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/contributor/contributor-spec.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/_system/footer-primary/footer-spec.js",
 		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/partial/new-project/new-project-spec.js",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.gitignore",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/vendor/_flaticons.scss",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_ux-additions.scss",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/_subscribe.scss",
@@ -714,17 +802,7 @@
 		"/C/Users/Tey1/.ssh/id_rsa.pub",
 		"/C/Dropbox/Projects/Tey Bannerman 2013/private_key.ppk",
 		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/base/_typography.scss",
-		"/C/Users/Tey1/Downloads/users.json",
-		"/C/Users/Tey1/Downloads/projects.json",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.git/refs/heads/master",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.bowerrc",
-		"/C/Users/Tey1/Documents/GitHub/skillscap.proto/.npmignore",
-		"/C/Dropbox/Projects/TogetherHealth/UninsuredHelpline Landing/customizr/inc/lang/fr_FR.po",
-		"/C/Users/Tey1/Documents/GitHub/yoangtest1/app/index.html",
-		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/css/landing-pages.scss",
-		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.subscribe/ux.econsultancy.com/css/_imports.scss",
-		"/C/Users/Tey1/Documents/GitHub/ux.econsultancy.com/css/base/_typography.scss",
-		"/C/Users/Tey1/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+		"/C/Users/Tey1/Downloads/users.json"
 	],
 	"find":
 	{
@@ -735,6 +813,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\*.html",
+			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\partial",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\directive",
 			"C:\\Users\\Tey1\\Documents\\GitHub\\skillscap.proto\\partial",
@@ -774,6 +855,70 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lab",
+			"task",
+			"nav-top",
+			"logo-t",
+			"createFolderGlobs",
+			"bower",
+			"nav",
+			"tasks",
+			"btn",
+			"Founder",
+			"multi-select",
+			"\"FALSE\"",
+			"\"TRUE\"",
+			" intensity�",
+			" (days)",
+			" (hours)",
+			"availability-",
+			"group",
+			"selec",
+			"anima",
+			"cssf",
+			"animate",
+			"text",
+			"disab",
+			"btn-info-bg",
+			"}\n",
+			"btn-",
+			"stage",
+			"discover.",
+			"skills",
+			"contribTasks",
+			"tbd",
+			"java",
+			"tbd",
+			"data",
+			"Development",
+			"tbd",
+			"tbp",
+			"design",
+			"task-",
+			"fig",
+			"disco",
+			"forms-project-stage",
+			"copy",
+			"images",
+			"copy",
+			"app",
+			"app/",
+			"yeoman.app",
+			"images",
+			"main",
+			"copy",
+			"navba",
+			"input-md",
+			"input-de",
+			"-defaul",
+			"h2",
+			"-info",
+			"type",
+			"[type",
+			"[ty",
+			"port",
+			"), ",
+			" (",
 			"centered",
 			"form-c",
 			"block",
@@ -837,71 +982,7 @@
 			"eee",
 			" ?\\(..?\\)",
 			"\\) ",
-			"css",
-			"sign-up.contributor",
-			"founder.js",
-			"founder.",
-			"founder",
-			"btn",
-			"$",
-			"</a>",
-			"<a href=\"\">",
-			"tab",
-			"intro",
-			"exte",
-			"right",
-			"brand",
-			"offer help",
-			"border-radius",
-			".media",
-			"_media",
-			"media",
-			"content:",
-			"content",
-			"after",
-			"media",
-			"abre",
-			"radi",
-			"333",
-			"dark",
-			"chev",
-			"-left",
-			"<li",
-			"apart",
-			"derpr",
-			"skillscapproto",
-			"skillscap.proto",
-			"h5",
-			"panel",
-			"tab",
-			"<textarea class=\"form-control\"></textarea>",
-			"textarea",
-			"continue",
-			"completed",
-			"consol",
-			"active",
-			"activeTab",
-			"select",
-			"frame",
-			"tabs",
-			"your hyp",
-			"btn",
-			"weight",
-			"bold",
-			"success",
-			"btn",
-			"tabs",
-			"radius",
-			"h4",
-			"h5",
-			"h4",
-			"shado",
-			"icon",
-			"gly",
-			"@gray-lighter",
-			"radiu",
-			"font-size",
-			"font"
+			"css"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -909,6 +990,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"founder",
+			"false",
+			"true",
+			"",
+			"), <strong>",
+			"</strong> (",
 			"\"alt\":",
 			"\"selected\":",
 			"\"name\":",
@@ -939,7 +1026,7 @@
 			"src: url('../fonts/Open",
 			""
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -948,7 +1035,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 29,
 			"sheets":
 			[
 				{
@@ -978,54 +1065,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1367.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "data/startups.json",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "data/tasks.json",
 					"settings":
 					{
-						"buffer_size": 4345,
+						"buffer_size": 5613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2269,
-								2269
+								3121,
+								3121
 							]
 						],
 						"settings":
@@ -1034,17 +1092,17 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 223.0,
+						"translation.y": 415.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "data/industries.json",
 					"settings":
 					{
@@ -1055,8 +1113,8 @@
 						"selection":
 						[
 							[
-								2231,
-								2231
+								16,
+								0
 							]
 						],
 						"settings":
@@ -1069,25 +1127,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 206.0,
+						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "data/users.json",
 					"settings":
 					{
-						"buffer_size": 4910,
+						"buffer_size": 5867,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3143,
-								3133
+								57,
+								57
 							]
 						],
 						"settings":
@@ -1106,7 +1164,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "partial/_system/nav-primary/nav-primary.html",
 					"settings":
 					{
@@ -1137,19 +1195,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 2296,
+						"buffer_size": 3550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								3469,
+								3469
 							]
 						],
 						"settings":
@@ -1162,25 +1220,203 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 831.0,
+						"translation.y": 1444.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 37805,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										323,
+										335
+									],
+									[
+										576,
+										588
+									],
+									[
+										614,
+										626
+									],
+									[
+										768,
+										780
+									],
+									[
+										975,
+										987
+									],
+									[
+										1244,
+										1256
+									],
+									[
+										1580,
+										1592
+									],
+									[
+										1925,
+										1937
+									],
+									[
+										2207,
+										2219
+									],
+									[
+										2357,
+										2369
+									],
+									[
+										2542,
+										2554
+									],
+									[
+										2672,
+										2684
+									],
+									[
+										2959,
+										2971
+									],
+									[
+										3289,
+										3301
+									],
+									[
+										3504,
+										3516
+									],
+									[
+										3715,
+										3727
+									],
+									[
+										4012,
+										4024
+									],
+									[
+										4338,
+										4350
+									],
+									[
+										4652,
+										4664
+									],
+									[
+										5146,
+										5158
+									],
+									[
+										35961,
+										35973
+									],
+									[
+										36246,
+										36258
+									],
+									[
+										36544,
+										36556
+									],
+									[
+										36817,
+										36829
+									],
+									[
+										37117,
+										37129
+									],
+									[
+										37335,
+										37347
+									],
+									[
+										37665,
+										37677
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								37124,
+								37124
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6989.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "app.less",
+					"file": "web.js",
 					"settings":
 					{
-						"buffer_size": 6291,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4311,
-								4311
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app.less",
+					"settings":
+					{
+						"buffer_size": 8709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7363,
+								7363
 							]
 						],
 						"settings":
@@ -1193,43 +1429,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2614.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Users/Tey1/Documents/Arduino/ArduGate/htdocs/blink.html",
-					"settings":
-					{
-						"buffer_size": 1686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								793,
-								793
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 435.0,
+						"translation.y": 5644.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+					"file": "data/skills.json",
+					"settings":
+					{
+						"buffer_size": 1530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{\"skills\": [",
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "bower_components/bootstrap/less/variables.less",
 					"settings":
 					{
@@ -1240,8 +1474,8 @@
 						"selection":
 						[
 							[
-								23772,
-								23778
+								10917,
+								10923
 							]
 						],
 						"settings":
@@ -1252,56 +1486,25 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 459.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "variables-custom.less",
-					"settings":
-					{
-						"buffer_size": 1795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								74
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 11,
-					"file": "theme.less",
+					"file": "variables-custom.less",
 					"settings":
 					{
-						"buffer_size": 10524,
+						"buffer_size": 1805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3252,
-								3258
+								1467,
+								1467
 							]
 						],
 						"settings":
@@ -1314,25 +1517,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1974.0,
+						"translation.y": 152.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "index.html",
+					"file": "theme.less",
 					"settings":
 					{
-						"buffer_size": 5281,
+						"buffer_size": 11052,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5212,
-								5212
+								7483,
+								7483
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4479.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3879,
+								3879
 							]
 						],
 						"settings":
@@ -1345,13 +1579,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1090.0,
+						"translation.y": 1017.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "partial/founder/founder.html",
 					"settings":
 					{
@@ -1380,7 +1614,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "partial/project/project.html",
 					"settings":
 					{
@@ -1409,7 +1643,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "partial/search-projects/search-projects.html",
 					"settings":
 					{
@@ -1438,19 +1672,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "partial/discover/discover.html",
 					"settings":
 					{
-						"buffer_size": 4826,
+						"buffer_size": 5237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3779,
-								3779
+								1982,
+								1982
 							]
 						],
 						"settings":
@@ -1463,25 +1697,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 940.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "partial/discover/discover.js",
 					"settings":
 					{
-						"buffer_size": 1269,
+						"buffer_size": 1167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1218,
-								1218
+								281,
+								247
 							]
 						],
 						"settings":
@@ -1500,19 +1734,79 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "partial/_components/forms-project-stage.html",
+					"buffer": 19,
+					"file": "service/discoverService.js",
 					"settings":
 					{
-						"buffer_size": 1749,
+						"buffer_size": 647,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1050,
-								1050
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 7098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1616,
+								1633
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 512.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "partial/_components/forms-project-stage.html",
+					"settings":
+					{
+						"buffer_size": 1668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1494,
+								1494
 							]
 						],
 						"settings":
@@ -1531,7 +1825,64 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 22,
+					"file": "partial/contributors/contributors.html",
+					"settings":
+					{
+						"buffer_size": 6291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 870.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "partial/sign-in/sign-in.html",
 					"settings":
 					{
@@ -1542,8 +1893,8 @@
 						"selection":
 						[
 							[
-								925,
-								827
+								770,
+								670
 							]
 						],
 						"settings":
@@ -1562,7 +1913,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 25,
 					"file": "partial/sign-up/sign-up.html",
 					"settings":
 					{
@@ -1593,19 +1944,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 26,
 					"file": "partial/sign-up/sign-up.js",
 					"settings":
 					{
-						"buffer_size": 1745,
+						"buffer_size": 2409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								601,
-								613
+								796,
+								796
 							]
 						],
 						"settings":
@@ -1618,25 +1969,112 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 27,
+					"file": "/C/New folder/vp-config/pass.txt",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/New folder/vp-config/UK Southampton.ovpn",
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								72
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Users/Tey1/.ssh/id_rsa.pub",
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								404
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
 					"file": "partial/sign-up/founder.html",
 					"settings":
 					{
-						"buffer_size": 4264,
+						"buffer_size": 9022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4104,
-								4109
+								8537,
+								8537
 							]
 						],
 						"settings":
@@ -1649,25 +2087,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 879.0,
+						"translation.y": 1199.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 31,
 					"file": "partial/sign-up/contributor.html",
 					"settings":
 					{
-						"buffer_size": 4560,
+						"buffer_size": 5790,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4486,
-								4491
+								2192,
+								1790
 							]
 						],
 						"settings":
@@ -1680,13 +2118,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1104.0,
+						"translation.y": 40.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 32,
 					"file": "directive/action-mega/action-mega.js",
 					"settings":
 					{
@@ -1717,7 +2155,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 33,
 					"file": "directive/action-mega/action-mega.html",
 					"settings":
 					{
@@ -1746,7 +2184,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 34,
 					"file": "directive/user-list/user-list.js",
 					"settings":
 					{
@@ -1775,7 +2213,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 35,
 					"file": "directive/user-list/user-list.html",
 					"settings":
 					{
@@ -1804,7 +2242,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 36,
 					"file": "directive/user-single-line/user-single-line.js",
 					"settings":
 					{
@@ -1834,7 +2272,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 37,
 					"file": "service/sampleUsers.js",
 					"settings":
 					{
@@ -1865,7 +2303,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 38,
 					"file": "service/sampleProjects.js",
 					"settings":
 					{
@@ -1896,7 +2334,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 39,
 					"file": "filter/currencyNoDecimal.js",
 					"settings":
 					{
@@ -1927,7 +2365,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 40,
 					"file": "service/industries.js",
 					"settings":
 					{
@@ -1938,66 +2376,8 @@
 						"selection":
 						[
 							[
-								357,
-								75
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 33,
-					"file": "service/tasks.js",
-					"settings":
-					{
-						"buffer_size": 352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								305,
-								305
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 34,
-					"file": "partial/new-project/new-project.js",
-					"settings":
-					{
-						"buffer_size": 4979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1370,
-								1370
+								0,
+								361
 							]
 						],
 						"settings":
@@ -2010,56 +2390,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 348.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 35,
-					"file": "directive/user-single-line/user-single-line.less",
-					"settings":
-					{
-						"buffer_size": 268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 36,
-					"file": "partial/contributors/contributors.html",
+					"buffer": 41,
+					"file": "directive/user-single-line/user-single-line.html",
 					"settings":
 					{
-						"buffer_size": 828,
+						"buffer_size": 361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								270,
+								270
 							]
 						],
 						"settings":
@@ -2068,6 +2417,35 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "service/skills.js",
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
