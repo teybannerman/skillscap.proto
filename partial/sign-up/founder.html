@@ -29,7 +29,7 @@
                     </ui-select-choices>
                   </ui-select>
 
-                  <label for="c-experience" class="control-label">Industry Experience</label>
+                  <label for="c-experience" class="control-label">Industries You've Worked In</label>
                   <ui-select multiple ng-model="industries">
                     <ui-select-match placeholder="Search and add up to 5">{{$item.name}}</ui-select-match>
                     <ui-select-choices repeat="industry.name as industry in signup.model.industries | propsFilter: {name: $select.search}">

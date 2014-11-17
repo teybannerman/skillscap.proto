@@ -65,13 +65,13 @@
         <label for="c-availability" class="control-label">AVAILABILITY: What intensity of work suits you best</label>
         <div class="btn-group btn-group-justified btn-group-md btn-group-custom">
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Low'">Low<span class="subtext">(casual)</span></label>
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Low'" tooltip="You'll be doing tasks in your spare time" tooltip-animation="false">Low<br/>Intensity</label>
           </div>
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Medium'">Medium<span class="subtext">(part time)</span></label>
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'Medium'" tooltip="You'll be making significant allocations but whilst managing my tasks around other commitments" tooltip-animation="false">Medium<br/>Intensity</label>
           </div>
           <div class="btn-group">
-            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'High'">High<span class="subtext">(full time)</span></label>
+            <label class="btn btn-primary" ng-model="cIntensity" btn-radio="'High'" tooltip="You'll be fully committed to a task, working on it the majority of the time" tooltip-animation="false">High<br/>Intensity</label>
           </div>
         </div>
 
