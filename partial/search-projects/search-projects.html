@@ -8,7 +8,8 @@
         <div class="col-md-12">
           <!-- <h2 class="text-center">Find Contributors</h2> -->
           <div>
-            <h3 class="beta">{{discover.model.selected.skills}} tasks in the {{discover.model.selected.industries}} sector. <a class="small" ng-click="showFirstSteps = !showFirstSteps">Change</a></h3>
+            <h3 class="beta" ng-if="!discover.model.selected.skills">Find Projects &amp; Tasks</h3>
+            <h3 class="beta" ng-if="discover.model.selected.skills">{{discover.model.selected.skills}} tasks in the {{discover.model.selected.industries}} sector. <a class="small" ng-click="showFirstSteps = !showFirstSteps">Change</a></h3>
           </div>
         </div>
       </div>
@@ -93,7 +94,7 @@
         <div class="col-md-4 col-sm-6 animate" ng-repeat="task in tasksOut | filter:contributorFilter">
           <div class="media user-single user-result panel">
             <a class="pull-left" href="#">
-              <!-- <img class="media-object user-single__image" ng-src="{{user.photo}}" alt="Photo: {{user.name}}" title="{{user.ame}}"/> -->
+              <img class="media-object user-single__image" ng-src="/images/{{projectIcon(task.projects)}}" style="width:30px; height:30px; border-radius:0; margin-top:7px;"/>
             </a>
             <div class="media-body">
               <h4 class="media-heading user-single__name">{{task.name}}<span class="small pull-right user-single__location">{{task.location}}</span></h4>

@@ -4,17 +4,17 @@
     "name":"Database Consultation",
     "skill":"javascript,node,backbone,mongodb",
     "industry":"travel, leisure and hospitality",
-    "objective":"to determine the best database structure and technology to use along with high-level outline design",
+    "objective":"to determine the best database structure and technology to use aLong with High-level outline design",
     "result":"an outline of database structure, required technology options with pros and cons and related technology considerations",
     "detail":"Review project concept and define the most appropriate approach for the database",
     "stage":1,
-    "duration":"short",
-    "intensity":"low",
+    "duration":"Short",
+    "intensity":"Low",
     "date":"01-11-14",
     "value":200,
     "visibility":"private, you, founding team and contributors",
     "location":"London, UK",
-    "projects": [1, 2]
+    "projects": 1
   },
   {
     "id":2,
@@ -25,13 +25,13 @@
     "result":"an mapped out database design including hierarchies, dependancies",
     "detail":"Design database architecture for final product",
     "stage":2,
-    "duration":"medium",
-    "intensity":"low",
+    "duration":"Medium",
+    "intensity":"Low",
     "date":"07-11-14",
     "value":150,
     "visibility":"private, you, founding team and contributors",
     "location":"London, UK",
-    "projects": [1, 2]
+    "projects": 2
   },
   {
     "id":3,
@@ -42,13 +42,13 @@
     "result":"a completed terms of service fit and ready to be uploaded to our website",
     "detail":"Write terms of service for the product and digital properties",
     "stage":3,
-    "duration":"medium",
-    "intensity":"medium",
+    "duration":"Medium",
+    "intensity":"Medium",
     "date":"07-11-14",
     "value":100,
     "visibility":"public",
     "location":"Miami, USA",
-    "projects": [1]
+    "projects": 1
   },
   {
     "id":4,
@@ -59,13 +59,13 @@
     "result":"5 core platforms and appropriate approach for each developed with tactics articulated. Increase user growth by 1000%, awareness by 2000%",
     "detail":"develop the businesses content strategy",
     "stage":5,
-    "duration":"long",
-    "intensity":"high",
+    "duration":"Long",
+    "intensity":"High",
     "date":"20-12-14",
     "value":250,
     "visibility":"public",
     "location":"Southampton, UK",
-    "projects": [1]
+    "projects": 1
   },
   {
     "id":5,
@@ -76,13 +76,13 @@
     "result":"1 Skype meeting (2 hours), 6 hours of research",
     "detail":"initial project research - health sector expert",
     "stage":1,
-    "duration":"short",
-    "intensity":"low",
+    "duration":"Short",
+    "intensity":"Low",
     "date":"01-11-14",
     "value":50,
     "visibility":"public",
     "location":"London, UK",
-    "projects": [6]
+    "projects": 6
   },
   {
     "id":6,
@@ -91,15 +91,15 @@
     "industry":"Charities, government & not for profit",
     "objective":"To build a clickable and visual prototype of our suggested solution",
     "result":"5 page website with 2 types of user pages, a dashboard page, a search page and a add task page",
-    "detail":"help us build out a first, low fidelity, prototype in angular",
+    "detail":"help us build out a first, Low fidelity, prototype in angular",
     "stage":2,
-    "duration":"medium",
-    "intensity":"medium",
+    "duration":"Medium",
+    "intensity":"Medium",
     "date":"10-11-14",
     "value":500,
     "visibility":"public",
     "location":"London, UK",
-    "projects": [2]
+    "projects": 2
   },
   {
     "id":7,
@@ -110,13 +110,13 @@
     "result":"Reporting would be in the form of a memo which outlines the balance sheet presentation of the convertible note, the fair value of the note, and a foot note that could be included in the financial statements.",
     "detail":"I will provide the convertible note",
     "stage":5,
-    "duration":"short",
-    "intensity":"medium",
+    "duration":"Short",
+    "intensity":"Medium",
     "date":"20-12-14",
     "value":50,
     "visibility":"public",
     "location":"London, UK",
-    "projects": [3, 4]
+    "projects": 3
   },
   {
     "id":8,
@@ -127,13 +127,13 @@
     "result":"Complete document ",
     "detail":"Google or similar automatic translations are neither accepted nor paid",
     "stage":4,
-    "duration":"short",
-    "intensity":"high",
+    "duration":"Short",
+    "intensity":"High",
     "date":"02-11-14",
     "value":25,
     "visibility":"public",
     "location":"London, UK",
-    "projects": [4]
+    "projects": 4
   },
   {
     "id":9,
@@ -144,13 +144,13 @@
     "result":" logo resized for twitter, facebook and pinterest ",
     "detail":"",
     "stage":2,
-    "duration":"short",
-    "intensity":"medium",
+    "duration":"Short",
+    "intensity":"Medium",
     "date":"02-11-14",
     "value":25,
     "visibility":"private, you, founding team and contributors",
     "location":"London, UK",
-    "projects": [5, 1]
+    "projects": 5
   },
   {
     "id":10,
@@ -161,12 +161,12 @@
     "result":"A SWOT analysis document",
     "detail":"",
     "stage":1,
-    "duration":"medium",
-    "intensity":"medium",
+    "duration":"Medium",
+    "intensity":"Medium",
     "date":"20-12-14",
     "value":50,
     "visibility":"private, you, founding team and contributors",
     "location":"London, UK",
-    "projects": [6]
+    "projects": 6
   }
 ]}
