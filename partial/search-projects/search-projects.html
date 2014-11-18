@@ -1,5 +1,109 @@
-<h1>Offer Help</h1>
+<div class="col-md-12" ng-controller="DiscoverCtrl">
 
-<div class="col-md-12" ng-controller="SearchProjectsCtrl">
+
+  <div class="nav-secondary">
+    <form class="bar">
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- <h2 class="text-center">Find Contributors</h2> -->
+          <div>
+            <h3 class="beta">{{discover.model.selected.skills}} tasks in the {{discover.model.selected.industries}} sector. <a class="small" ng-click="showFirstSteps = !showFirstSteps">Change</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-centered top-gutter animate" ng-show="showFirstSteps">
+        <div class="col-md-4">
+          <label class="control-label">Industry Sector</label>
+          <ui-select ng-model="discover.model.selected.industries">
+            <ui-select-match placeholder="Select an industry or sector...">{{$select.selected.name}}</ui-select-match>
+            <ui-select-choices repeat="industry.name as industry in discover.model.industries | propsFilter: {name: $select.search}">
+              <div ng-bind-html="industry.name | highlight: $select.search"></div>
+            </ui-select-choices>
+          </ui-select>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">Project Stage</label>
+          <!-- <input class="form-control input-md input-block" type="text" ng-model="$parent.projectStageModel"> -->
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-default active" tooltip-append-to-body="true" tooltip="Problem Validation" ng-model="discover.model.projectStage" btn-radio="'1'">1
+            </label>
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Solution Validation" ng-model="discover.model.projectStage" btn-radio="'2'">2
+            </label>
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Business Validation" ng-model="discover.model.projectStage" btn-radio="'3'">3
+            </label>
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="MVP" ng-model="discover.model.projectStage" btn-radio="'4'">4
+            </label>
+            <label class="btn btn-default" tooltip-append-to-body="true" tooltip="Scaling" ng-model="discover.model.projectStage" btn-radio="'5'">5
+            </label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">Skills I Can Offer</label>
+          <ui-select ng-model="discover.model.selected.skills">
+            <ui-select-match placeholder="Search for tasks and skills...">{{$select.selected.name}}</ui-select-match>
+            <ui-select-choices repeat="skill.name as skill in discover.model.skills | propsFilter: {name: $select.search}">
+              <div ng-bind-html="skill.name | highlight: $select.search"></div>
+            </ui-select-choices>
+          </ui-select>
+        </div><!-- /col-md-4 -->
+      </div><!-- /row -->
+
+      <div class="row row-centered top-gutter">
+        <div class="col-md-4">
+          <label class="control-label">Project location</label>
+          <ui-select ng-model="discover.model.selected.location">
+            <ui-select-match placeholder="Pick a location">{{$select.selected}}</ui-select-match>
+            <ui-select-choices repeat="location in discover.model.locations">
+              <div ng-bind-html="location"></div>
+            </ui-select-choices>
+          </ui-select>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">Time I can offer...</label>
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Short'">Hours
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Medium'">Days
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.time" btn-radio="'Long'">Weeks
+            </label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label class="control-label">Project intensity level</label>
+          <div class="btn-group btn-group-justified">
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'Low'" tooltip-append-to-body="true" tooltip="Can be done in someone's spare time">Low
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'Medium'" tooltip-append-to-body="true" tooltip="A significant level but can be managed around other commitments">Medium
+            </label>
+            <label class="btn btn-default" ng-model="discover.model.selected.intensity" btn-radio="'High'" tooltip-append-to-body="true" tooltip="Requires full commitment to this task, working on it the majority of their time">High
+            </label>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+  <div class="col-md-12">
+    <div class="contributors-list">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 animate" ng-repeat="task in tasksOut | filter:contributorFilter">
+          <div class="media user-single user-result panel">
+            <a class="pull-left" href="#">
+              <!-- <img class="media-object user-single__image" ng-src="{{user.photo}}" alt="Photo: {{user.name}}" title="{{user.ame}}"/> -->
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading user-single__name">{{task.name}}<span class="small pull-right user-single__location">{{task.location}}</span></h4>
+              <!-- <p class="user-single__tagline">{{user.tagline}}</p> -->
+              <p class="user-single__tagline">{{task.objective}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>

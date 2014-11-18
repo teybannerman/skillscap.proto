@@ -2,6 +2,7 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
 
   $scope.usersOut = [];
   $scope.projectsOut = [];
+  $scope.tasksOut = [];
   $scope.tasks = [];
   $scope.contribTasks = [];
 
@@ -35,6 +36,7 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   });
 
   tasks().success(function(data) {
+    $scope.tasksOut = data.tasks;
     angular.forEach (data.tasks, function(task, key) {
       $scope.tasks.push({name:task['name']});
       $scope.contribTasks.push({name:task['name']});
