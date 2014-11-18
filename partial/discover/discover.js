@@ -47,13 +47,12 @@ angular.module('skillscap-proto').controller('DiscoverCtrl',function($scope, sam
   $scope.projectIcon = function (projectIndex) {
     var logo = '';
     angular.forEach ($scope.projectsOut, function(project, key) {
-      console.log("[" + projectIndex + "]/[" + project.id + "]")
       if (projectIndex === project.id) {
         logo = project.logo;
       }
     });
     return logo;
-  }
+  };
   
   $scope.contributorFilter = function (user) {
     if ($scope.discover.model.selected.intensity) {
