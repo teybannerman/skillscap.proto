@@ -1,5 +1,6 @@
 
 git push heroku vestd-proto:master
+git push vestd vestd-proto
 
 heroku run bash
 heroku git:remote -a skillscap
