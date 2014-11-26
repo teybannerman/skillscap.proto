@@ -31,50 +31,8 @@
 
   <div class="dashboard-body">
     <div class="row">
-      <div class="col-md-8 dashboard-main">
-        <section class="overview">
-          <h5>{{dash.project}}: Task Overview</h5>
-          <div class="row">
-            <div class="col-sm-4">
-              <img src="/images/completion.png"/>
-            </div>
-            <div class="col-sm-8">
-              <table class="table-bordered status-table">
-                <tbody>
-                  <tr>
-                    <td>
-                      <div class="statusbar"><span style="width:80%"></span></div>
-                      <p class="statustitle">Problem Validation</p>
-                      <div class="statusvalues"><span>4</span>/5</div>
-                    </td>
-                    <td>
-                      <div class="statusbar"><span style="width:50%"></span></div>
-                      <p class="statustitle">Solution Validation</p>
-                      <div class="statusvalues"><span>3</span>/6</div>
-                    </td>
-                    <td>
-                      <div class="statusbar"><span style="width:13%"></span></div>
-                      <p class="statustitle">Business Validation</p>
-                      <div class="statusvalues"><span>1</span>/9</div>
-                    </td>
-                    <td>
-                      <div class="statusbar"></div>
-                      <p class="statustitle">MVP</p>
-                      <div class="statusadd"><i class="fa fa-plus"></i></div>
-                    </td>
-                    <td>
-                      <div class="statusbar"></div>
-                      <p class="statustitle">Scaling</p>
-                      <div class="statusadd"><i class="fa fa-plus"></i></div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="col-md-4 bg-light">
+
+      <div class="col-md-4 col-md-push-8 bg-light">
         <section class="alerts">
           <h5>Alerts &amp; Updates</h5>
           <div class="alert-panel media">
@@ -115,6 +73,51 @@
           </div>
         </section>
       </div>
+
+      <div class="col-md-8 col-md-pull-4 dashboard-main">
+        <section class="overview">
+          <h5>{{dash.project}}: Task Overview</h5>
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="/images/completion.png" class="task-completed-chart center-block"/>
+            </div>
+            <div class="col-sm-8">
+              <table class="table-bordered status-table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="statusbar"><span style="width:80%"></span></div>
+                      <p class="statustitle">Problem Validation</p>
+                      <div class="statusvalues"><span>4</span>/5</div>
+                    </td>
+                    <td>
+                      <div class="statusbar"><span style="width:50%"></span></div>
+                      <p class="statustitle">Solution Validation</p>
+                      <div class="statusvalues"><span>3</span>/6</div>
+                    </td>
+                    <td>
+                      <div class="statusbar"><span style="width:13%"></span></div>
+                      <p class="statustitle">Business Validation</p>
+                      <div class="statusvalues"><span>1</span>/9</div>
+                    </td>
+                    <td>
+                      <div class="statusbar"></div>
+                      <p class="statustitle">MVP</p>
+                      <div class="statusadd"><i class="fa fa-plus"></i></div>
+                    </td>
+                    <td>
+                      <div class="statusbar"></div>
+                      <p class="statustitle">Scaling</p>
+                      <div class="statusadd"><i class="fa fa-plus"></i></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+
     </div>
   </div>
 
