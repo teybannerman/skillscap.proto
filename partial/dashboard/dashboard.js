@@ -7,12 +7,12 @@ angular.module('skillscap-proto').controller('DashboardCtrl',function($scope){
 
   // Chart generation
 
-  var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+  var randomScalingFactor = function(){ return Math.round(Math.random()*100); };
 
   var data30 = [];
   var labels30 = [];
 
-  for (i=0; i<31; i++) {
+  for (var i=0; i<31; i++) {
     data30[i] = randomScalingFactor();
     labels30[i] = "";
   }
@@ -28,7 +28,7 @@ angular.module('skillscap-proto').controller('DashboardCtrl',function($scope){
         data : data30
       }
     ]
-  }
+  };
 
   var ctx = document.getElementById("chartActivity").getContext("2d");
   var chartActivity = new Chart(ctx).Bar(chartActivityData, {
